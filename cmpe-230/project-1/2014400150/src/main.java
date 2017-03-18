@@ -1,6 +1,5 @@
+import java.io.*;
 import java.util.*;
-
-
 public class main {
 	public static class Container{
 		public String name = "";
@@ -15,9 +14,9 @@ public class main {
 		}
 		public Container(){}
 	}
-	public static ArrayList<Container> variables = new ArrayList();
+	public static ArrayList<Container> variables = new ArrayList<Container>();
 	public static int counter = 0;
-	
+	public static int linee = 0;
 	public static int pri(String c){
 		if (c.equals("*") || c.equals("/"))
 			return 1;
@@ -56,13 +55,22 @@ public class main {
 	}
 
 	public static Container findC(String s){
-		for (int i = 0; i < variables.size(); i++) {
-			if(variables.get(i).name.equals(s)){
-				return variables.get(i);
-			}
+		try {
+		if(!isNumber(s)){
+				for (int i = 0; i < variables.size(); i++) {
+					String ss = variables.get(i).name;
+					if(s.equals(ss)){
+						return variables.get(i);
+					}
+				}
 		}
 		Container x = new Container("number", Integer.parseInt(s),  s, true);
 		return x;
+		} catch (Exception e) {
+			System.out.println("Error: Line "+linee+": undefined variable " + s);
+			System.exit(1);
+			return null;
+		}
 	}
 	
 	public static boolean isSign(String s){
@@ -74,55 +82,156 @@ public class main {
 		}		
 	}
 
+	public static boolean isNumber(String s){
+		for (int i = 0; i < s.length(); i++) {
+			if(s.matches("^-?\\d+$")){
+				return true;
+			}
+		}
+		return false;
+	}
 	
-	public static void evaluate(ArrayList<String> exp){
+	public static Container evaluate(ArrayList<String> exp){
+		if(exp.size() == 1){
+			Container x = findC(exp.get(0));
+			counter++;
+			if(x.number){
+				System.out.println("%" + counter + " = load i32* " + x.val);
+			}else{System.out.println("%" + counter + " = load i32* %" + x.name);}
+		}
+		ArrayList<String> names = new ArrayList<String>();
 		Stack<Container> stk = new Stack<>();
 		for (int i = 0; i < exp.size(); i++) {
 			if(!isSign(exp.get(i))){
 				stk.push(findC(exp.get(i)));
 			}
 			else{
-				counter++;	
 				String oper = exp.get(i);
 				Container first = stk.pop();
+				if(!first.number && !names.contains(first.name)){
+					counter++;
+					System.out.println("%" + counter + " = load i32* %" + first.name);
+					first.reg = "" + counter;
+					names.add(first.name);
+				}
 				Container second = stk.pop();
+				if(!second.number && !names.contains(second.name)){
+					counter++;
+					System.out.println("%" + counter + " = load i32* %" + second.name);
+					second.reg = "" + counter;
+					names.add(second.name);
+				}
+				counter++;	
 				if(oper.equals("+")){
 					String name = "" + counter;
-					Container result = new Container(name, first.val + second.val, name, false);
+					Container result = new Container("register", 888, name, true);
 					stk.push(result);
-					String message = "%" + result.name + " = add i32 ";
-					message = first.number ? message + first.reg : message + "%" + first.reg;
+					String message = "%" + result.reg + " = add i32 ";
+					message = first.number  && !first.name.equals("register")? message + first.reg : message + "%" + first.reg;
 					message = message + ",";
-					message = second.number ? message + second.reg : message + "%" + second.reg;
+					message = second.number  && !second.name.equals("register") ? message + second.reg : message + "%" + second.reg;
 					System.out.println(message);
 				 }
 				else if(oper.equals("*")){
 					String name = "" + counter;
-					Container result = new Container(name, first.val * second.val, name, false);
+					Container result = new Container("register", 888, name, true);
 					stk.push(result);
-					String message = "%" + result.name + " = mul i32 ";
-					message = first.number ? message + first.reg : message + "%" + first.reg;
+					String message = "%" + result.reg + " = mul i32 ";
+					message = first.number && !first.name.equals("register")? message + first.reg : message + "%" + first.reg;
 					message = message + ",";
-					message = second.number ? message + second.reg : message + "%" + second.reg;
+					message = second.number  && !second.name.equals("register") ? message + second.reg : message + "%" + second.reg;
 					System.out.println(message);
 				 }
-				//Sub and div
+				else if(oper.equals("/")){
+					String name = "" + counter;
+					Container result = new Container("register",888, name, true);
+					stk.push(result);
+					String message = "%" + result.reg + " = sdiv i32 ";
+					message = second.number  && !second.name.equals("register") ? message + second.reg : message + "%" + second.reg;
+					message = message + ",";
+					message = first.number  && !first.name.equals("register")? message + first.reg : message + "%" + first.reg;
+					System.out.println(message);
+				 }
+				else if(oper.equals("-")){
+					String name = "" + counter;
+					Container result = new Container("register", 888, name, true);
+					stk.push(result);
+					String message = "%" + result.reg + " = sub i32 ";
+					message = second.number  && !second.name.equals("register")? message + second.reg : message + "%" + second.reg;
+					message = message + ",";
+					message = first.number && !first.name.equals("register") ? message + first.reg : message + "%" + first.reg;
+					System.out.println(message);
+				 }
 			}
 		}
+		return stk.pop();
 	}
 	
-	public static void main(String[] args) {
-		String str = "k=x1*(1+(2+5))";
-		//if '=' exist
-		int x = str.indexOf('=');
-		if(x != -1){str = str.split("=")[1];}//Whether query contains = sign or not. Nice...
-		String[] parts = str.split("(?<=[^\\.a-zA-Z\\d])|(?=[^\\.a-zA-Z\\d])");
-		System.out.println(Arrays.toString(parts));
-		ArrayList<String> s = infToPos(parts);
-		variables.add(new Container("x1", 8, "x1", false));
-		while(s.contains(" ")){s.remove(" ");}//This is for white spaces.
-		System.out.println(s);
-		evaluate(s);//Best fucking function in the universe xd
-		
+	public static boolean ContainsVar(String x){
+		for (int i = 0; i < variables.size(); i++) {
+			if(variables.get(i).name.equals(x)){
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		//System.setOut(new PrintStream(new BufferedOutputStream(new FileOutputStream("file.ll"))));
+		System.out.println(";ModuleID = \'stm2ir\'\ndeclare i32 @printf(i8*, ...)\n@print.str = constant [4 x i8] c\"%d\\0A\\00\"\n\ndefine i32 @main() {");
+		@SuppressWarnings("resource")
+		Scanner input = new Scanner(new File("file.stm"));
+		while(input.hasNextLine()){
+			linee++;
+			try {
+			String str = input.nextLine();
+			str = str.replaceAll("\\s+","");
+			int x = str.indexOf('=');//Whether query contains = sign or not. Nice...
+			String str_;String var = "";
+			Container contt = new Container("", 0, "", false);
+			boolean assign = false;
+			if(x != -1){
+				str_ = str.split("=")[1];
+				var = str.split("=")[0];
+				assign = true;
+				if(!ContainsVar(var)){
+					var = var.replaceAll("\\s","");
+					contt = new Container(var, 0, var, false);
+					variables.add(contt);
+					System.out.println("%" + var + " = alloca i32");
+				}				
+			}
+			else{str_ = str;}
+			//System.out.println(str_);
+			String[] parts = str_.split("(?<=[^\\.a-zA-Z\\d])|(?=[^\\.a-zA-Z\\d])");
+			ArrayList<String> sForOne = infToPos(parts);
+			while(sForOne.contains(" ")){sForOne.remove(" ");}//This is for white spaces.
+			if(sForOne.size() == 1 && assign){
+				System.out.println("store i32 "+ sForOne.get(0) + ", i32* %" + var);
+				contt.val = Integer.parseInt(sForOne.get(0));
+				continue;
+			}
+			else if (!assign){
+				ArrayList<String> s = infToPos(parts);
+				while(s.contains(" ")){s.remove(" ");}//This is for white spaces.
+				Container regg =evaluate(s);
+				System.out.println("call i32 (i8*, ...)* @printf(i8* getelementptr ([4 x i8]* @print.str, i32 0, i32 0), i32 %" + counter + ")");
+				counter++;
+				continue;
+			}
+			ArrayList<String> s = infToPos(parts);
+			while(s.contains(" ")){s.remove(" ");}
+			Container regg =evaluate(s);
+			System.out.println("store i32 %"+ counter + ", i32* %" + var);
+			//Find and replace
+			} 
+			catch (Exception e) {
+				e.printStackTrace();
+				System.out.println("Error: Line "+linee+": Syntax error");
+				System.exit(1);
+				break;
+			}
+		}
+		System.out.println("ret i32 0\n}");
 	}
 }
