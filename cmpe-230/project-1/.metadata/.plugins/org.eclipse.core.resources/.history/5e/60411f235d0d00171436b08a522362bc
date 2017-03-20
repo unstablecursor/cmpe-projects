@@ -68,12 +68,7 @@ public class main {
 		Container x = new Container("number", Integer.parseInt(s),  s, true);
 		return x;
 		} catch (Exception e) {
-			File fout = new File("file.ll");
-			FileOutputStream fos = new FileOutputStream(fout);
-			w = new BufferedWriter(new OutputStreamWriter(fos));			
 			w.write("Error: Line "+linee+": undefined variable " + s+ "\n");
-			w.flush();
-			w.close();
 			System.exit(1);
 			return null;
 		}
@@ -235,13 +230,8 @@ public class main {
 			//Find and replace
 			} 
 			catch (Exception e) {
-				fout = new File("file.ll");
-				fos = new FileOutputStream(fout);
-				w = new BufferedWriter(new OutputStreamWriter(fos));
 				e.printStackTrace();
 				w.write("Error: Line "+linee+": Syntax error\n");
-				w.flush();
-				w.close();
 				System.exit(1);
 				break;
 			}
