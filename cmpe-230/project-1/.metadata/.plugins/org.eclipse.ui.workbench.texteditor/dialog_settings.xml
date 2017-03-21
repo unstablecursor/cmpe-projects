@@ -2,27 +2,31 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="println" key="selection"/>
+		<item value="Error" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Error"/>
+			<item value="fout = new File(&quot;file.ll&quot;);"/>
+			<item value="w.write"/>
+			<item value="w.wr"/>
+			<item value="w.write&#x09;&#x09;&#x09;"/>
+			<item value="w.write&#x09;&#x09;&#x09;&#x09;"/>
+			<item value="System.out.println"/>
 			<item value="println"/>
-			<item value="store"/>
-			<item value="call i32 (i8*, ...)*"/>
-			<item value="load"/>
-			<item value="error"/>
-			<item value="peek"/>
 		</list>
 		<list key="replacehistory">
+			<item value="w.write"/>
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="290" key="DIALOG_WIDTH"/>
 		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="940" key="DIALOG_X_ORIGIN"/>
-		<item value="192" key="DIALOG_Y_ORIGIN"/>
+		<item value="939" key="DIALOG_X_ORIGIN"/>
+		<item value="344" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
