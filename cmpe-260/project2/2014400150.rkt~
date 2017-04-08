@@ -1,0 +1,16 @@
+#lang scheme
+(define (card-color card) (if (or (eqv? (car card) 'D) (eqv? (car card) 'H))
+                              (display "red")
+                              (display "black")
+                             )
+  )
+
+(define (card-rank card) (cond
+                           ((eqv? (cdr card) 'K) (display "10"))
+                           ((eqv? (cdr card) 'J) (display "10"))
+                           ((eqv? (cdr card) 'Q) (display "10"))
+                           ((eqv? (cdr card) 'A) (display "11"))
+                           (else (display (cdr card)))
+                         )
+  )
+
