@@ -121,18 +121,54 @@
                                  )
   )
 
-
-
-
-
-
+; (find-held-rec steps) -> list?
+; steps : list of pairs?
+;
+; Recursively evaluates reverse order list and returns held cards.
+;
+;> ( find-held-rec '((discard (H . 3)) (draw (H . A)) (draw (H . 2)) (draw (H . 3))))
+;=>((H . 2) (H . A))
 (define (find-held-rec steps)(cond
                                ((eqv? (length steps) 1) (if (equal? (car (car steps)) 'draw) (cdr (car steps)) '()))
-                               (else (if (equal? (car (car steps)) 'draw) (append (find-held-rec steps) (cdr (car steps))) (cdr steps)))
+                               (else (if
+                                      (equal? (car (car steps)) 'draw)
+                                         (append (find-held-rec (cdr steps)) (cdr (car steps)))
+                                         (remove (car(cdr(car steps))) (find-held-rec (cdr steps)))))
                                )
   )
-(define (find-held-cards steps)(find-held-rec (reverse steps))
-  )
-;define (fdiscard table moves goal held)(fdiscard-rec )
+
+; (find-held-cards steps) -> list?
+; steps : list of pairs?
+;
+; Sends the reverse list to find-held-rec function.
+;
+;> ( find-held-cards '((draw (H . 3)) (draw (H . 2)) (draw (H . A)) (discard (H . 3))))
+;=>((H . 2) (H . A))
+(define (find-held-cards steps)(find-held-rec (reverse steps)))
+
+; (find-held-cards steps) -> list?
+; steps : list of pairs?
+; table : list of pairs?
+; moves : list?
+; goal : integer?
+;
+; Discards one card.
+;
+;> ( fdiscard '((C . 3) (C . 2) (C . A) (S . J) (S . Q) (H . J)) '(draw draw draw discard) 66
+;                '((H . 3) (H . 2) (H . A) (D . A) (D . Q) (D . J)))
+;=>((H . 2) (H . A) (D . A) (D . Q) (D . J))
+(define (fdiscard table moves goal held)(cdr held))
+
+
+;(define (fdiscard table moves goal held)(foldl (lambda (x res) (cond
+ ;                                                            ((equal? x 'draw)(append res (list (car table))))
+  ;                                                           (else (cdr res))
+   ;                                                          )
+    ;                                             )
+     ;                                          held
+      ;                                   moves
+       ;                                  )
+  ;)
+
 
   
