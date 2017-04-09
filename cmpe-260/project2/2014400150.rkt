@@ -1,4 +1,8 @@
 #lang scheme
+; compiling: yes
+; complete: yes
+; 2014400150
+
 ; (card-color card) -> color?
 ; card : pair?
 ;
@@ -106,7 +110,7 @@
 ;=>4
 ;> ( calc-score '((H . 3) (H . 2) (H . A) (D . J) (D . Q) (C . J)) 16 )
 ;=>150
-(define (calc-score held goal) (cond
+(define (calc-score held goal)(floor (cond
                                  ((all-same-color held)(/ (cond
                                                          ((> (calc-playerpoint held) goal) (* 5 (- (calc-playerpoint held) goal)))
                                                          (else (- goal (calc-playerpoint held)))
@@ -118,7 +122,7 @@
                                                          (else (- goal (calc-playerpoint held)))
                                                        )
                                        )
-                                 )
+                                 ))
   )
 
 ; (find-held-rec steps) -> list?
@@ -179,10 +183,14 @@
                                                        (cond
                                                          ((eqv? (length moves) 0) lmoves)
                                                          ((equal? (car moves) 'draw)(if(eqv? (length table) 0) lmoves
-                                                                                     (fs-rec (cdr table) (cdr moves) goal (fdraw table held) (append lmoves (list(list 'draw (car table)))))
+                                                                                     (fs-rec (cdr table) (cdr moves) goal (fdraw table held)
+                                                                                             (append lmoves (list(list 'draw (car table))))
+                                                                                             )
                                                                                      ))
                                                          ((equal? (car moves) 'discard)(if(eqv? (length held) 0) lmoves
-                                                                                      (fs-rec table (cdr moves) goal (cdr held) (append lmoves (list(list 'discard (car held)))))
+                                                                                      (fs-rec table (cdr moves) goal (cdr held)
+                                                                                              (append lmoves (list(list 'discard (car held))))
+                                                                                              )
                                                                                      ))
                                                          )
                                                        lmoves
@@ -202,8 +210,22 @@
 
 (define (find-steps table moves goal)(fs-rec table moves goal '() '()))
 
+; (play table moves goal) -> number?
+; table : list of pairs?
+; moves : list of pairs?
+; goal : list?
+;
+; Play function for playing the game.
+;
+;> (play '((H . 4) (H . 5) (H . 6) (H . 7) (H . 8) (H . 9) (D . 2) (D . 3) (D . 4)
+;     (D . 5) (D . 6) (D . 7) (D . Q) (D . K) (D . A) (S . 2) (S . 3) (S . Q) (S . K) (S . A)
+;     (C . 5) (C . 6) (C . 7) (C . 8) (C . 9) (C . 10) (C . J) (C . Q) (C . K) (C . A))
+;    '(draw draw draw draw draw draw draw draw draw draw draw draw draw draw draw draw draw draw
+;      draw draw discard discard discard discard discard discard draw draw draw draw) 200) 
+;=>80
+;>(play '((C . 3) (C . 2) (C . A) (S . J) (S . Q) (H . J)) '(draw draw discard discard discard discard discard draw) 14) 
+;=>7
 
-(define (play table moves goal)(calc-score (find-held-cards(find-steps table moves goal)) goal)
-  )
+(define (play table moves goal)(floor (calc-score (find-held-cards(find-steps table moves goal)) goal)))
 
   
