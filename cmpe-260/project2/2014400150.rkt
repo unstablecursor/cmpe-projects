@@ -179,22 +179,23 @@
 ;> (find-steps '((C . 3) (C . 2) (C . A) (S . J) (S . Q) (H . J)) '(discard draw draw) 66) 
 ;=>((draw (C . 3)) (draw (C . 2)) (discard (C . 3)))
 
-(define (fs-rec table moves goal held lmoves)(if (not(> (calc-playerpoint held) goal))
-                                                       (cond
-                                                         ((eqv? (length moves) 0) lmoves)
-                                                         ((equal? (car moves) 'draw)(if(eqv? (length table) 0) lmoves
-                                                                                     (fs-rec (cdr table) (cdr moves) goal (fdraw table held)
-                                                                                             (append lmoves (list(list 'draw (car table))))
-                                                                                             )
-                                                                                     ))
-                                                         ((equal? (car moves) 'discard)(if(eqv? (length held) 0) lmoves
-                                                                                      (fs-rec table (cdr moves) goal (cdr held)
-                                                                                              (append lmoves (list(list 'discard (car held))))
-                                                                                              )
-                                                                                     ))
-                                                         )
-                                                       lmoves
-                                                       )
+(define (fs-rec table moves goal held lmoves)
+  (if (not(> (calc-playerpoint held) goal))
+      (cond
+        ((eqv? (length moves) 0) lmoves)
+        ((equal? (car moves) 'draw)(if(eqv? (length table) 0) lmoves
+                                      (fs-rec (cdr table) (cdr moves) goal (fdraw table held)
+                                              (append lmoves (list(list 'draw (car table))))
+                                              )
+                                      ))
+        ((equal? (car moves) 'discard)(if(eqv? (length held) 0) lmoves
+                                         (fs-rec table (cdr moves) goal (cdr held)
+                                                 (append lmoves (list(list 'discard (car held))))
+                                                 )
+                                         ))
+        )
+      lmoves
+      )
   )
 ; (find-steps table moves goal) -> list?
 ; table : list of pairs?
