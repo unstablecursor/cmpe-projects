@@ -129,6 +129,7 @@
 ;> ( find-held-rec '((discard (H . 3)) (draw (H . A)) (draw (H . 2)) (draw (H . 3))))
 ;=>((H . 2) (H . A))
 (define (find-held-rec steps)(cond
+                               ((eqv? (length steps) 0)'())
                                ((eqv? (length steps) 1) (if (equal? (car (car steps)) 'draw) (cdr (car steps)) '()))
                                (else (if
                                       (equal? (car (car steps)) 'draw)
@@ -160,15 +161,49 @@
 (define (fdiscard table moves goal held)(cdr held))
 
 
-;(define (fdiscard table moves goal held)(foldl (lambda (x res) (cond
- ;                                                            ((equal? x 'draw)(append res (list (car table))))
-  ;                                                           (else (cdr res))
-   ;                                                          )
-    ;                                             )
-     ;                                          held
-      ;                                   moves
-       ;                                  )
-  ;)
+; (fs-rec  table moves goal held lmoves) -> list?
+; table : list of pairs?
+; moves : list of pairs?
+; goal : list?
+; held: list of pairs?
+; lmoves: list of pairs?
+;
+; Recursive function for finding steps. Takes reverse of moves list as argument for recursive purpose(Scheme is tail recursive).
+;
+;(find-steps '((C . 3) (C . 2) (C . A) (S . J) (S . Q) (H . J)) '(draw discard discard discard discard discard draw draw) 14) 
+;=>((draw (C . 3)) (draw (C . 2)) (discard (C . 3)) (discard (C . 2)))
+;> (find-steps '((C . 3) (C . 2) (C . A) (S . J) (S . Q) (H . J)) '(discard draw draw) 66) 
+;=>((draw (C . 3)) (draw (C . 2)) (discard (C . 3)))
 
+(define (fs-rec table moves goal held lmoves)(if (not(> (calc-playerpoint held) goal))
+                                                       (cond
+                                                         ((eqv? (length moves) 0) lmoves)
+                                                         ((equal? (car moves) 'draw)(if(eqv? (length table) 0) lmoves
+                                                                                     (fs-rec (cdr table) (cdr moves) goal (fdraw table held) (append lmoves (list(list 'draw (car table)))))
+                                                                                     ))
+                                                         ((equal? (car moves) 'discard)(if(eqv? (length held) 0) lmoves
+                                                                                      (fs-rec table (cdr moves) goal (cdr held) (append lmoves (list(list 'discard (car held)))))
+                                                                                     ))
+                                                         )
+                                                       lmoves
+                                                       )
+  )
+; (find-steps table moves goal) -> list?
+; table : list of pairs?
+; moves : list of pairs?
+; goal : list?
+;
+; Finds steps using recursive sub-function.
+;
+;(find-steps '((C . 3) (C . 2) (C . A) (S . J) (S . Q) (H . J)) '(draw draw discard discard discard discard discard draw) 14) 
+;=>((draw (C . 3)) (draw (C . 2)) (discard (C . 3)) (discard (C . 2)))
+;> (find-steps '((C . 3) (C . 2) (C . A) (S . J) (S . Q) (H . J)) '(draw draw discard) 66) 
+;=>((draw (C . 3)) (draw (C . 2)) (discard (C . 3)))
+
+(define (find-steps table moves goal)(fs-rec table moves goal '() '()))
+
+
+(define (play table moves goal)(calc-score (find-held-cards(find-steps table moves goal)) goal)
+  )
 
   
