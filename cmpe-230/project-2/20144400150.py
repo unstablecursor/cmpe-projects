@@ -3,6 +3,11 @@ import pwd
 import sys
 import argparse
 
+cwd = os.getcwd()
+
+def hasher(filepath):
+    return hashlib.sha256(open(filepath, 'rb').read()).hexdigest()
+
 parser = argparse.ArgumentParser()
 actions = parser.add_mutually_exclusive_group()
 actions.add_argument(
@@ -15,9 +20,6 @@ types.add_argument(
 types.add_argument(
     '-d', '--directory', action='store_const', dest='type', const='d')
 parser.add_argument("pattern", type=str,  default="", nargs='?')
-parser.add_argument("dirs", type=str,  default="", nargs='*')
+parser.add_argument("dirs", type=str,  default=[cwd], nargs='*')
 args = parser.parse_args()
-print args.action
-print args.type
-print args.pattern
 print args.dirs
