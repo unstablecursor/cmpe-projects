@@ -1,0 +1,1001 @@
+
+
+(play '((H . 7)(S . 6)(C . A)(C . 5)(S . J)(H . 2)(D . 2)(D . 7)(C . K)(H . K)(C . 3)(D . 8)(H . 5)(D . 5)(D . Q)(D . 9)(S . 2)(C . 7)(C . 2)(H . 9)(H . A)(C . Q)(S . 9)(S . Q)(D . K)) '(discard discard draw draw draw discard draw discard draw draw discard draw draw discard discard draw draw discard draw draw draw ) 27)
+
+(play '((D . J)(H . 4)(S . 8)(S . A)(H . 2)(S . 4)(S . 9)(H . K)(C . A)(D . 7)(D . 8)(H . 3)(C . J)(H . J)(S . 3)(C . K)(H . 6)(D . 9)(S . J)(C . 8)(C . 6)(H . Q)(H . 5)(D . 5)(H . 7)(S . Q)(S . 7)(C . 2)(H . 9)(H . A)(C . 3)(C . 7)(C . 4)(C . 9)) '(discard discard draw draw draw draw draw draw discard discard draw discard draw draw discard ) 139)
+
+(play '((D . 6)(D . 7)(S . 8)(D . 8)(S . K)(D . K)(D . 3)(H . 7)(C . A)(S . 4)(D . 5)(S . J)(D . 2)(H . J)(C . 8)(S . 3)(S . Q)(H . 4)(H . Q)(C . K)(C . 9)(C . 5)(S . 5)(D . A)(H . 2)(S . 7)(C . Q)(H . 6)(D . 9)(D . 4)(C . 6)(S . A)(H . A)(H . 9)(H . 5)(C . J)(C . 7)(D . J)(H . 3)(C . 3)(C . 2)(S . 2)) '(draw discard discard discard draw draw discard discard discard discard draw draw draw discard draw discard draw discard draw discard draw draw draw discard ) 42)
+
+(play '((H . 3)(D . 2)(S . 5)(H . K)(H . 5)(D . 4)(H . 9)(C . 2)(C . 4)(C . 7)(C . Q)(C . 5)(D . 8)(S . 6)(H . A)(H . 6)(S . Q)) '(discard draw draw discard discard discard discard draw draw discard discard draw draw draw discard ) 153)
+
+(play '((D . 6)(C . 6)(S . 6)(C . K)(H . 6)) '(draw discard draw draw discard ) 115)
+
+(play '((S . 4)(S . K)(H . 8)(S . J)(C . 2)(H . 7)(H . A)(S . 6)(C . 8)(D . K)(C . A)(D . 6)(D . 8)(D . J)(D . 7)(D . Q)(C . K)(C . 9)(C . 5)) '(draw draw ) 96)
+
+(play '((H . 9)(C . A)(C . K)(S . Q)(D . 4)(S . A)(H . Q)(D . Q)(D . 9)(H . A)(S . 3)) '() 331)
+
+(play '((S . 7)(D . 2)(D . 3)(S . K)(S . 4)(H . J)(D . Q)(H . 4)(D . 6)(D . 7)(C . 2)(H . 9)(C . K)(H . 7)(D . 4)(S . 6)(C . 9)(S . 9)(H . 5)(S . A)(C . 6)(C . J)(H . 3)(H . 6)(C . 8)) '(discard draw discard draw discard discard draw ) 111)
+
+(play '((C . J)(S . 4)(C . 2)(H . 8)(H . Q)(S . J)(C . 3)(C . 7)(S . 5)(D . Q)(H . K)(S . 3)(H . 7)(H . 5)(H . 9)(C . 9)(D . 8)(D . 2)(H . A)(D . 7)(S . 7)(D . K)(S . 2)(S . A)(C . A)) '(discard draw discard draw discard discard discard discard discard draw ) 265)
+
+(play '((C . K)(D . 4)(C . 5)(S . 7)(S . J)(C . 3)(S . 3)(D . 2)(H . Q)(S . 5)(S . 9)(D . 8)(D . A)(C . 6)(H . K)(D . 7)(S . A)(S . K)) '(discard discard discard draw discard discard draw ) 100)
+
+(play '((C . 7)(C . J)(D . 2)(C . 2)(S . 7)(C . 8)(C . 9)(H . 3)(H . A)(S . 2)(H . 2)(S . 6)(H . 5)(S . J)(D . 9)(C . 4)(H . 4)) '(draw ) 361)
+
+(play '((S . 2)(S . K)(D . 8)(H . 7)(C . 8)(D . K)(D . 5)(H . 3)(S . J)(D . 4)(D . 7)(H . 8)(S . 3)(S . A)(C . 7)(S . 7)(S . Q)(S . 5)(C . 9)(D . A)(H . A)(D . J)(S . 6)(D . Q)(C . 6)(C . A)(H . J)(C . 4)) '(draw draw draw draw draw discard discard discard draw draw discard discard draw discard draw draw discard draw draw draw discard discard draw ) 22)
+
+(play '((S . 9)(C . 7)(S . J)(S . A)(H . A)(D . 9)(S . 5)(H . 2)(C . J)(H . 9)(D . Q)(D . 5)(S . Q)(H . Q)(S . 4)(C . Q)(H . 8)(C . A)(D . 7)(D . 4)(H . 3)(C . 6)(H . 6)(H . 7)(C . 8)(D . J)(D . K)(D . A)(S . 2)(D . 8)(S . 6)(H . 5)(S . 8)(S . K)(H . J)(C . 5)) '(draw discard draw draw draw draw discard draw discard draw draw discard draw discard draw draw draw draw discard ) 223)
+
+(play '((S . 8)(H . 9)(S . 5)(H . 2)(H . A)(H . K)(C . 2)(D . 9)(D . 5)(H . 3)(C . 9)(H . 4)(C . Q)(S . 6)(S . 3)(S . J)(S . 9)(C . 5)(C . J)(S . 2)) '(discard draw draw draw draw draw discard discard draw discard draw discard draw draw discard draw discard discard draw ) 67)
+
+(play '((C . 3)(C . J)(S . 5)) '(discard ) 351)
+
+(play '((D . K)(H . 7)(C . 6)(H . A)(C . 3)(C . 8)(D . 6)(D . 5)(D . 8)(H . K)(H . 9)(S . 2)(C . 9)(S . 4)(S . 9)(S . 6)(C . 7)(S . 5)) '(draw ) 354)
+
+(play '((D . 3)(D . Q)(C . A)(D . A)(S . 4)(C . 6)(H . 4)(H . 5)(H . 3)(S . 7)(C . 2)(C . K)(S . A)(D . K)(D . 7)(H . Q)(C . 8)(C . 3)(S . 9)(C . 9)(C . Q)(D . 6)(S . 8)(S . Q)(D . 9)(H . 2)(C . 5)(S . 2)(D . 8)(S . J)(C . J)(H . J)(H . 6)(D . 5)(S . 3)(H . 7)(S . K)(H . 9)(H . A)(H . 8)(D . 2)(S . 6)(D . 4)(S . 5)(C . 7)(D . J)(H . K)(C . 4)) '(discard draw discard draw discard discard draw discard draw discard draw discard draw draw ) 273)
+
+(play '((S . K)(C . A)(S . 9)(S . 4)(C . 7)) '(discard ) 227)
+
+(play '((H . 2)(D . 3)(C . 7)(H . K)(C . 5)(D . Q)(D . 5)(D . 9)(C . 6)(C . 8)(D . K)(C . K)(D . 7)) '(draw discard discard ) 229)
+
+(play '((D . 6)(S . J)(C . 6)(H . 8)(H . 7)(S . 7)(C . 7)(D . A)(D . K)(D . 5)(S . K)(H . J)(S . 4)(C . 8)(C . K)(S . 9)(C . J)(D . 7)(S . 6)(D . J)(H . 2)(D . 9)(D . 3)) '(discard draw draw discard draw draw discard draw draw draw ) 280)
+
+(play '((S . 3)(S . A)(S . 7)(D . A)(C . 4)(S . Q)(D . 4)(D . K)(C . Q)(S . 8)(H . 9)(S . 6)(C . J)(H . Q)(D . 6)(H . A)(S . 9)(H . 3)(C . 5)(S . 2)(C . 2)(D . 8)(S . 5)) '(discard draw discard draw discard draw draw discard draw discard ) 175)
+
+(play '((C . Q)(H . 2)(C . 5)(H . 9)(C . 7)(D . 9)(C . 9)(D . 6)(H . 4)(S . 4)(D . Q)(C . A)(H . 7)(S . 7)(H . A)(H . K)(H . 6)(D . 4)(S . 5)(H . 8)(S . Q)(D . 7)(H . Q)(D . 3)(C . 8)(H . 3)(S . 9)(C . 3)(C . J)(D . 2)(S . K)(H . 5)(S . J)(D . K)(C . 6)(S . 2)) '(discard draw discard discard draw draw discard draw draw draw discard discard draw discard discard discard draw draw draw discard draw discard draw ) 14)
+
+(play '((S . J)(H . Q)(C . K)(C . 8)(H . 7)(H . J)(S . 4)(D . 9)(H . 2)(S . Q)(C . 6)(C . 4)(C . 5)(H . 3)(S . 6)(S . 3)(C . A)(H . K)(D . 2)(D . K)(S . 7)(S . 5)(S . K)(D . 7)(S . 2)(H . 6)(D . 6)(S . 8)(C . 2)(C . 9)(C . Q)(C . 7)(S . A)(D . Q)(D . 3)(H . 4)(H . 9)(D . 5)(D . J)(D . 4)(D . 8)(C . J)(S . 9)(H . 8)(D . A)(H . A)(C . 3)(H . 5)) '(draw discard draw discard draw discard discard draw draw draw draw discard draw draw draw draw draw draw draw draw draw discard draw draw draw draw discard discard draw draw discard draw draw draw draw draw discard draw draw draw discard draw discard discard discard discard discard discard discard discard ) 203)
+
+(play '((D . 4)(H . 7)(H . J)(H . 5)(D . 8)(C . J)(C . 4)(C . Q)(D . J)(C . A)(C . 2)(D . 3)(S . 9)(D . K)(H . 3)(D . 6)(C . 6)(S . 3)(C . 7)(D . Q)(H . 2)(C . K)(C . 3)(H . K)(S . 8)(S . J)(C . 9)(C . 5)(S . K)(H . 6)(H . 9)(H . A)(S . 7)(D . 2)(S . 6)(S . A)(D . 7)(D . 9)(D . 5)(S . 4)(S . 5)) '(discard draw draw discard discard discard discard draw discard draw draw draw discard discard discard discard discard draw draw draw draw draw discard draw draw draw draw discard ) 149)
+
+(play '((D . Q)(D . 7)(S . J)(C . 9)) '(draw draw discard discard ) 214)
+
+(play '((S . 3)(S . K)(D . 7)(C . 8)(S . 9)(C . 9)(H . 5)(C . 5)(S . 8)(C . J)(S . 7)(S . 4)(H . 8)(S . A)(C . 6)(C . 3)(C . 2)(D . K)(H . 6)(D . 8)(S . J)(C . 7)(D . Q)(D . 5)(H . J)(D . A)(C . Q)(S . 6)(H . 7)(D . J)(D . 3)(H . Q)(D . 2)(H . K)(H . 4)(D . 9)(H . 9)(C . 4)(H . 3)(D . 4)(H . A)(D . 6)(S . Q)(H . 2)(S . 5)(C . K)(C . A)(S . 2)) '(draw ) 33)
+
+(play '((D . 6)(D . J)(S . 3)(C . 5)(C . 3)(D . 9)(C . A)(H . 9)(S . 5)(C . 9)(C . 7)(H . Q)(S . A)(D . K)(S . 2)(D . 5)(H . 7)(H . 5)(H . A)(S . J)(H . 3)(C . K)(C . 6)(H . 6)(H . 4)(H . K)) '(draw discard draw discard draw draw draw discard draw draw draw draw draw discard discard draw draw draw discard draw discard draw discard discard discard ) 227)
+
+(play '((D . K)(S . Q)(H . Q)(C . 4)(D . 4)(H . 9)(D . 3)(S . 7)(H . 3)(D . 2)(C . Q)(C . 2)(S . 5)(S . 8)(H . K)(H . 8)(S . 3)(S . K)) '(discard discard ) 321)
+
+(play '((C . 4)(H . 8)(C . 8)(S . 9)(D . 2)(D . 6)(C . 6)(H . Q)(S . 4)(S . 6)(S . 2)(S . Q)(C . 7)(S . 5)(S . 3)(C . 3)(D . A)(H . 2)(D . 9)(C . K)(S . 7)(H . 6)(D . 7)(C . 9)(D . J)(D . 8)(D . 4)(C . Q)(H . J)(H . 3)(S . A)(S . J)(S . K)(H . K)(H . 7)(C . 2)(D . 3)(S . 8)(C . 5)(D . K)(D . 5)(H . 5)(H . 9)(H . A)(H . 4)(C . J)(D . Q)(C . A)) '(discard draw discard discard draw draw draw draw discard draw discard draw discard discard discard draw discard discard discard draw discard discard discard draw draw draw discard draw discard discard draw discard discard discard discard draw discard discard discard draw discard discard draw draw discard draw ) 19)
+
+(play '((H . 8)(S . 5)(H . K)(C . 6)(C . 3)(S . 7)(H . A)) '(draw ) 193)
+
+(play '((S . 2)(C . 7)(S . 3)(D . 3)(D . 2)(D . K)(H . 3)(D . Q)(D . 7)(C . K)) '(discard draw discard discard discard ) 232)
+
+(play '((S . 9)(H . 4)(D . 8)(H . 2)(D . 4)(C . 5)(C . 2)(S . Q)(C . 9)(H . Q)(H . 8)(C . 7)(H . 9)(D . 3)(H . A)(D . 6)(S . 8)(D . 9)(C . J)(C . 3)(S . J)(C . Q)(S . A)(S . 4)(H . 3)) '() 20)
+
+(play '((D . 7)(C . 9)(C . 8)(H . 4)(D . 2)(S . J)(D . J)(H . 5)(S . 6)(C . 7)(H . 7)(C . 3)(H . 6)(H . Q)(D . 5)(D . 4)(S . K)(S . 2)(H . A)(C . Q)(C . 5)(D . 9)(S . Q)(C . 2)(S . 9)(S . 5)(S . 3)(H . 3)(H . 8)(S . 4)(H . 2)(H . 9)(D . 3)(C . A)(C . K)(H . K)(D . Q)(S . 8)) '(discard discard discard discard discard draw draw discard discard draw discard discard draw draw discard draw draw draw discard draw discard discard draw draw discard draw draw discard discard discard draw discard discard discard discard discard discard discard ) 132)
+
+(play '((S . K)(S . 9)(D . 5)(S . 3)(S . 7)(S . 6)(D . 3)(C . 9)(C . J)(D . 2)(S . Q)(H . 7)(C . 8)(H . 2)(C . 5)(H . 4)(S . A)(D . A)(C . 7)(D . 7)(H . 6)(C . 3)(D . K)(D . Q)) '(discard discard discard discard draw draw draw discard draw discard discard discard discard discard draw discard draw draw draw draw discard draw draw draw ) 213)
+
+(play '((C . 3)(D . K)(S . K)(S . Q)(D . 5)(D . 3)(S . 7)(S . 8)(H . 6)(C . 9)(C . 7)(C . J)(D . J)(S . 4)(C . 5)(H . 5)(C . 4)(H . 2)(D . 7)(D . A)(C . K)(D . Q)(S . A)(H . 4)(D . 2)(H . 8)(S . 3)(H . 9)(C . A)(D . 6)) '(draw discard draw draw draw draw draw draw draw discard draw draw discard discard draw ) 198)
+
+(play '((C . K)(D . 5)(C . 9)(S . 9)(S . 5)(C . 5)(D . Q)(D . K)(D . 6)(C . 3)(S . 8)(C . 2)(S . 2)(C . 8)(D . J)(S . Q)(S . J)(H . A)(S . 4)(S . 7)(H . K)(D . 3)(C . Q)(S . 3)(D . 9)(D . 2)(S . K)(H . 6)(S . A)(D . 4)(S . 6)(H . J)(H . 8)(C . 7)(H . 9)(H . 4)(D . 8)(C . 6)(D . 7)(C . A)(H . 3)(H . 7)) '(discard discard draw discard draw discard draw discard draw discard discard draw draw draw draw draw draw discard draw discard discard draw draw draw discard draw discard discard draw draw discard discard discard discard draw discard discard discard discard ) 0)
+
+(play '((D . A)(H . 5)(S . 8)(S . 9)(C . A)(S . 6)(H . J)(H . 6)(H . 2)(H . 3)(D . 7)(S . 3)(H . 9)(C . 2)(C . 5)(D . J)(C . K)(S . K)(H . Q)(D . 3)(S . 4)(H . 8)(D . 8)(C . 6)(S . 7)(D . 9)(C . 4)(C . J)(S . J)(S . 5)(C . Q)(C . 7)(D . K)(H . 4)(S . Q)(S . A)(D . 4)(D . Q)(D . 5)) '(draw discard discard draw draw draw draw draw discard draw discard discard discard discard discard draw draw discard discard discard discard discard draw discard discard draw draw draw ) 123)
+
+(play '((C . 5)(H . 9)(D . 3)(D . 7)) '(discard draw discard ) 8)
+
+(play '((H . 4)(S . 2)(C . 2)(H . A)(S . 5)(H . 3)(H . 5)(D . 8)(D . 2)(D . 7)(C . 4)(H . K)(S . J)(D . A)(H . 2)(C . J)(S . 3)(H . 7)(S . 7)(S . 9)(C . A)(S . 8)(C . Q)(S . 4)(C . 3)(D . 9)(H . 6)(S . 6)(C . 7)(D . Q)(D . J)(D . K)(D . 3)(H . 8)(S . A)(H . Q)(C . 5)(H . J)(D . 5)(C . 8)(C . 9)(D . 4)(C . 6)(C . K)(D . 6)(S . K)(S . Q)(H . 9)) '(discard discard discard draw discard draw draw discard discard discard draw discard discard draw draw discard draw draw discard draw draw draw discard draw draw draw draw draw ) 229)
+
+(play '((C . J)(S . 6)(S . 8)(S . Q)(S . 3)(H . Q)(S . 2)(D . 8)(H . 6)(C . 5)(C . 4)(H . 4)(D . 2)) '(discard draw draw ) 193)
+
+(play '((S . J)(D . 3)(D . Q)(S . A)(C . 3)(H . 2)(D . 7)(H . 5)(S . 4)(H . 3)(C . 5)(H . 8)(C . 2)(S . 8)(H . 7)(C . A)(D . 4)(H . J)(D . K)(H . 4)(D . 8)(D . 9)(D . 6)(C . Q)(S . 2)(S . 6)) '(draw discard discard discard draw draw draw draw discard discard draw draw draw draw draw discard discard draw discard draw draw ) 179)
+
+(play '((S . 9)(C . 6)(S . 3)(H . Q)(D . K)(D . 4)(H . A)(H . 3)(D . 2)(S . 8)(H . K)(S . K)(D . J)(C . 9)(C . A)(C . J)(S . 2)(D . 5)(C . 4)(S . Q)(C . 5)(S . 7)(H . J)(D . 7)(C . 3)(H . 5)(D . 8)(D . Q)) '(draw discard draw draw discard draw discard draw discard discard discard discard ) 41)
+
+(play '((H . J)(D . 9)) '() 93)
+
+(play '((C . 8)(H . 8)(S . 9)(H . 3)(D . A)(C . A)(S . 8)(H . Q)(C . 4)(C . Q)(D . 9)(D . 3)(H . 7)(C . K)(H . 9)(C . 6)(H . A)(D . Q)(H . 2)(D . 7)(D . 8)(C . 9)(D . 6)(H . 4)(S . 4)(H . 6)(S . 6)(S . 5)(S . A)(S . Q)) '(discard draw discard draw discard draw draw draw draw draw draw discard discard discard discard draw discard draw ) 229)
+
+(play '((C . 3)(H . 3)(D . 4)(S . Q)(C . 4)(D . J)(C . 5)(C . 8)(S . A)(D . 6)(H . 4)(D . 3)(H . 5)(H . 6)(D . 9)(H . K)(D . 2)(D . 7)(C . J)) '(discard discard discard discard draw discard draw draw discard discard ) 355)
+
+(play '((S . 6)(H . 7)(D . K)(H . Q)(D . A)(C . 2)(C . 5)(H . K)(S . 9)(C . 8)(D . 4)(H . 5)(C . A)(D . 9)(D . 5)(H . 6)) '(draw ) 321)
+
+(play '((D . 4)) '(discard ) 90)
+
+(play '((D . 8)(D . 4)(S . K)(H . 5)(H . K)(S . 4)(H . 6)(H . 4)(S . Q)(D . 2)(H . 7)(S . 7)(S . 5)(D . K)(D . 7)(H . 8)(S . J)(C . 3)(C . Q)(S . 6)(C . J)(D . Q)(D . 3)(D . 6)(C . 9)(S . 3)(D . J)(D . 9)(D . A)(C . 6)(H . 2)(C . K)(S . 9)(H . Q)(C . 4)) '(draw draw discard discard discard draw draw draw draw discard draw discard discard discard draw draw ) 339)
+
+(play '((C . 3)(C . 4)(S . J)(C . 8)(S . Q)(H . 9)(H . 7)(S . 7)(S . 3)(D . 2)(H . 3)(S . K)(C . J)(C . 5)(H . K)(S . 4)(H . 2)(D . Q)(D . A)(C . 9)(C . 7)(C . 6)(H . Q)(D . 4)(C . A)(D . 3)(H . 4)(H . J)(H . 5)(D . 8)(D . 5)(S . 9)(D . 6)(D . J)(C . Q)(S . 8)(H . 8)(C . K)(S . 2)(H . 6)(D . 9)(S . A)(S . 6)(D . K)(H . A)(S . 5)(C . 2)(D . 7)) '(discard draw discard discard draw draw discard discard ) 262)
+
+(play '((C . A)(S . 6)(S . 8)(H . 6)(H . 3)(S . K)(H . K)(D . 7)(S . Q)(D . 3)(H . Q)(S . 3)(S . 4)(C . 7)(H . 5)(S . 9)(D . Q)(S . 2)(D . 9)(D . J)(H . 8)(D . 6)(C . 4)(S . A)(S . J)(S . 7)(D . K)(H . J)(C . 6)(D . 5)(C . J)) '(draw discard discard discard draw discard draw draw discard draw discard ) 10)
+
+(play '((C . K)(D . A)(C . 3)(H . 3)(S . 6)(S . 5)(S . 4)(S . J)(D . 4)(D . 5)(D . 2)(C . 9)(C . 8)(S . 2)(H . 6)(D . 3)(S . 9)(H . Q)(H . 2)(S . Q)(D . 8)(C . 4)(H . 5)(S . 7)(D . Q)(D . 9)(C . Q)(C . 2)(H . J)) '(draw draw draw discard discard draw draw discard draw discard discard discard discard discard discard ) 173)
+
+(play '((D . J)(D . 8)(D . 6)(S . K)(D . 3)(C . 6)(H . 6)(D . 5)(C . J)(S . A)(S . 5)(C . 8)(S . 9)(C . 5)(C . 9)(C . 7)(D . K)(S . 8)(H . 7)(C . 2)(H . 2)(S . Q)(S . 4)(S . 7)(H . K)(D . A)(H . 8)(D . 7)(D . Q)(H . Q)(S . 3)(H . 4)(C . Q)(D . 4)(H . 3)(D . 9)(S . 6)(C . 3)(S . 2)(H . A)(H . 9)(H . 5)(D . 2)(C . A)(S . J)(C . K)(C . 4)) '(draw discard discard discard discard draw draw draw draw discard draw draw draw discard ) 85)
+
+(play '((D . 9)(H . 8)(D . J)(H . K)(D . 3)(D . 6)(C . A)(C . 5)(C . J)(S . 2)(H . 3)(H . 9)(H . 4)(H . 5)(D . K)(S . 5)(D . A)(S . 6)(C . 2)(S . A)(D . 2)(S . 4)(C . Q)(S . J)(C . 3)(H . Q)(S . 8)(S . 9)(D . 5)(C . 7)(S . K)(C . 6)) '(draw draw draw discard discard draw discard draw draw discard draw draw draw discard discard ) 160)
+
+(play '((C . 9)(D . 9)(S . 5)(C . 2)(S . 2)(H . Q)(S . 8)(C . Q)(C . 4)(D . J)(H . 3)(H . 6)(S . 7)(D . K)(H . 4)(D . 7)(D . 2)(H . 8)(C . 6)(H . 5)(C . 5)(H . 7)(S . K)(H . 9)(C . J)(H . J)(D . A)(S . 3)(C . K)(H . 2)(H . A)(C . 3)(D . 4)(S . J)(C . 8)(D . 8)(D . 6)(S . A)(S . Q)(D . Q)(D . 5)(S . 9)) '(discard discard draw draw draw discard discard discard discard discard draw draw discard ) 255)
+
+(play '((C . 5)(D . 2)(C . 7)(D . A)(S . 2)(C . 9)(C . J)(D . 5)(C . 8)(H . 5)(S . 5)(H . 4)(C . A)(S . J)(C . 2)(S . 8)(D . 8)(C . 3)(C . Q)(D . J)(D . 9)(H . 6)(D . 4)(D . 3)(C . 4)(H . 7)(C . K)(H . 2)(D . 7)(D . Q)(S . Q)(D . 6)(H . 9)(S . 6)(H . K)(C . 6)(H . A)(S . 9)(S . A)(H . Q)(H . 8)(S . 3)(H . 3)(S . 4)(S . 7)(H . J)(S . K)(D . K)) '(discard discard discard draw discard discard draw discard draw draw discard discard draw discard discard draw draw discard discard draw discard discard discard draw discard draw discard draw draw discard draw draw discard discard discard draw draw draw draw discard draw discard draw draw draw ) 8)
+
+(play '((S . 5)(D . 5)(S . J)(D . 8)(S . 6)(H . 9)(D . 6)(C . 5)(H . K)(H . 6)(H . 8)(H . Q)(C . 9)(H . A)(C . 4)(S . K)(H . 7)(H . 2)(S . 2)(D . 4)(D . Q)(D . A)) '(draw draw draw draw discard discard discard discard ) 232)
+
+(play '((S . 6)(D . J)(C . 7)(D . A)(S . 2)(H . J)(C . 3)(D . 7)(C . 4)(H . 7)(C . A)(S . A)(H . 2)(S . J)(S . 7)(S . 8)(H . Q)(C . 9)(D . 6)(H . 8)(D . 8)(S . Q)(D . 9)(C . 8)(C . K)(C . 6)) '(discard draw discard discard draw draw draw discard discard draw discard draw draw discard discard discard draw draw discard discard discard draw draw ) 129)
+
+(play '((C . 9)(C . 2)(D . 8)(H . 7)(S . 4)(H . K)(H . A)(S . 9)(C . Q)(S . Q)(H . 8)(C . 3)(S . 8)(D . 3)(S . A)(C . 8)(C . K)(S . 5)(H . 3)(D . 2)(D . A)(D . 7)(C . 7)(C . J)(H . 9)(D . K)(S . 7)(C . 4)(S . J)(C . 6)) '(discard draw draw discard draw draw discard draw draw discard draw draw draw discard draw draw discard draw draw draw draw discard discard draw discard discard discard draw draw draw ) 318)
+
+(play '((C . Q)(H . A)(S . 8)(C . 2)(D . 5)(C . K)(D . A)(S . 3)(D . 2)(D . 9)(S . 7)(D . J)(S . A)(D . Q)(H . 5)(S . 9)(H . 7)(C . 5)(S . Q)(S . 2)(S . 4)(C . 6)(S . J)(C . 8)(D . 6)(H . Q)(D . 7)(H . 4)(C . J)(D . K)(D . 4)(H . 6)(C . 3)(S . 6)(H . 9)(H . 8)(C . 9)(H . 2)) '(draw draw draw draw draw discard draw draw discard discard discard discard discard discard discard discard draw discard draw ) 187)
+
+(play '((S . 5)(H . 5)(C . 8)(D . 5)(S . 9)(H . A)(D . A)(D . 2)(D . J)(D . K)(D . 9)(H . 8)(S . 2)(H . 3)(C . 9)(C . 3)(C . 5)(H . 4)(H . Q)(S . Q)(C . 2)(S . K)(C . A)(C . K)(C . J)(S . 3)(S . A)(H . 7)(H . 6)(H . J)(S . 7)(H . 9)) '(draw discard discard draw draw draw draw draw discard draw draw discard discard draw discard discard draw draw draw discard discard draw discard ) 98)
+
+(play '((C . 3)(C . 2)(H . 4)(D . J)(D . A)(D . 4)(D . 9)(D . 7)(S . 5)(D . 2)(C . A)(C . 7)(H . 6)(S . 9)(D . 6)(S . Q)) '(draw discard draw ) 263)
+
+(play '((D . 7)(C . 5)(H . J)(D . A)(D . 4)(H . 4)(D . 3)(S . 4)(H . 8)(D . 9)(H . 3)(D . 5)(D . 2)(C . 7)(C . 8)(C . 6)(D . Q)(H . K)(C . J)(S . 7)(H . 9)(C . K)(S . K)(S . A)(D . K)(H . 2)(C . 2)(H . Q)(C . 3)(S . J)(H . 6)(H . 7)(H . A)(S . 5)(S . 3)(C . 4)(H . 5)(S . 8)(D . 6)(S . 2)(C . Q)) '(discard draw discard discard discard discard draw ) 94)
+
+(play '((D . 6)(C . 4)(H . 9)(H . 4)(H . J)(C . 6)(D . 3)(H . 3)(D . 4)(D . K)(C . 5)(C . 9)) '() 181)
+
+(play '((S . J)(D . 9)(S . 9)(C . 2)(S . A)(S . 6)(S . 2)(S . 8)(H . 5)(H . A)(C . 8)(C . 5)(C . A)(C . 9)(D . 8)(C . 6)(H . 7)(D . 7)(C . 7)(D . 2)(D . 3)(H . K)(S . 7)(H . 9)(D . 4)(D . J)(C . Q)(H . 2)(D . A)(H . 3)(C . 4)(S . 3)(D . 6)(S . 5)(S . K)(H . 8)(C . K)(H . 4)(D . K)(D . 5)(C . J)(H . 6)(H . Q)(H . J)(D . Q)(S . 4)(C . 3)(S . Q)) '(draw discard draw draw draw draw discard discard draw discard discard draw draw discard draw discard discard draw discard draw discard draw discard discard draw draw draw draw discard discard discard draw discard draw discard draw draw draw discard ) 231)
+
+(play '((S . 4)(C . Q)(H . 6)(H . 2)(C . 5)(S . 6)(S . A)(C . A)(S . Q)(S . 3)(C . 2)(S . 2)(H . 9)(H . Q)(D . 6)(D . 4)(C . 4)(S . J)(D . J)(H . K)(C . K)(D . 8)(D . Q)(H . A)(D . 9)(C . 9)(C . 3)(S . K)(H . J)(S . 7)(C . 6)(D . 2)) '(discard draw draw draw draw discard draw discard draw discard discard discard draw discard draw ) 188)
+
+(play '((D . K)(S . K)(D . 7)(S . 4)(S . 2)(H . 8)(C . 6)(S . 5)(H . 2)(H . Q)(D . 6)(H . 9)(D . J)(H . 7)(C . 2)(S . Q)(S . 3)(C . J)(D . 8)) '(draw draw discard discard draw draw discard ) 265)
+
+(play '((C . 6)(S . 7)(C . Q)(C . 4)(S . J)(D . 5)(D . K)(D . 3)(S . 3)(C . 7)(D . A)(H . 6)(S . K)(S . 2)(H . 7)(D . 7)(C . 3)(S . 5)(S . 4)(C . 2)(C . 5)(D . Q)(H . 4)(D . J)(H . 8)(H . 3)(D . 4)(C . J)(H . A)(H . 5)(H . K)(C . K)(H . J)(S . 8)(C . 8)(C . 9)(H . 9)(S . 6)(H . Q)(D . 9)(S . Q)(S . 9)(D . 8)(C . A)(S . A)(H . 2)(D . 6)(D . 2)) '(discard draw discard draw discard discard discard draw draw discard draw discard draw discard discard draw draw discard discard draw draw discard draw draw draw discard discard discard discard discard draw draw discard discard draw draw discard discard draw draw draw draw discard discard draw discard discard discard ) 127)
+
+(play '() '() 168)
+
+(play '((S . 7)(S . K)(S . 9)(H . 6)(D . J)(S . 3)(D . 5)(H . Q)(H . 5)(D . 6)(H . K)(C . 3)(H . A)(C . 7)(D . 9)(C . 5)(D . 4)(H . 4)(S . 4)(S . 2)(H . J)(H . 2)(C . A)(C . 4)(S . J)(D . K)(D . 2)(C . 9)(C . 2)(D . Q)(C . K)(S . 8)(S . 5)(S . 6)(C . Q)) '(draw discard draw draw draw discard discard discard discard draw draw draw draw draw discard discard draw discard draw discard discard discard draw discard ) 324)
+
+(play '((C . 8)(S . J)(C . 7)(S . K)(H . 7)(D . Q)) '(draw draw draw discard ) 270)
+
+(play '((H . 8)(H . K)(S . 4)(H . A)(D . 6)(S . 9)(S . K)(C . 8)(S . 8)(D . A)) '(draw discard discard ) 304)
+
+(play '((H . 5)(H . Q)(C . Q)(C . K)(S . 7)(S . 9)(D . A)(S . 4)(H . 3)(H . 7)(D . 3)(H . 4)(D . J)(S . 8)(S . A)(C . 9)(D . 7)(D . 9)(C . 8)(S . 6)(H . 2)(S . Q)(C . 3)(C . 6)(C . 7)(S . J)(D . 8)(H . K)(S . 5)(D . 2)(H . 8)(D . K)(C . J)(C . 5)(D . 6)(D . 4)(S . K)(C . A)(S . 3)(D . Q)(H . A)(S . 2)(C . 4)(D . 5)(C . 2)(H . 9)(H . 6)(H . J)) '(draw draw draw draw discard draw discard draw draw discard discard draw discard discard discard discard draw discard draw draw discard discard discard draw discard discard discard draw draw draw draw draw draw discard discard draw discard discard draw draw draw discard discard discard discard ) 271)
+
+(play '((C . Q)(H . 8)(D . 9)(S . J)(C . A)(D . 3)(C . 4)(S . 5)(D . 2)(D . 5)(S . 8)(H . A)(C . 6)(S . A)(H . K)(S . 7)(D . 8)(C . 7)(S . K)(S . 3)(C . 5)(D . 4)) '(discard discard draw draw draw draw draw draw draw draw discard discard draw discard draw discard draw ) 121)
+
+(play '((S . 8)(C . 5)(D . 9)(H . J)(S . 4)(S . 3)(H . 6)(D . 8)(S . 7)(D . Q)(H . 5)(C . 9)(H . 8)(S . 9)(D . K)) '(discard draw draw discard draw draw draw draw draw discard ) 351)
+
+(play '((S . 4)(D . 6)(C . 4)(S . J)(H . Q)) '(draw discard discard ) 262)
+
+(play '((H . 7)(D . 7)(S . 7)(C . 6)(C . 9)(C . Q)(C . 7)(S . 5)(H . 3)(D . 9)(H . 2)(C . 8)(D . K)(H . A)(S . 9)(H . 6)(H . 9)(C . 3)(D . 2)(S . K)(D . 6)(H . Q)(D . 4)(C . 2)(S . 6)(S . 8)) '(discard discard discard draw discard discard draw discard draw draw draw discard draw discard discard draw discard draw discard discard discard discard draw discard ) 66)
+
+(play '((S . 6)(D . 9)(D . K)(H . A)(D . A)(H . K)(H . 6)(C . 6)(S . 5)(C . 8)(H . 8)(C . 3)(H . 7)(H . 9)(C . 2)(C . 7)(D . 4)(D . Q)(C . K)(S . 3)(H . 2)(S . 7)(S . 9)(D . 2)(H . J)(H . Q)(C . J)(H . 4)(C . 5)(S . 8)(C . A)(S . J)(S . 4)(D . 6)(D . 3)(C . 4)(H . 5)(D . 8)(S . A)(D . 5)(C . 9)(S . K)) '() 321)
+
+(play '((S . Q)(D . A)(D . 7)(S . 9)(C . K)(D . 3)(D . Q)(D . 5)(D . 8)(S . 8)(C . 3)(C . 6)(D . 2)(S . 7)(S . 3)(H . 9)(C . 4)(H . 2)(S . 5)(C . 5)(H . J)(H . K)(S . J)(S . A)) '(discard discard draw draw discard draw draw draw discard draw draw draw discard discard draw discard draw discard discard draw discard ) 318)
+
+(play '((S . 4)(D . K)(S . A)(S . 6)(D . 7)(C . 9)(H . 2)(S . 2)(H . A)(D . 3)(C . A)(H . 3)(H . 6)(S . Q)(C . 7)(D . Q)(D . 6)(H . Q)(S . 8)(H . K)(D . 9)(C . Q)(C . J)(S . 9)(D . 8)(H . 9)(S . 5)(D . J)(C . 5)) '(discard discard draw draw discard discard discard draw discard draw discard draw draw draw discard discard draw draw draw draw discard draw draw draw discard discard discard draw ) 96)
+
+(play '((S . J)(H . K)(D . K)(S . A)(C . 5)(C . 4)(C . 2)(S . 2)(D . 7)(H . J)(S . Q)(S . 3)(D . Q)) '(draw discard draw draw draw discard discard discard draw draw discard ) 43)
+
+(play '((H . J)(C . K)(D . 5)(S . K)(C . 6)(D . 8)(H . Q)(S . 9)(H . 6)(D . 6)(C . 7)(C . 4)(H . 9)(D . A)(C . 9)(D . 7)(D . 9)(H . 7)(H . 4)(D . 2)(S . 6)(C . 2)(H . 5)(C . J)(S . 5)(D . Q)(C . 5)(S . 8)(D . J)(H . 2)(H . A)(S . A)(S . 2)(S . 7)(D . K)(H . 8)(C . A)(D . 3)(H . K)(C . 8)(S . 4)(S . J)(S . 3)(S . Q)(C . Q)(H . 3)(D . 4)) '(draw draw draw discard draw draw discard draw discard discard discard draw draw discard discard discard discard draw discard draw discard draw discard discard discard discard draw discard draw draw draw ) 93)
+
+(play '((H . 3)(S . 6)(H . 8)(D . Q)(S . Q)(D . 9)(C . J)(D . 4)(S . A)(S . 3)(D . 3)(C . 6)(C . A)(D . K)(C . 4)(C . 8)(S . 9)(H . A)(D . J)(D . 6)(S . 7)(C . Q)(H . 7)(H . K)(H . 6)(D . 2)(S . 5)(H . J)(H . 5)(C . 9)(H . 2)) '(discard draw discard draw draw discard discard draw discard draw draw discard discard draw draw draw draw draw discard ) 304)
+
+(play '((C . 7)(C . 4)(S . J)(C . 3)(S . A)(C . A)(S . 8)(C . 5)(C . 9)(C . K)(S . K)(S . 3)(D . K)(D . J)(D . 3)(C . J)(H . J)(D . 6)(D . 4)(H . 7)(H . 2)(S . Q)(C . 6)(S . 5)(D . 9)(H . 3)(H . 6)(H . 5)(H . 4)(S . 2)(H . A)(S . 4)(D . 5)(H . 9)(H . K)(D . 7)(H . Q)(H . 8)(C . 2)(D . 2)(C . Q)(D . Q)(D . A)(S . 9)(S . 6)(C . 8)) '(draw discard discard draw draw draw discard draw draw draw draw draw discard draw draw draw draw discard draw draw draw discard draw discard discard draw discard draw draw discard draw draw draw draw draw discard discard discard draw draw discard draw ) 14)
+
+(play '((H . K)(D . 4)(D . K)) '(discard ) 308)
+
+(play '((D . J)(S . 9)(H . Q)(S . J)(C . J)(S . 8)(C . A)(S . A)(D . 6)(H . 5)(C . 4)(D . 9)(H . 4)(S . 5)(D . 7)(C . 7)(H . A)(S . K)(D . A)(D . 8)(H . K)(S . 2)(C . 2)(H . 6)(S . 7)(S . 4)) '() 245)
+
+(play '((C . J)(C . 4)(D . K)(H . Q)(S . 2)(C . A)(S . A)(H . 5)(C . K)(C . 2)(D . 7)(H . 8)(S . 6)(D . 4)(H . J)(H . 6)(H . 3)(H . K)(H . 7)(S . K)(S . 5)(S . Q)(D . 8)(H . A)(H . 9)(S . 3)(D . 6)(H . 4)(D . 2)(D . 3)(C . 9)(S . 9)(S . J)(H . 2)(C . 7)(S . 7)(S . 4)(C . Q)(C . 8)(S . 8)(D . A)(C . 3)(D . 5)(D . 9)(D . Q)) '(discard discard draw draw discard discard discard draw ) 358)
+
+(play '((C . 4)(C . K)(S . 5)(S . 6)(H . 2)(D . 6)(C . 5)(C . Q)(H . 7)(H . 4)(S . 9)(H . Q)(D . 8)(H . K)(D . 4)(C . 3)(D . A)(H . 6)(D . Q)(S . 7)(D . 3)) '(draw discard discard draw draw discard discard draw draw draw draw draw draw discard discard draw discard discard draw draw discard ) 114)
+
+(play '((H . A)(D . 3)(S . A)(H . 2)(S . 6)(S . 2)(C . 6)(D . J)(H . J)(H . Q)(C . 4)(H . 8)(D . 2)(D . A)(H . K)(D . 8)(C . 7)(C . 3)(S . K)(D . K)(C . J)(D . 6)(H . 4)(H . 3)(D . 4)(S . 8)(D . 5)(H . 7)(H . 6)(S . 3)(D . 7)) '(discard draw draw draw draw draw discard discard draw discard discard discard ) 152)
+
+(play '((D . 7)(S . Q)(D . Q)(S . 5)(C . 3)(D . 8)(D . K)(S . 2)(H . 8)(C . 9)(D . 2)(C . 8)(S . 4)(H . Q)(H . A)(S . 8)(D . 3)(H . 4)(S . A)(C . Q)(H . 3)(H . 7)(D . 5)(C . A)(S . 9)(H . 5)(S . 6)(H . K)) '(discard discard discard discard discard discard draw draw discard discard draw draw discard draw draw discard draw draw discard discard draw discard discard draw discard ) 282)
+
+(play '((S . Q)(H . 4)(S . 2)(S . 6)(S . 3)(H . K)(D . 2)(C . 6)) '(discard draw discard draw draw discard draw draw ) 60)
+
+(play '((D . 3)(C . 7)(C . 5)(H . 4)(C . 8)(D . A)(H . 3)(S . 9)(D . J)(C . A)(C . 3)(H . Q)(D . 9)(S . 3)(H . K)(H . 7)) '(draw draw draw draw discard discard discard draw discard draw draw draw ) 318)
+
+(play '((D . 8)(C . K)(S . A)(C . Q)(C . 2)(H . J)(D . Q)(C . 6)) '(draw discard draw ) 269)
+
+(play '((C . 7)(S . 9)(D . 6)(H . A)(S . 4)(C . K)(C . Q)(H . 2)(H . 8)(D . J)(H . Q)(H . J)(S . K)(C . 8)(S . 8)(H . 7)(D . 3)(H . 3)(D . 8)(D . K)(H . 9)(S . 7)(H . 4)(C . 9)(S . A)(H . K)(C . J)(S . 3)(C . 5)(D . 5)(S . 5)(S . J)(C . 3)(D . 7)(S . Q)(D . 4)(C . 6)(D . 9)(C . 4)(C . 2)(D . Q)(D . 2)(S . 6)(C . A)) '(discard draw discard draw ) 264)
+
+(play '((H . 5)(D . 5)(C . 5)(C . 7)(H . 8)(D . 8)(D . A)(D . 9)(C . J)(D . 4)(C . K)(D . Q)(S . J)(S . 2)(C . 9)(S . 6)(D . 7)(S . Q)(H . 6)(H . J)(C . 6)(S . 4)(H . 9)(C . A)(H . A)(S . K)(C . 2)(S . 8)(C . 4)(D . K)(H . Q)(H . K)(S . 7)(D . J)(D . 6)(H . 3)(C . Q)(D . 3)(C . 8)(H . 4)(S . 5)(H . 7)(S . A)) '(discard discard draw draw discard draw discard draw discard discard draw draw discard discard draw discard discard draw draw draw discard draw discard discard ) 226)
+
+(play '((H . 6)(S . 2)(D . 8)(C . 8)(D . Q)(C . 7)(D . 4)(D . K)(S . K)(C . 5)(S . A)(D . 7)(S . 5)(D . 3)(H . 3)(H . 9)(S . J)(D . J)(S . 9)(C . 6)(H . J)(H . 5)(H . 7)(S . 6)(S . Q)(C . 9)(H . 8)(S . 3)(C . J)(H . 4)(H . K)(S . 8)(C . 3)(C . 2)(D . 5)(C . Q)(H . Q)(D . 9)(C . A)(D . 2)) '(draw discard discard discard draw discard draw discard draw draw draw draw discard draw draw draw draw discard draw draw draw discard draw draw draw discard discard draw discard discard draw draw draw draw discard discard draw draw discard discard ) 125)
+
+(play '((C . 8)(C . 5)(S . 5)(H . 6)(C . J)(H . A)(H . 3)(C . 9)(S . K)(H . 9)(S . 2)(H . 7)(H . 4)(H . K)(H . 5)) '() 310)
+
+(play '((S . 8)(C . 5)(H . A)(H . 6)(D . 8)(S . 6)(D . 3)(S . 7)(H . K)(H . J)(D . Q)(H . 7)(D . 5)(S . Q)(S . 5)) '(draw discard draw discard draw discard discard draw discard discard draw draw discard discard ) 114)
+
+(play '((C . K)(C . 8)(H . Q)(C . A)(H . 4)(S . K)(H . J)(H . 7)(D . 8)(S . 9)(C . J)(H . 5)(H . 2)(S . 7)(S . J)(C . 4)(S . 6)(H . 6)(D . 5)(D . 2)(S . 5)(H . K)(S . 4)(C . 3)(S . 3)(C . Q)(D . 6)(D . J)(D . Q)(D . A)(D . 9)(S . 2)(C . 9)(S . 8)(C . 5)(C . 7)(H . 8)(S . A)(D . 4)(C . 2)(D . K)(S . Q)(D . 7)(H . A)(H . 9)(H . 3)(C . 6)(D . 3)) '(discard discard draw discard discard discard discard draw draw draw draw discard draw draw discard draw draw discard discard draw discard draw draw discard discard discard discard draw draw discard draw discard draw draw draw discard draw discard discard discard ) 15)
+
+(play '((S . J)(D . Q)(D . 6)(D . 8)(C . 9)(H . 6)(H . 7)(C . 6)(H . 3)(H . 2)(C . Q)(H . K)(D . J)(H . 8)(S . 2)(C . 4)(C . 2)(C . 7)(C . A)(D . 7)(D . 9)(C . 8)(D . 4)(D . 3)(D . 2)(S . 4)(C . 5)(H . 4)(S . 7)(H . 5)) '(draw discard draw draw discard discard draw ) 342)
+
+(play '((C . 3)(D . 9)(H . 6)(H . Q)(H . 3)(S . 2)(H . 5)(H . 2)(C . 6)(D . A)(H . 4)(S . 6)(S . 5)(C . J)(S . K)(H . J)(D . 8)(C . 8)(C . 9)(C . K)(D . 5)(S . 9)(S . 7)(C . A)(H . A)(C . 2)(S . J)(D . 2)(D . J)(D . 3)(H . 7)) '(draw discard discard draw draw discard discard discard discard draw discard draw discard discard discard draw draw ) 278)
+
+(play '((D . 6)(H . 5)(C . 8)) '(discard ) 145)
+
+(play '((C . Q)(H . 3)(D . 2)(D . A)(C . 3)(H . 2)(D . J)(C . 6)(S . 4)(H . K)(D . 6)(H . J)(D . 3)(S . J)) '(draw draw discard draw discard draw draw draw discard ) 127)
+
+(play '((H . 8)(S . 6)(H . K)(D . 2)(S . 5)(S . 9)(C . K)(C . A)(D . 4)(D . J)(C . 2)(C . 6)(S . K)(C . Q)(C . 8)(H . 6)(S . Q)(D . A)(S . 7)(S . A)(D . 8)(H . 3)(C . 7)(D . 5)(D . 3)(H . 4)(H . J)(H . 7)(D . 9)(H . A)(S . 4)(C . J)(D . 6)(S . J)(D . 7)) '(discard discard draw discard discard draw draw draw draw discard draw draw draw draw draw draw discard draw draw draw draw draw draw draw discard draw draw ) 314)
+
+(play '((C . 5)(S . K)(C . 9)(H . 9)(D . 2)(S . 2)(D . Q)(S . 9)(S . A)(D . 9)(C . 7)(C . K)(C . 4)(D . 7)(S . Q)(C . 6)(H . 8)) '(discard discard draw discard draw draw draw discard discard discard ) 231)
+
+(play '((H . 3)(C . J)(H . 9)(C . 4)(D . 4)(H . J)(C . K)(H . Q)(D . 7)(C . 5)(H . 6)(H . 5)(C . 9)(C . 8)(H . 7)(D . A)(S . 7)(H . 4)(D . 9)(H . K)(D . 8)(D . 5)(D . Q)(S . J)) '(discard draw draw discard discard discard discard draw draw discard ) 13)
+
+(play '((C . A)(D . 2)(H . 6)(C . Q)(C . 6)(D . 9)(H . 2)(D . 3)(C . J)(H . 3)(D . 7)(H . 9)(S . 2)(S . A)(S . J)(S . Q)(H . 7)(D . K)(H . 4)(C . 9)(S . 5)(S . 8)(D . 8)(S . 3)(D . 5)(D . Q)) '(draw discard discard draw discard discard discard discard discard draw draw ) 306)
+
+(play '((D . 9)(H . 6)(H . 5)(C . A)(S . A)(D . 7)(H . K)(H . 8)(S . 9)(S . 4)(H . Q)(C . 3)(S . K)(D . Q)(C . 6)(H . 3)(D . 6)(S . 2)(C . Q)(S . 3)) '(draw discard discard draw draw discard discard draw discard discard draw discard discard draw discard draw draw discard discard ) 173)
+
+(play '() '() 251)
+
+(play '((D . 6)(C . 7)(C . 2)(C . 6)(C . 9)(H . 8)(H . 7)(H . 5)(D . 5)(S . 6)(D . 7)(H . 9)(S . J)(S . 3)(S . 8)(H . 2)(D . J)(D . 8)(H . 4)(D . Q)(S . 2)(D . 2)(H . 6)(C . 3)(S . 4)(C . A)(H . 3)(H . A)(C . J)(D . A)(C . K)(C . 4)(D . 4)(C . 5)(S . Q)(D . 3)(S . A)(D . K)(H . K)(S . 5)(C . Q)(H . Q)(D . 9)(H . J)(C . 8)(S . 9)(S . 7)(S . K)) '(discard discard draw discard draw discard discard discard discard draw discard discard draw draw draw draw draw draw draw draw discard draw draw draw draw draw draw discard discard draw ) 312)
+
+(play '((C . Q)(C . 8)(H . J)(H . Q)(C . J)(C . 9)) '(draw draw draw ) 92)
+
+(play '((D . 6)(C . 7)(C . 8)(H . 6)(C . 6)(D . K)(D . 3)(S . 8)(D . 7)(H . 5)(D . A)(C . K)(C . 9)(C . 2)(H . K)(H . 9)(D . 2)(S . Q)(D . 4)(C . Q)(D . 9)(S . 5)(S . 2)(S . J)(H . 4)(D . Q)(C . 5)(H . A)(S . 4)(D . 5)(S . A)(C . 3)(C . A)(S . 7)(D . 8)(H . 8)) '(draw draw draw draw discard draw draw draw discard discard draw draw draw draw discard discard draw discard draw discard discard draw draw draw discard discard discard ) 205)
+
+(play '((D . K)(H . 2)(S . 4)(C . 9)(S . 2)(S . 8)(H . 9)(C . K)(S . 5)(D . 2)(D . 4)(S . 6)(D . 5)(C . 7)(C . 6)(D . Q)(D . 9)(D . 8)(S . 3)(C . A)(S . A)) '(discard discard draw draw discard discard draw discard draw draw draw discard discard discard draw discard ) 71)
+
+(play '((C . 5)(D . 3)(H . 3)(C . J)(D . 5)(C . 2)(S . 4)(D . Q)(H . 5)(H . 8)(D . 6)(H . 6)(H . 2)(D . 2)(H . A)(C . 8)(S . Q)(S . 7)(H . Q)(D . A)(C . 3)) '(draw draw discard discard draw discard draw draw draw draw ) 219)
+
+(play '() '() 227)
+
+(play '((D . 8)(S . 5)(C . Q)(S . K)(S . 3)(H . 5)(S . Q)(D . A)(C . 2)(H . 2)(S . 4)(C . J)(S . 9)(C . 9)) '(draw draw discard draw discard draw discard ) 216)
+
+(play '((D . 4)(H . K)(D . 9)(D . 2)(S . A)(S . 2)(D . A)(H . 4)(C . A)(S . 5)(H . 6)(H . 2)(H . 7)(S . J)(D . 3)(C . 4)(S . 9)(H . 3)(H . 5)(C . 2)(H . Q)(C . 7)(C . 8)(S . 4)(S . 3)) '(discard discard discard draw draw discard draw draw draw discard draw draw discard discard discard draw draw discard draw discard discard discard discard draw draw ) 117)
+
+(play '((S . K)(H . J)) '(discard discard ) 339)
+
+(play '((H . 7)(D . 9)(H . 6)(S . 6)(S . 3)(H . J)(D . J)(D . 4)(S . K)(S . 2)(C . A)(H . 5)(C . 8)(C . K)(H . K)(H . Q)(C . J)(S . 9)(D . 5)(H . 3)(D . 3)(H . 2)(C . 9)(S . Q)(S . 8)(D . 7)(H . 9)(S . J)(D . Q)(C . 4)) '(draw draw draw draw discard discard discard discard discard draw draw discard discard draw draw discard draw draw discard discard discard discard draw discard discard draw discard discard ) 312)
+
+(play '((S . A)(C . 3)(C . 7)(S . 3)(H . 9)(H . 8)(C . 2)(S . 5)(S . J)(H . 2)(D . 9)(S . 8)(D . 2)(C . A)(H . 4)(H . 6)(C . J)(D . 3)(C . 6)(D . 5)(H . J)(D . A)(C . Q)(D . 6)(D . K)(D . Q)) '(discard discard draw draw draw discard draw discard discard discard draw discard draw discard draw discard draw draw draw draw discard draw draw ) 14)
+
+(play '((D . Q)(D . 6)(H . 4)(C . Q)(H . 9)(C . 3)(C . 6)(D . K)(S . 9)(D . J)(S . 8)(C . K)(C . 8)(S . 4)(D . 7)(C . 5)(D . 3)(D . 9)(D . 5)(S . 2)(H . 8)(H . A)) '(draw draw draw discard draw discard ) 49)
+
+(play '((D . 7)(S . 3)(C . 4)(H . 9)(D . 2)(S . J)(D . 5)(D . 4)(C . 7)(H . 8)(H . 5)(D . J)(D . 9)(C . 5)(S . 2)(S . 4)(H . 4)(D . 6)(S . 7)(H . 3)(S . A)(C . 8)(D . A)(H . 2)(C . 9)(C . K)(S . K)(D . Q)(S . 8)(C . Q)(D . K)(H . Q)(D . 3)(C . A)(H . J)(D . 8)(H . 7)(H . 6)(S . Q)(C . J)(C . 6)(C . 3)(S . 5)(H . K)(S . 9)(C . 2)(S . 6)(H . A)) '(discard discard draw draw discard discard draw discard discard discard discard discard draw draw draw draw draw discard discard discard draw draw discard draw draw draw draw draw discard discard draw draw discard draw discard discard draw discard draw draw draw discard ) 47)
+
+(play '((S . A)(H . 5)(C . 2)(H . 2)(S . 2)(H . 6)(S . 6)(S . J)) '(discard draw discard discard ) 350)
+
+(play '((D . 2)(S . Q)(C . 9)(H . Q)(D . 7)(D . 5)(H . 2)(C . 2)(D . 9)(S . A)(D . K)(C . 8)(S . 9)(C . Q)(H . 7)(H . J)(H . 8)(D . 4)(S . 6)(C . 6)(H . 3)(S . 7)(H . A)(C . J)(S . 8)(D . 6)(C . A)(S . 5)(S . 4)(H . 5)(S . K)(D . 8)(D . Q)(D . J)(C . 4)(D . 3)(S . J)(D . A)(C . K)(H . 9)(S . 2)(C . 3)(H . 6)(H . 4)(C . 5)) '(draw discard discard draw discard draw discard discard discard discard discard draw draw discard discard discard discard discard discard discard discard draw discard draw draw discard draw draw discard discard draw discard draw discard ) 178)
+
+(play '((D . 8)(C . 2)(C . 7)(H . 7)(H . Q)(C . 8)(S . J)(C . A)(S . 2)(S . Q)(S . 3)(D . 3)(S . 8)(C . 6)(H . K)(H . 8)(D . 4)(H . A)(S . 7)(S . K)(D . 7)(H . 5)(C . 9)(H . 9)(D . 6)(D . J)(H . J)(S . A)(H . 2)(C . J)(C . 5)(D . 2)(D . A)(C . K)(D . 9)(D . Q)(C . 3)(D . K)(S . 4)(S . 5)(S . 6)(H . 3)(D . 5)(H . 4)(S . 9)(C . 4)(C . Q)(H . 6)) '(discard discard discard draw discard discard draw draw draw discard draw discard discard discard ) 228)
+
+(play '((H . 7)(H . 2)(C . 9)(C . A)(H . 8)(C . 4)(S . A)(H . 9)(S . 8)(H . Q)(D . J)(D . 2)(D . Q)(S . 7)(H . J)(D . 5)(D . 7)(D . 3)) '(draw draw draw draw draw discard draw draw discard ) 329)
+
+(play '((H . 8)(S . 8)(H . 6)(H . 4)(S . 3)(C . 8)(C . Q)(C . 2)(S . 4)(H . 2)(C . 9)(C . 6)(H . Q)(C . 3)(D . A)(D . 3)(H . 3)(D . K)(C . 4)(S . 9)(H . 5)) '(draw discard discard draw discard ) 90)
+
+(play '((D . 2)(H . 2)(S . 8)(S . 7)(D . 3)(D . 4)(H . 8)(D . 8)(S . A)(C . A)) '(discard draw discard draw discard draw draw draw draw ) 201)
+
+(play '((C . K)(D . 5)(C . A)(D . 2)(H . Q)(H . 4)(C . 6)(S . J)(H . 3)(H . 8)(D . 4)(D . 7)(D . A)(H . 9)(H . 5)(C . J)(H . 7)(D . Q)(C . 9)(D . 8)(S . 7)(D . 3)(C . 2)(H . 2)(S . 9)(S . 3)(D . 6)(H . J)(H . K)(S . 6)(D . J)(S . K)(D . 9)(S . Q)(C . 3)(C . 4)(C . 7)(S . 8)(S . 2)) '(discard draw discard draw draw discard discard discard draw discard discard discard discard draw draw discard draw discard draw draw discard discard draw draw draw draw draw discard discard discard discard discard draw discard ) 285)
+
+(play '((C . 9)(H . 7)(H . 3)(D . 5)(C . J)(S . 9)(D . J)(S . 8)(S . Q)(C . 6)(C . A)(S . 2)(D . K)(H . K)(D . 6)(D . A)(S . 3)(H . A)(C . 4)(D . 7)(C . 2)(D . 2)(S . 7)(H . 6)(D . 4)(S . A)(H . J)(C . 5)(C . 3)(H . 4)) '(draw discard discard discard discard draw discard discard draw draw draw discard discard draw discard discard draw discard ) 259)
+
+(play '((H . 6)(S . Q)(D . 4)(S . 3)(D . 2)(C . J)(D . 3)(D . A)(H . 9)(C . Q)(S . 9)(S . A)(D . K)(S . 6)(H . J)(S . J)(D . Q)(D . 9)) '(draw draw discard draw ) 320)
+
+(play '((H . 4)(D . 2)(H . 2)(C . 5)(D . Q)(C . 7)(D . 9)(D . 8)(H . A)(S . K)(S . 6)(S . 8)(S . 2)(C . A)(H . 3)(C . 6)(S . 4)(C . Q)(D . K)(H . 7)(D . 4)(H . J)(C . J)(C . 8)(S . 5)(D . A)(S . 7)(D . 5)(S . Q)(D . 7)(C . 9)(S . 9)(C . 3)(H . K)(H . 8)(D . 3)(H . 9)(C . 4)) '(draw discard discard draw draw draw discard discard draw draw draw draw discard discard draw draw draw discard discard discard discard discard discard ) 101)
+
+(play '((H . 2)(C . 3)(H . 5)(H . 4)(C . 2)(D . Q)(D . K)(C . 5)(S . Q)(D . 7)(D . 3)(S . 3)(H . 8)(C . 7)(D . 8)(H . Q)(H . 9)(S . 6)(S . 8)(D . 2)(C . 4)(C . A)(D . A)(C . 8)(D . 6)(S . A)(H . K)(H . 7)(S . 2)(C . K)(C . J)(S . 7)(S . 5)) '(discard discard discard discard discard draw draw discard discard draw draw draw discard discard draw draw discard draw draw discard draw discard discard draw discard draw draw discard discard draw ) 331)
+
+(play '((H . K)(C . K)(D . 5)(H . 8)(C . 7)(H . A)(S . 5)(D . Q)(S . 8)(S . 2)(S . 7)(D . 9)(H . 9)(D . 2)(H . 6)) '(draw discard discard discard ) 314)
+
+(play '((H . 7)(H . Q)(D . 5)(S . A)(H . K)(S . 6)(D . Q)(H . A)(C . 6)(H . 9)(C . 9)(S . 9)(H . 5)(H . 4)(C . 7)(D . 3)(H . 2)(D . J)(S . 5)(C . Q)(H . 8)(C . K)(C . 2)(D . 8)(S . Q)(D . A)(D . 6)) '(draw discard discard discard discard draw draw draw discard draw discard draw draw draw draw draw discard draw ) 352)
+
+(play '((H . 8)(H . K)(C . 5)(S . K)(C . 6)) '(discard ) 14)
+
+(play '((H . 7)(D . K)(C . 2)(D . A)(C . 3)(D . 2)(S . 8)(C . 5)(H . 3)(S . A)(S . 2)(S . 7)(H . K)(C . J)(S . J)(H . 9)(D . 9)(S . 5)(D . J)(S . 4)(C . 9)(H . Q)(D . 6)(S . Q)(H . 8)(D . 8)(D . 5)(H . 5)(C . Q)(S . 9)(H . J)(C . K)(H . A)(C . 6)(C . 7)(D . 3)(D . 7)(S . 3)(S . K)(H . 4)(C . A)(H . 2)) '(draw discard discard draw discard draw discard discard discard draw draw discard discard draw draw draw discard discard ) 322)
+
+(play '((C . Q)(C . 2)(D . Q)(H . 7)(S . 7)(C . J)(S . Q)(C . 7)(S . K)(C . 8)(C . 4)(C . 5)(S . 9)(H . 6)(D . K)(H . A)(S . A)(H . 2)(D . 3)(D . 7)(S . 6)(H . 4)(C . K)(C . A)(D . A)(D . J)(H . 3)(S . 2)) '(draw discard discard discard draw discard discard draw discard discard discard discard discard draw discard discard draw discard discard draw draw draw discard ) 312)
+
+(play '((S . 4)(H . 3)(H . 8)(D . 9)(H . 9)(H . K)(H . 2)(D . 4)(H . 6)(H . A)(S . 6)(C . 9)(H . Q)(S . 5)(C . 5)(C . 8)(D . 7)(C . 7)(H . 4)(D . J)(S . Q)(C . Q)(D . 8)(D . K)(D . 6)(S . A)(S . 9)(H . 5)(C . 6)(S . K)(C . K)(C . 4)(C . 3)(S . 8)(D . 5)(S . 2)(D . A)(H . J)(C . J)(D . 2)) '(draw draw draw discard draw discard discard discard discard draw draw discard draw draw discard discard discard discard discard draw draw draw draw discard draw discard discard draw draw draw discard ) 75)
+
+(play '((D . 6)(C . 3)(D . 8)(C . 8)(S . K)(S . 8)(C . 6)(H . Q)(S . 9)(D . K)(S . 6)(H . 7)(D . 3)(H . 4)(S . J)(H . K)(D . 4)(H . 6)) '(discard discard discard discard ) 344)
+
+(play '((D . 8)(D . 9)(C . 5)) '(discard draw draw ) 193)
+
+(play '((C . 8)(S . Q)(S . 6)(S . 3)(D . 7)(H . 4)(S . J)(D . Q)(H . 5)) '() 166)
+
+(play '((C . 3)) '(draw ) 46)
+
+(play '((C . 5)(H . 8)(D . 8)(C . 9)(C . 6)(S . 6)(H . 9)(S . 8)(H . J)(C . 4)(H . 3)(D . 7)(H . 4)(H . 6)(S . 9)(C . 7)(H . A)(H . K)(D . K)(D . J)(C . 3)(C . Q)(S . 5)(D . 5)(H . 7)(D . 4)(C . K)(S . 7)(S . 4)(S . J)(D . A)(D . 9)(D . 3)(S . K)(H . Q)(C . 8)(S . 2)(H . 5)(S . 3)(C . A)(D . Q)) '(discard draw discard draw draw draw draw discard discard ) 129)
+
+(play '((S . 2)(D . 8)(C . Q)(S . A)(H . 8)(D . J)(H . 4)(C . 9)(H . J)(H . K)(H . 5)(C . 6)(C . A)) '(discard draw draw discard discard ) 198)
+
+(play '((D . 4)(S . 3)(H . 4)(D . 7)(C . J)(H . 5)(H . 2)(S . 7)(S . 6)(C . K)(D . J)(S . 2)(C . 7)(H . Q)(D . 3)(C . 6)(H . 9)(H . A)(S . J)(H . 3)(C . A)(S . 4)(C . 8)(S . K)(H . K)(D . 5)(H . 6)(D . 8)(D . 9)(C . 2)(S . Q)(S . 9)(C . 4)(S . 8)(H . 8)(H . 7)(D . 2)(D . K)(D . 6)(D . Q)(S . A)(C . 9)(D . A)(S . 5)(H . J)(C . 3)) '(draw discard draw ) 273)
+
+(play '((H . 6)(D . 9)(C . J)(H . A)(H . 5)(S . 2)(C . K)(H . 8)(D . 5)(S . 5)(D . 3)(C . 6)(C . A)(D . 4)(D . Q)(S . A)(H . 3)(S . Q)(H . 7)(S . K)(C . 3)(S . 7)(C . Q)(S . 6)(S . 3)(D . 8)(C . 2)(D . 6)(D . A)(S . 9)(C . 4)(C . 7)(D . 7)(H . 9)(H . 4)(D . 2)) '(discard draw discard ) 265)
+
+(play '((S . 3)(D . A)(D . K)(C . 6)(H . 4)(S . 6)(H . Q)(S . 9)(D . J)(D . 3)(H . 8)(S . A)(C . K)(C . 7)(H . 7)(S . J)(H . K)(D . Q)(D . 7)(H . 3)(H . J)(C . J)(S . 2)(H . 9)(C . Q)(C . 4)(C . 2)(S . Q)(S . 4)(S . 5)(C . 3)(H . A)(D . 9)(S . 7)(D . 6)(D . 5)(S . 8)(D . 4)(H . 6)(D . 2)(S . K)(H . 5)(H . 2)(C . A)(D . 8)(C . 5)(C . 9)) '(draw discard discard draw discard discard discard discard draw draw discard discard draw discard draw discard draw discard draw draw draw discard discard draw discard draw draw draw draw discard discard draw ) 343)
+
+(play '((C . 8)(D . 6)(D . 5)(H . 3)(H . J)(C . 7)(H . 9)(S . K)(H . 6)(D . 2)(S . 4)(D . 8)(D . 7)(S . 6)(C . 2)(D . 3)(D . K)(S . 9)(H . A)(C . K)) '(discard discard discard discard discard draw discard draw discard discard draw draw discard discard discard ) 121)
+
+(play '((D . 8)(S . A)(H . 4)(D . 2)(H . J)(H . 8)(C . A)(S . J)(S . Q)(D . 4)(S . 3)(D . A)(S . 8)(H . K)(H . A)(C . 6)(C . 2)(H . 3)(S . 6)(C . 9)(D . 5)(S . 2)(H . 2)(C . 3)(D . 9)(S . 5)(D . Q)(D . J)(C . 5)(D . 7)(H . 9)(H . 6)(S . K)(C . 8)(C . 4)(S . 7)(D . K)(H . Q)(S . 4)(C . 7)(H . 5)(H . 7)(C . Q)(S . 9)(D . 3)(C . J)(C . K)(D . 6)) '(discard draw draw discard discard draw draw discard discard discard draw draw discard discard discard discard discard discard draw draw discard discard draw discard discard ) 251)
+
+(play '((C . 2)) '(draw ) 234)
+
+(play '((S . 2)(C . 3)(C . 2)(C . A)(S . 8)(S . 3)(H . 4)(D . 4)(S . Q)(H . 3)(S . A)(H . 8)(C . 4)(H . 2)(H . Q)(C . 6)(D . K)(D . 8)(S . 7)(C . K)(S . 5)(H . 5)(C . J)) '(discard draw draw draw discard draw discard draw draw draw discard ) 34)
+
+(play '((D . K)(C . 3)(S . 3)(C . K)(H . K)(C . 5)(H . 4)(H . 8)(C . A)(S . 8)(C . 6)(C . 9)(H . Q)(D . A)(C . 7)(D . Q)) '(draw discard draw draw draw ) 353)
+
+(play '((S . 9)(C . 7)(S . 7)(S . 8)(H . A)(H . K)(S . J)(H . 8)(D . 8)(D . 4)(H . 6)(C . Q)(D . J)(C . 9)(C . 6)(S . 6)(H . J)(H . Q)(S . K)(H . 3)(H . 7)(H . 2)(H . 9)(S . 5)(C . A)(S . 2)(D . Q)(D . A)(C . 5)(D . 6)(C . 2)(C . 8)(D . 9)(H . 5)(S . Q)(S . 4)(C . J)) '(discard draw discard discard draw draw draw draw discard discard draw draw draw draw draw ) 336)
+
+(play '((D . 4)(S . 6)(S . 9)(H . Q)(S . A)(S . 7)(D . 6)(D . K)(C . A)(S . Q)(C . 5)(H . 2)(S . 5)(C . 4)(H . 3)(H . 6)(C . 6)(C . 8)(C . 9)(S . 3)(H . 9)(H . 5)(C . Q)(H . 4)(S . K)(D . 7)(D . A)(C . 3)(C . J)(C . K)(D . 8)(D . 2)(H . K)(H . 7)(H . J)(D . 9)(H . 8)(S . 2)(D . 5)(D . J)(H . A)(C . 7)(D . Q)(S . J)(D . 3)(C . 2)(S . 4)(S . 8)) '(discard discard discard draw discard discard draw draw discard discard draw draw draw draw ) 110)
+
+(play '((H . 3)(D . A)(C . 2)(D . 6)(D . Q)(S . 7)(S . A)(C . Q)(D . 2)(D . 4)(C . K)(C . 6)(H . 4)(H . 5)(S . 9)(S . J)(H . 6)(D . J)(S . 5)(S . 3)(H . K)(C . J)(S . 8)(C . 4)(C . 9)(S . 4)(C . 8)(C . 5)(S . Q)(H . 8)(H . A)(C . 7)(H . Q)(D . K)(D . 3)(H . 9)(S . 6)(C . A)(D . 8)(H . J)(S . K)(C . 3)(D . 7)) '(discard discard discard draw draw discard draw draw ) 72)
+
+(play '((H . J)(H . 6)(H . 3)(C . 5)(H . 7)(C . A)(S . A)(C . K)(D . Q)(S . J)(C . 6)(C . 3)(S . 4)(S . 5)(C . 9)(S . 3)(D . 9)(D . A)(H . 5)(D . J)(C . 4)(D . 3)(S . 8)(H . Q)(H . 2)(H . 4)(D . 4)) '(discard discard draw draw draw discard draw draw discard draw discard draw draw discard discard draw draw discard draw discard draw draw draw draw ) 17)
+
+(play '((D . 3)(H . K)(H . J)(H . 8)(H . 5)(C . 9)(D . 9)(D . 7)(H . 6)(D . A)(C . 8)(S . J)(D . K)(H . 7)(C . 5)(H . 4)(D . 8)(H . 2)(S . 2)(S . 8)(H . 9)(S . 4)(C . 4)(S . 5)(C . Q)(C . K)(D . J)(S . A)(C . A)(S . Q)(H . A)(D . 6)(D . Q)(C . J)(D . 2)(D . 5)(H . Q)(H . 3)(S . 3)(S . K)(C . 7)(S . 9)(C . 6)(S . 6)(S . 7)(C . 3)(C . 2)(D . 4)) '(discard discard discard discard discard discard discard discard discard draw discard draw draw draw discard discard discard draw draw discard draw draw discard draw discard discard draw discard draw draw discard draw draw discard discard discard draw discard discard draw discard discard draw draw discard draw discard draw draw ) 186)
+
+(play '((D . J)(D . 3)(D . 7)(H . 2)(H . J)(S . Q)(H . 5)(S . 2)(S . 9)(S . 3)(C . 2)(D . K)(H . 7)(C . K)(H . K)(D . 4)(H . Q)(H . 8)(S . 6)(D . 6)(C . 9)(C . J)) '(discard discard draw discard discard draw discard draw discard discard draw ) 298)
+
+(play '((S . A)(H . Q)(C . Q)(H . 3)(D . 3)(D . 9)(H . K)(S . 2)(D . 4)(C . 6)(H . 6)(S . Q)(S . 7)(C . J)(D . 5)(C . K)(H . 2)(H . 8)(C . 2)(H . A)(C . 3)(D . 2)(D . 7)(C . 7)(D . Q)(H . 4)(D . 8)(S . J)(H . 5)(D . J)(H . 9)(H . 7)(S . 4)(S . 5)(C . 4)) '(draw discard draw draw draw draw discard discard draw discard discard ) 153)
+
+(play '((C . 9)(H . 6)(D . 9)(S . 6)(S . 9)(H . A)(S . 2)(C . 6)(H . J)(H . Q)(D . 8)) '(discard discard ) 356)
+
+(play '((D . 4)(S . 7)(D . K)(S . 2)(S . J)(D . 3)(S . 6)(S . A)(D . 9)(D . J)(C . 4)(C . 5)(D . A)(H . 7)(D . 2)(H . 8)(C . Q)(H . 3)(H . 2)(S . 8)(S . 3)(D . 5)(H . Q)(S . Q)(C . A)) '(draw ) 109)
+
+(play '((C . 8)(H . A)(H . J)(C . 9)(S . 4)(D . 4)(H . 8)(C . J)(D . K)(S . 9)(C . Q)(S . 2)(H . 5)(S . 7)(D . Q)(D . 3)(C . 2)(S . K)(D . 9)(H . 3)(H . Q)(H . 4)(S . 6)(C . 6)(C . K)(H . 6)(C . 3)(C . 7)(H . 2)(S . 3)(C . A)(H . K)(S . A)(S . 5)(D . J)(H . 9)(D . 7)(D . 2)(D . 5)(S . J)(S . 8)(H . 7)(D . 6)(C . 5)(D . 8)(C . 4)) '(discard discard discard draw discard discard draw draw discard draw discard discard discard discard discard discard draw draw draw discard draw discard draw draw discard discard discard draw discard discard draw discard draw ) 107)
+
+(play '((S . 9)(C . 9)(C . 6)(H . 2)(C . 8)(H . Q)(H . J)(D . 2)(H . 5)(H . 4)(S . 6)(C . A)(D . 9)(D . 8)(D . 4)(S . 7)(S . 5)(C . K)(S . A)(S . Q)(H . 9)(D . 6)(C . 2)(H . K)(S . 4)(H . 8)(C . Q)(C . J)(H . 7)(H . 6)(S . 3)(H . 3)(C . 7)) '(draw draw draw discard discard draw draw discard draw discard discard discard discard discard discard draw discard discard draw draw discard draw draw discard draw draw ) 118)
+
+(play '((H . 8)(S . Q)(H . 6)(C . 2)(H . Q)(D . 4)(H . 2)(S . 2)) '(discard draw draw discard discard draw ) 217)
+
+(play '((C . J)(D . J)(H . 9)(H . 6)(H . 5)(C . 4)(H . J)(S . J)(H . 2)(C . 2)(H . K)(D . 3)(D . A)(S . 3)(S . 7)(C . 5)(D . 2)(S . 8)(D . 5)(D . Q)(H . 4)(D . 9)(H . A)) '(draw draw draw draw draw draw draw draw ) 283)
+
+(play '((C . 4)(D . 7)(D . K)(D . J)(H . 7)(S . Q)(C . 3)(D . 5)(H . 4)(H . 3)(C . 9)(S . K)(D . 3)(C . A)(D . 9)(C . J)(H . 5)(H . 6)(H . A)(S . 6)(H . 8)(D . 4)(C . 2)(S . 4)(S . A)(C . 6)(D . Q)(H . 2)(S . 3)(C . Q)(H . J)(S . 5)(D . 2)(C . 8)(C . 7)(D . A)(S . 7)(D . 8)(C . K)(H . Q)) '(discard draw discard draw discard discard draw draw discard discard discard discard draw draw draw ) 340)
+
+(play '((H . K)(D . 4)(D . 2)(C . 4)(H . 5)(H . 7)(C . 6)(D . A)(H . J)(C . 9)(H . 4)(C . 2)(S . 5)(H . A)(D . 8)(H . 8)(C . 7)(S . 7)(H . 9)(D . 7)(D . 9)(S . 8)(C . 8)(D . 3)(C . 3)(C . Q)(S . K)(H . Q)(H . 2)(S . 6)(S . 9)(S . 4)(S . J)(D . 6)(C . 5)(C . J)(D . J)(D . Q)(D . K)(S . A)(C . A)(S . Q)(S . 2)(C . K)(H . 3)(S . 3)(H . 6)) '(draw discard discard draw draw discard discard discard discard draw draw discard draw discard discard discard discard discard draw ) 266)
+
+(play '((C . Q)(D . 2)(H . 5)(S . 4)(C . 3)(D . 6)(S . 3)(C . K)(S . 7)(D . 7)(S . J)(H . 8)(S . 2)(S . Q)(C . 9)(D . 8)(H . 7)(D . J)(C . J)(D . 5)(S . A)(D . 9)(C . 7)(S . 9)(S . 6)(C . 8)(H . 6)(D . Q)(H . J)(H . 9)(D . 4)(H . K)(C . 2)(C . A)(H . 3)(H . 4)(H . Q)(D . 3)(S . 8)(D . A)(C . 5)(H . 2)(H . A)(C . 4)(D . K)(S . K)(S . 5)(C . 6)) '(discard draw draw discard draw discard draw discard discard discard draw discard draw draw discard draw discard draw draw discard discard draw discard draw draw draw draw draw discard discard discard discard draw draw draw discard draw discard draw draw ) 153)
+
+(play '((D . 5)(C . A)(D . 8)(S . 2)(D . 3)(S . 9)(C . 9)(C . 5)(H . 8)(S . J)(D . 6)(S . K)(H . 2)(H . 9)(C . 2)(H . 4)(D . 4)(D . 2)(S . 3)(D . A)) '(draw discard discard draw draw draw draw draw discard discard draw draw draw discard discard discard discard draw draw ) 279)
+
+(play '((S . 4)(D . 4)(S . 7)(S . 3)(H . 3)(D . A)(S . 9)(H . J)(C . Q)(H . 6)(S . 6)) '(discard draw draw ) 95)
+
+(play '((C . 3)(H . 3)(S . 8)(H . Q)(S . 7)(D . 7)(H . 8)) '(draw draw draw discard ) 362)
+
+(play '((S . 3)(H . 2)(C . 2)(H . 8)(D . 6)(H . 5)(D . Q)(C . A)(C . K)(S . J)(D . A)(C . 3)(C . Q)(D . 5)(S . 9)(H . Q)(S . Q)(S . A)(D . K)(S . 5)(H . 3)(D . J)(D . 8)(H . 9)(H . A)(D . 4)(S . 4)(S . 7)(D . 7)(C . 8)(C . 9)(S . 6)(H . 7)(S . 8)(D . 3)(C . 6)(H . J)(C . 4)(C . 7)(H . 6)(C . J)(S . K)(H . K)(H . 4)(D . 2)(D . 9)(S . 2)(C . 5)) '(discard draw draw discard draw discard draw discard discard discard discard discard draw discard discard discard discard draw draw discard discard draw discard draw discard draw discard ) 169)
+
+(play '((S . A)(C . 4)(C . 6)(C . J)(S . 6)(S . Q)(C . 7)(D . 9)(S . 9)(H . 9)(H . Q)(D . 4)(H . 2)(C . Q)(C . 2)(H . 8)(C . 5)(H . 4)(D . J)(H . A)(H . K)(S . 4)(C . 9)(D . 8)(C . 3)(D . K)(D . A)(D . 6)(S . 3)(H . 3)(C . A)(D . 2)(D . Q)(D . 3)(H . J)) '(draw discard draw draw discard discard discard draw discard draw discard discard discard discard draw discard discard draw ) 351)
+
+(play '((C . Q)(S . 9)(H . K)(D . A)(D . K)(H . 6)(C . J)(S . K)(S . J)(S . Q)(C . A)(C . 6)(C . 5)(H . A)(D . 9)(C . 2)(C . 9)(H . 4)(S . 2)(D . 6)(C . 3)(C . K)(D . 4)(H . 9)(H . 7)(S . A)(H . J)(D . 5)(S . 7)(S . 4)(D . 2)(S . 6)(D . 8)(H . 5)(D . J)(S . 8)(S . 5)(C . 4)(H . Q)(H . 3)(D . Q)(D . 3)(C . 7)(H . 8)(H . 2)(D . 7)) '(discard discard draw discard discard discard discard draw draw draw discard discard draw discard discard discard draw draw discard discard discard draw draw discard draw draw draw draw discard discard draw discard discard discard draw discard discard ) 39)
+
+(play '((D . J)(D . 4)(S . 7)(C . K)(S . 9)(C . 5)(H . J)(S . 3)(C . J)(D . 9)(S . 6)(C . 8)(H . 7)(D . 5)(S . J)(H . K)(S . 8)(S . 5)(H . 3)(C . 3)(H . 4)(D . K)(C . 2)(D . 2)(C . 7)(H . Q)(S . 2)(S . Q)(C . 4)(D . 6)(S . K)(C . Q)(C . 9)(C . 6)(H . A)(H . 5)(D . 7)(H . 6)(D . 3)(S . 4)(D . A)(D . Q)(C . A)(H . 9)(H . 2)(H . 8)(S . A)(D . 8)) '(draw discard draw discard discard draw discard draw draw discard draw draw draw discard discard discard discard discard discard discard draw discard draw draw draw discard draw draw draw draw discard draw draw draw draw draw draw discard discard ) 7)
+
+(play '((S . 8)(S . 6)(H . K)(D . 3)(D . 7)(H . Q)(H . 2)(C . A)(D . 4)(S . 2)(H . 6)(D . 9)(H . 7)) '() 305)
+
+(play '((C . 6)(C . 3)(D . K)(S . J)(H . A)(D . 5)(D . 9)(H . Q)(S . 2)(H . 6)(D . 2)(C . 2)(C . 4)(C . 7)(C . 5)(H . 2)(D . 7)) '(draw draw ) 26)
+
+(play '((C . Q)(C . K)(C . 2)(H . 8)(H . Q)(C . 6)(D . 8)(D . Q)(D . 3)(D . 5)(S . 9)(C . 8)(H . 5)(C . 5)(D . 6)(H . J)(S . Q)(S . 8)(C . 9)(D . K)(C . 3)(H . 4)(D . J)(S . 2)(D . 7)(H . 6)(C . 7)(S . J)(C . A)(S . 5)(D . 9)(C . J)) '(draw discard draw draw discard draw ) 257)
+
+(play '((H . 2)(H . 6)(C . J)(C . 5)(C . 7)) '(discard discard ) 210)
+
+(play '((D . 7)(C . 7)(H . J)(D . 6)) '(discard draw draw draw ) 76)
+
+(play '((D . Q)(S . Q)(H . 6)(S . 3)(S . 6)(D . J)(D . 9)(C . 9)(D . 8)(S . J)(H . Q)(D . 4)(S . 7)(S . A)(H . A)(H . 9)(H . 7)(C . 2)(D . 2)(H . 8)(C . Q)(D . K)(S . 9)(H . 5)(C . 8)(C . J)(H . 2)(C . K)(S . 4)(C . 6)(C . A)(H . 3)(H . 4)(D . 3)(D . 5)(C . 5)(D . 6)(D . 7)(C . 3)(S . K)(D . A)(S . 2)(H . J)(C . 7)(H . K)(C . 4)(S . 5)(S . 8)) '(discard discard draw draw discard discard draw draw draw draw draw ) 102)
+
+(play '((C . A)(C . 5)(C . 9)(C . 2)(C . 8)(D . 8)(D . 5)(S . 3)(D . 6)(S . 7)(S . 2)(D . 9)(D . 2)) '(draw ) 256)
+
+(play '((C . Q)(C . 9)(D . 8)(S . 4)(C . A)(S . 3)(S . Q)(D . 9)(S . 8)(S . 6)(D . K)(H . 2)(D . 5)(H . 7)(H . 4)(S . 2)(S . 7)(H . Q)(S . A)(H . 3)(D . 4)(C . K)(H . J)(D . 7)(C . J)(C . 2)) '(discard ) 173)
+
+(play '((H . 6)(H . 4)(S . K)(S . 3)(C . 2)(H . Q)(D . K)(H . 2)(D . 9)(D . J)(H . 5)(C . A)(C . Q)(D . A)(C . K)(C . 4)) '(draw discard discard ) 107)
+
+(play '((S . 6)(C . 3)(H . 9)(S . J)(C . 5)(H . K)(S . K)(D . 2)(H . 8)(S . 2)(C . A)(D . 9)(D . 5)(H . Q)(C . 9)(S . 3)(C . 2)(C . J)(C . 8)(H . 5)(S . 7)(S . A)(C . 6)(S . 8)(D . J)(S . Q)(H . J)(H . 6)(D . 6)(S . 4)(H . 7)(D . K)(C . K)(S . 5)(H . A)(D . 8)(D . A)(H . 2)(H . 3)(D . 3)(D . 7)(H . 4)(D . 4)(D . Q)(C . 7)(C . 4)(C . Q)(S . 9)) '(draw discard draw discard draw discard draw draw draw draw draw discard discard discard ) 174)
+
+(play '((H . Q)(C . A)(H . 8)(D . 5)(C . 6)(C . J)(S . 4)(D . Q)(H . J)(C . 2)(C . 3)(C . 4)(D . J)(D . K)(S . Q)(C . K)(D . 3)(S . 5)(C . Q)(D . 2)(S . A)(H . 3)(D . 4)(H . K)(D . 8)(D . 9)(H . 4)(C . 5)(C . 8)(S . K)(H . 9)(H . 5)(D . 7)(S . 2)(H . A)(S . J)(S . 9)(S . 8)(H . 6)(S . 3)(C . 9)(H . 7)(C . 7)(D . A)(S . 6)(H . 2)(S . 7)(D . 6)) '(discard discard draw draw discard draw draw draw draw draw draw discard draw draw draw draw draw ) 155)
+
+(play '((S . 2)(H . 2)(S . 9)(H . 9)(C . K)(H . 5)(D . K)(H . Q)(H . 8)(H . 3)(S . 4)(D . 6)(D . 7)(D . 5)(C . 8)(C . A)(H . 7)(H . K)(D . Q)(C . 5)(C . 4)(D . 8)) '(draw draw draw discard discard draw discard discard discard draw discard draw discard draw discard ) 280)
+
+(play '((D . 8)(D . 7)(S . Q)(D . A)(C . 7)(H . 6)(D . J)(S . 5)(H . 8)(S . 9)(D . 6)(C . Q)(H . 4)(C . 5)(C . A)(D . 9)(H . A)(C . 2)(D . 5)(D . Q)(H . Q)(S . K)(H . 9)(D . K)(S . 6)(H . K)(D . 3)(S . A)(S . 4)(C . J)(S . 8)(H . 2)(S . J)(C . 3)(H . 5)(C . 6)(C . K)(S . 2)(C . 4)(H . J)(S . 7)(C . 8)(H . 3)(D . 2)(S . 3)(D . 4)(H . 7)(C . 9)) '(draw draw draw ) 135)
+
+(play '((S . 4)(H . 7)(D . 3)(C . K)(S . 2)(H . Q)(D . K)(C . 2)(H . 8)(D . 5)(D . 2)(H . A)(C . 8)(S . 6)(S . 7)) '() 228)
+
+(play '((S . Q)(H . 8)(D . 7)(H . 3)(C . 5)(C . 8)(S . 5)(D . 3)(C . Q)(H . 9)(D . 8)) '(draw draw discard discard discard draw ) 38)
+
+(play '((D . 5)(S . 8)(D . 2)(C . 7)(D . 9)(H . A)(D . J)(C . 5)(D . A)(C . J)(D . 7)(D . 6)(S . A)(H . K)(D . 3)(S . 4)(D . 8)(H . 7)(C . Q)(S . 9)(S . 5)(D . 4)(H . 8)(D . Q)(C . 3)(S . 6)(H . 2)(C . 8)(C . 4)(C . K)(H . J)(S . K)(D . K)(H . 9)(S . J)(S . 2)(H . 6)(C . 9)(C . 2)(S . 7)) '(discard discard draw discard ) 305)
+
+(play '() '() 53)
+
+(play '((S . 7)(D . 6)(C . 9)(C . K)(C . 4)(S . K)) '(draw ) 213)
+
+(play '((C . A)(S . A)(D . K)(C . 7)(D . 9)(S . 9)(H . 6)(C . 5)(S . Q)(C . Q)(H . 7)(C . 8)(S . 7)(H . Q)(D . 8)(D . 4)(S . K)(H . K)(H . 5)(C . 9)(C . K)(S . 4)(C . 4)(D . A)(S . 5)(S . 3)(D . 2)(H . J)(C . 6)(S . J)(D . 6)(S . 8)(H . 8)(C . 2)(D . 7)) '(draw draw draw discard draw draw discard discard discard discard discard discard discard discard discard draw draw discard discard ) 165)
+
+(play '((S . 3)(C . K)(H . Q)(D . 6)(H . 6)(H . 3)(C . 3)(D . 3)(D . 9)(C . Q)(D . Q)(D . J)(D . 8)(S . A)(H . 5)(C . 5)(C . 2)(D . K)(S . 6)(S . K)(S . Q)(C . 4)(H . 7)(H . 2)(H . 9)(D . 2)(S . 7)(C . 8)(S . 5)(C . 7)(D . 5)(D . A)(C . J)(S . 4)) '(draw draw discard draw draw draw discard draw discard discard draw draw draw draw discard discard draw discard draw draw discard draw draw discard draw ) 230)
+
+(play '((H . 3)(D . 8)) '(discard draw ) 52)
+
+(play '((C . 8)(D . 5)(H . 4)(D . 8)(C . 2)(C . A)(S . 3)(D . A)(H . 8)(S . 5)(S . 4)(H . A)(S . 8)(H . 5)(C . 3)(C . 5)(D . J)(S . 7)(D . 4)(D . 6)(S . 9)(H . Q)(S . Q)(C . Q)(D . Q)(H . 3)(H . 7)(C . 4)(C . 9)(S . J)(H . 2)(S . K)(C . K)(C . 7)(H . J)(D . K)(S . 6)(C . 6)(D . 7)(D . 9)(S . A)(H . K)(H . 9)(D . 3)(H . 6)(S . 2)(D . 2)) '(discard discard draw discard discard discard draw discard draw discard discard draw ) 63)
+
+(play '((S . K)(S . 5)(S . 7)(C . Q)(C . A)(D . K)(H . K)(H . 4)(C . 8)(H . 7)(C . K)(H . Q)(H . 6)(S . 4)(D . 8)(C . 7)(D . 2)(C . 4)(D . 3)(S . 9)(H . 2)(S . J)(D . J)(C . 3)(S . Q)(D . 7)(S . 6)(C . 2)(H . A)(H . 3)(S . 2)(S . 3)(S . 8)(D . 5)(H . 5)(H . 8)(C . J)(S . A)) '() 329)
+
+(play '((H . A)(H . K)(S . 5)(C . 3)(C . 5)(H . 9)(H . 7)(S . J)(H . 5)(D . 2)(C . 6)(C . Q)(C . 9)(S . 2)(D . 9)(D . A)(D . J)(D . Q)(C . K)(D . 6)(H . 2)(C . J)(C . 7)(C . A)(D . K)(H . 4)(S . 8)(S . 4)(S . 3)(D . 5)(H . Q)(H . 3)(S . 6)(D . 3)(S . K)) '(discard discard discard draw draw draw draw draw draw discard discard draw discard discard draw discard draw discard draw draw discard discard draw draw draw draw discard draw discard discard draw draw draw discard ) 62)
+
+(play '((D . 7)(S . 3)(C . 9)(C . 4)(C . A)(S . Q)(D . A)(S . 4)(D . 9)(C . J)(C . 6)(S . A)(S . 8)(H . J)(D . K)(D . 8)(H . 9)(H . 4)(S . J)(S . 5)(H . Q)(C . K)(S . 6)(H . 3)(C . Q)(H . 2)(H . K)(D . Q)(S . K)(H . 8)(C . 8)(S . 2)(D . 2)(C . 3)(S . 7)(H . A)) '(draw draw discard draw discard draw draw draw discard draw discard draw draw draw draw draw discard discard draw draw draw discard discard draw discard draw draw draw discard discard draw discard draw draw discard ) 47)
+
+(play '((C . 9)(H . 6)(H . 3)(H . 8)(S . 2)(C . 6)(D . 5)(C . A)(C . 5)(S . J)(S . 3)(C . 2)(D . 3)(C . Q)(C . 8)(H . 9)(D . A)(S . 7)(H . 2)(D . 9)(S . 5)(S . Q)(C . K)(D . Q)(C . J)(D . 6)(C . 7)(S . 6)(S . 4)(H . K)(S . A)(H . A)(C . 3)(D . 8)(S . 8)(H . 7)) '(discard draw discard ) 236)
+
+(play '((H . 3)(H . 2)(S . 9)(S . J)(H . J)(H . 6)(S . 4)(S . 6)(D . 5)(D . Q)(H . A)(H . K)(C . Q)(H . 9)(D . 4)(C . 5)) '(draw ) 272)
+
+(play '((H . 8)(H . 4)(S . Q)(C . K)(D . 8)(D . Q)(D . J)(C . 6)(C . 4)(H . 2)(D . 2)(H . Q)(D . 6)(C . A)(S . A)(C . 7)(H . J)(H . 7)(C . 5)(C . 3)(S . 7)(D . 3)(S . 3)(D . 5)(C . 2)(S . J)(D . 7)(S . 5)(S . K)(D . 4)(S . 9)(H . 9)(C . J)(C . 8)(H . 3)(D . 9)(H . 6)(S . 2)(S . 6)(C . 9)(S . 4)(D . K)(C . Q)(H . A)(S . 8)) '(draw draw draw discard discard draw discard discard discard draw discard discard draw draw discard discard discard discard discard discard discard discard discard discard draw draw discard discard draw draw draw discard draw discard discard discard discard draw discard draw ) 183)
+
+(play '((H . 9)(H . 7)(H . 5)(D . J)(C . 6)(H . Q)(D . 2)(H . 8)(S . 9)(S . 5)(D . 6)(C . Q)(C . K)(H . 2)(S . Q)(C . 8)(C . A)(C . 2)(H . K)(H . 6)(D . 4)(S . 6)(H . 3)(D . 9)(C . 9)(C . 4)(D . A)(C . J)(S . 4)(S . J)(H . 4)(D . 3)(D . 8)(D . Q)(D . K)) '(draw draw draw discard discard draw discard draw discard discard discard draw draw discard draw draw draw discard discard discard draw discard draw discard discard draw draw draw discard draw ) 115)
+
+(play '((H . 6)(D . J)(H . 4)(D . 2)(C . Q)(S . 7)(S . 3)(C . 3)(C . 4)(H . J)(D . Q)(C . K)(C . 9)(D . 4)(S . Q)(S . 9)(H . 9)(S . 5)(S . 4)(H . 8)(D . 5)(H . A)(C . 8)(D . K)(S . A)(C . J)(S . K)(H . Q)(D . 9)(D . 3)(H . 5)(C . 6)(S . 2)(S . 8)(H . 2)(S . J)(H . K)(C . A)(H . 7)(D . 7)(S . 6)(C . 2)) '(draw discard draw discard discard discard discard draw discard draw discard discard discard draw draw discard discard discard discard discard discard draw discard discard discard draw draw ) 127)
+
+(play '((S . J)(D . 4)(S . 2)(S . 7)(C . 4)(C . K)(C . A)(D . 8)(D . 2)(S . A)(C . 2)(S . 5)(D . J)(S . 8)(S . 6)(C . 8)(S . 9)(S . K)(S . 4)) '(discard draw ) 185)
+
+(play '((C . 3)(D . 2)(D . 7)(C . 5)(S . 6)(C . J)(C . K)(S . Q)(S . 4)(H . 8)(S . J)(C . 7)(D . 6)(H . 9)(S . K)(D . 4)(C . 9)(C . Q)(H . J)(S . A)(D . J)(D . 8)(H . 5)(H . K)(H . 6)(H . A)(C . A)(S . 2)(S . 7)(S . 9)(S . 8)) '(discard ) 181)
+
+(play '((C . 7)(D . 9)(D . 8)(C . 3)(S . A)(C . J)) '(discard discard discard discard ) 329)
+
+(play '((C . J)(C . 6)(C . 2)(S . K)(S . 8)(D . 7)(S . 2)(C . 3)(D . 3)(H . 9)(H . 3)(C . 7)(D . 6)(H . J)(H . K)(D . K)(D . J)(D . 4)(S . 9)(H . 7)(H . A)(H . 5)(C . Q)(C . 5)(C . 4)(S . 4)(H . 6)(C . A)(C . K)(H . Q)) '(discard discard discard discard draw discard draw draw discard draw discard draw draw draw discard discard ) 255)
+
+(play '((C . 5)(C . 8)(D . J)(S . Q)(D . Q)(H . 4)(H . 2)(D . 8)(C . 2)(H . 7)(D . K)(S . 8)(C . Q)(H . 3)(H . J)(S . K)) '(draw discard draw discard ) 142)
+
+(play '((C . 6)(D . 2)(H . J)(D . 7)(D . 6)(C . K)(C . 4)(D . K)(H . 2)(C . 5)(D . 8)(C . A)(H . 9)(D . 9)(H . 5)(H . 7)(C . 8)(S . 7)(S . Q)(C . 7)(S . 3)(H . 3)(C . 3)(S . 5)(S . J)(D . Q)(H . K)(D . J)(D . 4)(D . A)(S . 4)(C . J)(S . 2)(C . 9)(S . K)(H . 4)(C . Q)) '(discard discard draw draw discard draw draw discard draw draw draw discard draw draw draw discard draw draw draw ) 30)
+
+(play '((D . 7)(H . 9)(D . J)(C . J)(C . A)(S . 7)(D . 9)(S . Q)(D . 3)(C . 7)(C . 4)(D . 8)(H . 6)(S . J)(D . 6)(H . A)(H . Q)(H . 2)(D . Q)(S . 9)(S . 2)(H . K)(H . 3)(S . 5)(H . 8)(D . K)(C . 5)(H . 5)(S . 4)(H . 4)(C . 2)(C . Q)(C . 3)(D . 2)(H . J)) '(draw discard discard draw draw discard discard discard discard draw discard draw draw draw draw discard discard draw discard draw draw discard draw draw discard discard draw discard draw discard discard discard draw discard draw ) 214)
+
+(play '((S . 7)(D . 3)(C . 4)(D . 8)(S . 2)(C . 8)(H . K)(C . 5)(S . 8)(H . 2)(S . K)(S . J)(D . K)(H . 4)) '(draw ) 91)
+
+(play '((H . K)(H . 9)(D . Q)(C . 8)(D . 8)(H . 7)(C . 6)(C . J)(S . 4)(S . K)(H . 4)(C . 4)(D . K)(D . 5)(C . Q)(S . 9)(S . 5)(D . 2)(H . 8)(C . 9)(S . 7)(H . 2)(D . 6)(S . J)(C . K)(D . 4)(C . 2)(H . A)(S . 6)(D . 7)) '(draw draw draw discard draw discard discard discard draw draw discard ) 226)
+
+(play '((H . 2)(D . J)(H . 5)(H . 7)(D . 6)(S . 3)(C . K)(S . J)(S . Q)) '(discard ) 345)
+
+(play '((H . 7)(H . 6)(S . 5)(D . 8)(H . A)(D . 9)(H . J)(S . 2)) '(discard ) 83)
+
+(play '((C . J)(D . 7)(S . 6)(S . 5)(C . 7)(S . Q)(D . 5)(H . 5)(H . J)(H . 4)(H . 2)(S . 7)(C . K)(D . A)(S . 9)(D . K)(C . 2)(H . 3)(C . 4)(S . A)(D . 6)(H . K)(D . 8)(S . K)(D . 4)(C . A)(D . 2)(S . 2)(C . 5)(H . 9)(D . Q)(H . 6)(C . 6)(S . 4)(H . 7)(H . Q)(C . 3)(S . 3)(H . A)(C . 8)) '(discard discard discard draw discard draw discard discard draw draw draw discard discard discard ) 65)
+
+(play '((H . J)(S . 2)(C . 6)(C . 5)(D . 7)(H . A)(H . 5)(D . 8)(C . 3)(D . K)(C . A)(C . Q)(D . 4)(H . 8)(C . 4)(S . 7)(S . 3)(C . 7)(S . Q)(H . 7)(D . 5)(C . 9)(D . 6)(H . K)(S . K)(D . 3)) '(draw discard discard draw discard draw draw discard discard discard draw draw draw draw discard discard draw draw draw discard ) 295)
+
+(play '((D . 4)(S . 9)(S . K)(S . 2)(H . 6)(C . 6)(D . 2)(D . Q)(H . 3)(H . 9)(H . 8)(H . A)(H . 4)(D . A)(D . 6)(S . 4)(S . 7)(D . 3)(C . Q)(C . 7)(C . 9)(D . 8)(C . A)(S . 3)(S . J)(D . J)(H . 5)(H . Q)(H . K)(S . 5)(S . A)(D . K)(C . J)(H . J)(C . 2)(C . K)(D . 7)(D . 5)(S . 8)(S . 6)(H . 7)(D . 9)(H . 2)(C . 5)(C . 8)(S . Q)(C . 4)(C . 3)) '(discard discard discard draw draw draw draw discard draw draw discard discard discard draw discard discard discard discard draw draw discard discard draw draw draw discard draw draw draw draw discard draw discard discard draw discard draw discard discard draw draw ) 49)
+
+(play '((S . Q)(D . K)(H . 2)(H . K)(H . 8)(D . J)(C . 9)(S . 4)(C . 4)(D . A)(S . 3)(S . 9)(C . Q)(S . 8)(D . 6)(H . Q)(H . 4)(C . 8)(C . 6)(D . 5)(S . 7)(C . A)(H . 3)(H . J)(D . 8)(C . 5)(D . 2)(S . K)(D . 4)(S . 2)(D . 3)(D . Q)(C . 3)(C . 2)(D . 7)(H . 5)(H . A)(S . A)) '(discard draw discard ) 4)
+
+(play '((D . Q)(S . 8)(D . 7)(C . 5)(H . 9)(H . Q)(C . 4)(S . 7)(D . 9)(C . 9)(D . 2)(S . 9)(H . A)(D . 3)(C . 3)(H . 6)(C . 6)(C . Q)(S . Q)(H . 3)(D . K)(S . 3)(D . A)(C . A)(S . 4)(S . K)(S . A)(H . 2)) '(discard draw draw ) 160)
+
+(play '((D . 7)(H . K)(H . J)(C . 6)(S . 9)(S . Q)(H . 2)(C . 7)(H . 6)(C . 3)(S . 6)) '(draw discard discard discard discard ) 38)
+
+(play '((D . J)(H . J)(C . 6)(D . 3)(S . 8)(S . 9)(D . 6)(C . J)(D . Q)(H . Q)(S . 3)(H . 6)(S . K)(H . 7)(D . A)(D . 7)(H . A)(S . Q)(C . 4)(C . 5)(S . 7)(D . 5)(H . 4)(S . 6)(D . 2)(C . 8)(H . 8)(S . 5)(C . A)(C . 3)) '(discard discard draw draw discard discard discard draw discard discard discard draw discard draw draw discard draw draw discard discard draw discard ) 253)
+
+(play '((C . 2)(D . 4)(C . Q)(H . A)(C . A)(S . 2)(S . K)(H . 9)(D . Q)(C . 5)(D . 5)(D . 6)(S . 6)(S . J)(H . 3)(H . Q)) '(draw discard draw ) 248)
+
+(play '((H . 4)(D . 4)(H . J)(C . 8)(H . Q)(H . 6)(S . A)(H . 9)(H . 3)(S . Q)(S . 2)(C . Q)(H . K)(C . 4)(D . 2)(C . K)(D . 9)(D . 6)(S . 9)) '(draw ) 0)
+
+(play '((S . A)(H . A)(S . 9)(D . J)) '(draw draw discard ) 63)
+
+(play '((D . 7)(D . K)(C . 6)(C . Q)(C . 2)(D . 9)(S . 6)(C . K)(H . 4)(C . 4)(C . 3)(C . 9)(H . 3)(S . 2)(S . 8)(S . 3)(S . K)(H . 9)(H . K)(D . 2)(D . 8)(C . 7)(D . Q)(D . 4)(C . 5)(S . 5)(H . A)(D . J)(H . Q)(C . 8)(S . J)(S . Q)(H . J)(D . 3)(D . 6)(C . J)(H . 8)) '(discard discard discard draw discard discard discard draw draw discard draw discard draw discard draw discard discard draw draw discard draw draw draw discard draw discard discard draw draw ) 256)
+
+(play '((D . 6)) '(discard ) 148)
+
+(play '((C . 3)) '(discard ) 250)
+
+(play '((S . J)(C . 7)(D . J)(D . 4)(D . K)(H . 5)(D . Q)(C . 4)(H . 4)(D . 6)(H . 2)(D . 7)(H . K)(D . 3)(H . 6)(C . J)(H . 3)(D . 8)(C . Q)(H . A)(H . 9)(S . 3)(S . A)(S . Q)(H . Q)(C . 3)(S . 8)(C . 5)(S . 7)(S . 2)(D . 5)(C . A)(H . 8)(H . 7)(D . A)(C . K)(S . 9)(S . 6)(C . 9)(D . 2)(C . 2)(S . 5)(C . 6)(C . 8)(D . 9)(S . K)(H . J)(S . 4)) '(draw draw draw discard draw draw draw discard draw draw discard discard ) 343)
+
+(play '((D . 4)(H . K)(H . 9)(D . 7)(H . 3)(C . Q)(D . 6)(D . 5)(H . 6)(H . A)(S . 2)(S . J)(H . 4)(C . 9)(D . 9)(S . 3)(H . 5)(H . Q)(S . Q)(C . 7)(S . 4)(D . K)(C . 5)(C . 2)(D . Q)(C . 4)(C . 3)(C . 6)(D . J)) '() 156)
+
+(play '((C . 9)(H . 8)(C . J)(D . 2)(S . 6)(S . 2)(D . J)(S . J)(C . 5)(C . 7)(D . 8)(C . A)(C . 6)(S . 4)(H . 5)(D . Q)(C . 4)(C . 3)(S . A)(H . J)(D . 6)(C . Q)(D . 9)(H . 6)(H . 2)(D . 3)(D . 7)(H . 9)(D . 5)(C . K)(H . 7)(D . K)(S . 5)(D . 4)(S . 7)(H . K)(S . 9)(H . Q)(H . 4)(S . 8)(S . K)(H . A)(D . A)(H . 3)(C . 2)(C . 8)(S . 3)) '(discard discard draw discard discard draw discard discard discard draw discard draw discard draw discard draw draw discard discard draw draw draw draw discard discard discard draw discard discard draw discard ) 320)
+
+(play '((D . 8)(C . 8)(S . J)(C . Q)(C . 9)(D . 2)(D . 6)(H . A)(H . 6)(D . 5)(C . A)(S . 5)(H . 2)(S . 3)(C . 5)(D . 9)(D . 3)(C . 4)(C . 2)(H . 3)(C . 3)(D . J)(H . 9)(C . 6)(H . 7)(S . 4)(D . Q)(S . A)(C . 7)(S . 7)(D . 7)) '(draw discard draw discard discard discard ) 6)
+
+(play '((D . 3)(S . 6)(D . J)(S . 2)(H . 9)(S . 3)(C . A)(S . 9)(D . Q)(D . A)(C . Q)(C . K)(C . 6)(S . A)(H . Q)(C . 4)(C . 2)(C . 8)) '(discard draw draw draw discard discard ) 61)
+
+(play '((H . 7)(S . A)(D . 5)(S . Q)(D . Q)(C . 6)(D . A)(C . A)(S . K)(S . 5)(D . 7)(C . 9)(H . 3)(S . 7)(H . J)(D . 3)(S . 8)(D . 9)(H . K)(C . 3)(C . 5)(C . K)(S . 4)(S . 9)(S . 6)(H . 8)(D . 2)(S . J)(C . Q)(C . J)(H . 9)(H . 5)(C . 8)(D . 4)(D . 8)(H . Q)(D . 6)(D . K)(H . 4)(C . 4)(H . A)(H . 6)(S . 3)) '(draw draw draw discard draw discard discard discard discard discard draw discard draw draw discard discard ) 134)
+
+(play '((C . J)(C . 7)(C . 5)(D . A)(C . 2)(D . 6)(S . 6)(D . 3)(D . 5)(S . A)(C . 8)(D . Q)(H . 9)(H . 4)(H . 8)(C . 9)(D . 9)(D . 7)) '(draw discard draw discard draw discard draw discard draw discard draw discard discard ) 46)
+
+(play '((S . 2)(S . 8)(C . 4)(D . 6)(D . 7)(H . Q)(S . 6)(C . 8)(C . Q)(D . 8)(C . J)(D . 2)(H . 9)(H . 6)(C . 3)(S . 9)(D . Q)(H . A)(H . 5)(S . K)(D . 4)(C . 7)(H . 3)(S . 5)(H . J)(H . 7)(S . 7)(S . A)(D . 9)(D . 3)(H . 2)(C . 9)(D . 5)(S . Q)(D . K)(C . 2)(C . A)(C . 6)(S . J)(C . K)(D . J)(H . 4)(H . 8)(S . 4)(C . 5)(H . K)(S . 3)(D . A)) '(discard discard draw discard draw discard draw discard discard discard discard discard draw discard discard discard draw draw draw draw draw discard discard draw discard ) 81)
+
+(play '((H . 4)(H . A)(D . 6)(S . Q)(H . Q)(H . K)(H . 3)(H . 2)(S . 3)(H . 8)(S . J)(D . 4)(S . 9)(S . 7)(D . 9)(D . 5)) '(draw ) 59)
+
+(play '() '() 130)
+
+(play '((S . 3)(S . J)(H . 4)(C . 8)(S . 6)(C . K)(H . Q)(S . 4)(C . 3)(H . 5)(D . 3)(C . 5)(C . J)(D . K)(H . 3)(S . 8)(S . Q)(D . J)(D . 5)(H . 8)(H . 6)(H . 7)(C . 9)(S . 5)(D . 7)(H . A)(C . 4)(S . 2)(C . Q)(S . 7)(D . A)(S . A)(S . 9)(S . K)(D . 8)(D . Q)(H . 2)(C . 2)(H . K)(C . 7)(C . A)(D . 2)(D . 9)(D . 6)(C . 6)(H . 9)(D . 4)) '(draw discard discard discard draw discard draw draw discard draw draw discard draw draw draw draw discard draw discard discard discard draw discard draw draw discard draw discard draw draw draw discard discard draw discard draw draw discard draw draw discard draw discard draw draw draw ) 238)
+
+(play '((S . 6)(D . Q)(H . 5)(D . 9)(C . K)(S . K)(C . J)(D . J)(D . 5)(C . 2)(C . 5)(C . 3)) '(draw discard discard draw discard draw discard draw draw discard draw draw ) 96)
+
+(play '((D . J)(D . 2)(D . A)(S . 6)(S . K)(H . 6)(D . 9)(C . 9)(H . 5)(S . 5)(C . 2)(D . K)(H . 7)(S . Q)(C . 8)(H . 9)(S . 4)(C . J)(C . 6)(C . Q)(C . 3)(H . J)(S . 2)) '() 167)
+
+(play '((C . 9)) '() 213)
+
+(play '((H . 7)(D . K)(D . 5)(D . 2)(D . 9)(D . Q)(H . 5)) '(draw discard draw draw discard discard discard ) 234)
+
+(play '((D . 3)(D . 9)) '() 282)
+
+(play '((S . Q)(D . J)(D . 6)(H . J)(D . 7)(D . Q)(C . 6)(S . K)(D . 8)(S . 7)(S . 2)) '(draw discard discard discard discard draw discard draw ) 235)
+
+(play '((H . J)(S . 7)(S . A)(C . 7)) '(discard draw discard discard ) 353)
+
+(play '((C . 7)(C . 9)(H . 5)(H . 9)(C . 2)(C . A)(C . 5)(D . 2)(S . 4)(C . K)(D . J)(H . 6)(S . A)(H . J)) '(draw draw discard discard discard draw draw draw discard draw draw ) 362)
+
+(play '((H . Q)(H . 8)(D . 3)(C . 8)(D . A)(H . J)(D . 6)(D . 8)(H . 2)(S . K)(D . 2)(D . J)(D . 9)(H . 9)(C . 6)(H . 6)(C . 5)(H . 7)(C . 4)(S . 9)(D . K)(S . J)(S . 2)(C . Q)(H . 4)(H . 3)(S . 3)(C . 7)(D . 7)(H . K)(D . 5)(S . 8)(S . 6)(D . Q)(S . A)(C . K)(S . 7)(H . 5)(C . 9)(D . 4)(C . 3)(S . Q)(S . 5)(S . 4)(C . A)(C . J)(C . 2)(H . A)) '(discard draw draw draw draw discard discard discard discard draw draw draw draw draw draw draw draw draw draw discard discard draw discard draw discard draw draw discard draw draw discard draw draw draw draw discard draw discard discard ) 4)
+
+(play '((H . 8)(D . 2)(S . 5)(S . 2)(S . J)(D . A)(H . 3)(C . 5)(S . 3)(H . K)(D . 5)(C . 8)(S . 4)(D . J)(C . 6)(D . 3)(S . 7)(C . Q)(H . Q)(C . 2)(C . 9)(C . K)(H . 6)(S . K)(D . 6)) '(draw ) 93)
+
+(play '((H . 7)(H . J)(H . 5)(D . 3)(C . 9)(S . 5)(D . 9)(H . 6)(S . 9)) '(draw draw draw discard ) 304)
+
+(play '((H . 9)(C . Q)(D . 7)(C . 9)(C . K)(S . 3)(C . A)(H . 3)(S . K)(S . 4)(H . Q)(S . 8)(S . 6)(H . K)(S . 5)(D . 4)(S . J)(D . Q)(C . 2)(C . J)(D . 2)(C . 4)(S . A)(D . A)(H . 7)(C . 6)(C . 3)(C . 7)(H . 8)(H . 2)(D . 8)(H . 5)(D . 6)(D . 5)(C . 8)(C . 5)(H . A)(S . 2)(S . 9)) '(discard discard draw discard draw draw draw discard draw discard discard draw discard draw draw draw draw discard ) 187)
+
+(play '((H . 5)(D . 3)(C . 8)(S . 4)(H . 3)(D . Q)(C . 3)(S . 6)(S . 9)(D . 5)(H . J)(D . K)(S . J)(C . 7)(C . 2)(D . 9)(H . 8)(S . 8)(C . J)(C . 9)(H . 6)(S . 2)(D . 7)(H . A)(S . K)(H . K)(S . 5)(C . Q)(S . 3)(S . 7)(D . 6)(C . 6)(D . 2)(H . 2)(H . 9)(H . 7)(C . A)(C . 5)) '(discard discard draw discard discard discard draw draw discard discard ) 179)
+
+(play '((S . K)(H . Q)(D . 3)(C . 8)(C . 7)(C . J)(S . 2)(C . 2)(C . 5)(H . 4)) '(draw draw draw draw ) 0)
+
+(play '((H . 6)(S . 6)(S . Q)(D . 2)(S . K)) '(discard discard discard ) 83)
+
+(play '((C . 6)(D . 9)(C . A)(S . J)(S . A)(S . 7)(S . 2)(C . 9)(S . 9)(H . 9)(D . A)(D . 3)(D . 2)(H . Q)(H . 5)(D . K)(H . 6)(D . J)(H . 8)(D . 8)(C . 2)(C . 5)(H . 2)(C . 4)(S . Q)(D . 5)(C . J)(S . 5)(H . 3)(D . Q)(H . J)(D . 4)(H . K)(H . 7)(C . 8)(H . 4)(C . Q)(S . 8)(C . 7)(S . 6)) '(draw draw discard discard draw draw discard draw discard draw discard discard draw discard draw draw draw discard discard discard draw discard draw draw discard discard draw discard discard discard discard discard draw draw discard draw discard discard draw ) 304)
+
+(play '((H . 7)(D . A)(D . 8)(C . 8)(H . K)(C . 4)(D . 4)(H . 5)(D . 6)(S . 8)(D . Q)(S . 6)(D . 2)(S . 3)(D . 3)(C . 3)(H . J)(D . 9)(C . 6)(H . A)(C . K)(C . 2)(S . 7)(H . 9)(C . Q)(D . J)(H . 4)(S . J)(H . 8)(D . 7)(S . Q)(C . A)(S . 9)(S . 2)(C . 9)(C . J)(H . Q)(S . 4)(C . 5)(H . 6)) '(draw draw draw discard discard discard discard ) 292)
+
+(play '((D . 6)(C . 9)(H . 8)(S . 5)(S . 3)(D . 5)(S . 4)(C . 3)(S . 7)(C . 2)(C . K)(D . 9)(D . 2)(S . Q)(H . K)(C . J)(D . 7)(H . A)(D . Q)(C . 7)(H . Q)(C . Q)) '(discard discard draw draw draw discard discard discard discard draw discard draw discard draw draw discard draw discard discard draw draw discard ) 296)
+
+(play '((C . 4)(H . 3)(S . A)(D . 3)(H . 6)(S . 5)(S . 4)(S . 3)(S . 2)(S . J)(S . Q)(C . J)(H . A)(D . 5)(D . 7)) '(discard discard discard discard discard discard discard discard draw draw draw discard discard ) 98)
+
+(play '((C . 4)(D . 7)(C . 8)(H . 6)(S . J)(D . 8)(C . A)(H . 9)(H . 7)(D . K)(C . 9)(H . 5)(D . 4)(H . K)(H . 2)(C . 7)(S . 9)(S . 6)) '(draw discard draw discard discard discard draw discard discard discard discard draw draw draw discard draw discard draw ) 56)
+
+(play '((S . 7)(S . K)(D . K)(C . 2)(C . J)) '(discard draw discard draw draw ) 224)
+
+(play '((C . A)(D . 5)) '(draw ) 233)
+
+(play '((C . Q)(C . 7)(D . 7)(S . 5)(S . 8)(D . K)(H . 6)(D . 8)(C . 9)(H . 4)(C . J)(D . 6)(C . A)(H . 9)(S . A)(H . Q)(C . 8)(H . K)(S . Q)(C . K)(H . J)(S . 2)(C . 3)(S . 6)(C . 4)(H . 2)(S . 4)(D . Q)(D . J)(H . 3)(H . A)(S . 7)(S . J)(D . 9)(D . 4)(H . 8)(D . 2)(D . 3)(S . K)(C . 2)(H . 5)(D . A)(C . 6)(S . 9)(S . 3)) '(discard discard draw draw discard discard draw discard draw draw draw discard draw discard draw discard discard discard draw discard discard draw discard discard discard draw discard discard discard discard discard discard discard ) 9)
+
+(play '((H . 9)(S . Q)(H . 4)(C . 2)(S . 7)(S . 5)(S . 6)(S . A)(C . A)(C . 9)(D . Q)(S . J)(D . 8)(C . 7)(C . 8)(S . 8)(D . 7)(H . 3)(H . K)(D . A)(D . 4)(C . 3)(D . J)(H . 6)(H . 2)(D . 2)(H . 5)(C . 4)(S . 3)(D . 9)(H . 8)(D . 5)(D . 3)(D . K)(S . 9)(C . K)(C . Q)(C . J)(S . K)(H . A)(H . 7)(H . J)(S . 4)(C . 5)(S . 2)(D . 6)(H . Q)) '(draw discard discard draw draw draw draw draw draw discard draw discard discard discard draw draw draw discard discard draw draw discard draw discard draw discard draw discard draw discard draw draw draw draw draw discard draw ) 352)
+
+(play '((C . 2)(D . 8)(H . A)(C . 5)(D . 2)(C . 9)(S . 6)(D . 9)(H . 5)(S . 8)(H . 2)(H . 6)(S . 4)(C . A)(C . 7)(S . K)(D . 4)(S . 9)(H . K)(S . Q)(H . 8)(D . 5)(H . 7)(D . K)(S . 2)(H . 4)(D . 7)(D . Q)(S . A)(C . 8)(S . 7)(S . J)(S . 5)(H . 9)(D . 6)(C . Q)(H . J)) '(draw draw discard discard discard discard discard discard draw draw draw discard discard draw discard draw draw discard discard discard draw ) 279)
+
+(play '((D . 7)(D . 6)(C . 9)(H . A)(D . 3)(C . 7)(C . K)(H . 6)(D . 4)(S . K)(H . 9)(H . 3)(C . A)(C . 5)(S . A)(C . 3)(D . 2)(D . A)(H . Q)(D . 5)(C . 4)(C . J)(H . 7)(D . J)(S . 3)(S . 4)) '(discard draw draw draw draw discard discard ) 31)
+
+(play '((S . 2)(H . 5)(H . 9)(C . A)(H . 4)(H . Q)(H . 8)(D . 5)(D . 7)(D . K)(H . J)(H . 3)(D . 4)(S . 4)(H . 7)(D . 3)(C . 5)(D . 8)(S . J)(D . Q)(S . 8)(S . 5)(S . 3)(D . 9)(C . 4)(S . K)(C . 2)(S . 9)(H . A)(C . 3)(C . K)) '(discard discard discard discard draw discard draw draw ) 356)
+
+(play '((C . 2)(H . 6)(S . 3)(D . 5)(S . 6)(S . K)(D . 7)(S . 4)(C . 4)(C . 5)(D . 8)(H . 8)(H . K)(C . 7)(D . Q)(S . 5)(D . 6)(H . 9)(S . 2)(C . Q)(C . 8)(C . 6)(C . 3)(D . 3)(H . Q)(D . A)) '(discard draw discard discard draw discard draw discard discard discard draw ) 48)
+
+(play '((C . A)(C . 4)(S . 2)(H . 5)(D . K)(H . A)(D . Q)(D . 3)(C . 5)(D . 6)(C . 9)(D . A)(S . 9)(H . 2)(S . 6)(S . K)(C . 3)(C . J)(H . 4)(S . 3)(C . 8)(S . 8)(H . Q)(C . K)(H . K)(S . J)(H . 9)(C . 2)(H . 6)(S . A)(S . 4)(H . 7)(D . 7)(H . J)(C . Q)(C . 6)(S . 5)(H . 3)(S . 7)(D . 5)(D . 2)(S . Q)(D . J)(H . 8)(C . 7)) '(draw draw draw discard draw draw draw discard draw discard discard draw draw draw draw draw discard draw discard discard draw discard discard draw discard discard draw discard draw draw draw draw discard discard draw draw discard draw draw draw draw draw discard ) 219)
+
+(play '((D . 3)(H . 2)) '() 32)
+
+(play '((H . 2)(D . 9)(S . 7)(S . A)(H . Q)(D . 5)(C . 9)(C . J)(S . 4)(C . Q)(S . 9)(C . 7)(D . 2)(D . J)(S . J)(C . 2)(D . K)(S . Q)(C . A)(H . J)(S . 6)(D . A)(H . 6)(S . 3)(H . 4)(H . 8)(H . K)(S . 8)(D . 4)(C . 5)(H . 3)(H . 5)(S . K)(C . 3)(D . 7)(S . 5)(C . 8)(H . 7)(H . A)(S . 2)(C . 4)(D . 6)(C . 6)(H . 9)) '(discard draw discard draw discard discard discard draw discard discard draw discard discard draw discard discard discard draw discard discard draw draw discard discard discard discard discard discard discard draw draw draw draw draw draw draw ) 271)
+
+(play '((D . Q)(S . 9)(D . J)(H . J)(C . 3)(C . K)(H . 5)(S . 6)(D . 9)(S . 3)(C . 7)(D . 7)(C . 8)(D . 8)(H . 6)(D . K)(S . Q)(D . 6)(S . A)(C . 5)(D . 2)(H . 9)(S . J)(H . 3)(H . Q)(D . 3)) '(draw draw draw discard draw draw discard ) 246)
+
+(play '((C . A)(H . 8)(S . 4)(S . 3)(D . 7)(D . 2)(H . 7)(S . K)(C . 6)(D . 3)(D . 8)(C . Q)(S . 6)(D . J)(C . 2)(C . 7)(S . 9)(S . J)(C . 4)(C . 3)(H . 5)(D . 9)(S . 7)(H . 3)(S . A)(D . 6)(D . Q)(H . 6)(H . 9)(S . Q)(C . 5)(H . J)(D . 4)(S . 2)(D . 5)(D . K)(C . 9)(S . 5)(H . Q)(H . A)(H . 2)(D . A)(H . 4)(S . 8)(H . K)(C . 8)(C . K)(C . J)) '(discard draw discard discard draw draw discard discard draw draw discard draw discard discard discard draw discard draw discard discard draw discard discard discard discard draw discard draw draw discard discard ) 97)
+
+(play '((D . Q)(S . A)(D . 6)(H . 6)(H . J)(S . J)(C . 9)(S . 9)(C . 6)(H . Q)(D . 8)(H . 3)(D . K)(D . 2)(C . Q)(C . K)(H . 9)(C . 8)(C . A)(D . 5)(S . 5)(H . 4)(H . 7)(S . 3)(S . 4)(S . 6)(D . 7)(H . 5)(C . 3)(D . J)(S . 2)(H . A)(D . 4)(D . 9)(C . 7)(S . 7)(H . 8)(C . 2)(S . 8)(D . 3)(C . 4)(C . J)(C . 5)(D . A)(H . 2)(S . Q)(H . K)(S . K)) '(draw draw discard draw discard draw discard draw draw discard draw draw discard discard draw draw draw draw discard draw draw draw discard draw draw draw discard draw discard draw discard discard discard discard discard discard draw discard discard draw draw discard discard discard discard draw discard draw draw discard ) 162)
+
+(play '((C . 7)(H . 9)(S . Q)(S . K)(D . 5)(H . K)(C . 3)(C . K)(D . 9)(D . K)(H . Q)(S . 8)(H . 8)(D . A)(H . 4)(C . 9)(S . 2)(D . 7)(C . A)(C . Q)(C . 2)) '(discard draw discard draw draw discard draw draw discard discard discard draw discard discard discard discard discard ) 89)
+
+(play '((S . 3)(S . Q)(D . 2)(S . 6)(D . J)) '(draw discard discard draw draw ) 115)
+
+(play '((D . 6)(S . 4)(D . A)(D . 7)(S . 7)(S . J)(D . 9)(H . A)(D . 5)(D . 4)(H . K)(S . Q)(S . 2)(C . 4)(D . 2)(H . 3)(S . A)(H . 5)(H . J)) '(draw draw discard discard draw discard draw discard discard draw draw discard discard draw draw discard ) 46)
+
+(play '((D . 3)(C . 3)(C . K)(C . 7)(H . Q)(C . 4)(H . 4)(H . J)(C . J)(D . 9)(D . 2)(C . 8)(S . 9)(D . J)(H . 5)(H . A)(D . Q)(C . 6)(D . A)(H . 3)(S . J)(H . 6)(C . 2)(H . K)(S . A)(D . 7)(H . 2)(D . K)(H . 8)(S . 5)(C . 5)(C . A)(S . Q)(D . 8)(D . 5)(S . 7)(D . 4)(S . 8)(S . 6)(S . 3)(C . 9)(C . Q)(S . 4)(D . 6)(H . 9)(H . 7)) '(draw discard discard discard discard draw draw draw draw draw discard draw discard discard draw draw discard discard draw discard discard discard discard draw discard draw discard discard draw discard draw draw ) 216)
+
+(play '((H . 5)(H . Q)(D . 9)(C . 8)(S . J)(C . K)(D . 6)(S . 3)(D . 5)(D . K)(D . A)(H . 4)(C . 3)(D . 7)(S . 6)(S . 5)(S . 8)(H . 3)(C . J)(D . 8)(H . K)(H . 7)(S . K)(S . A)(H . 8)(D . J)(C . A)(H . 6)(C . 4)(D . Q)(C . 6)(C . 7)(S . 9)(H . J)(S . 7)) '(draw discard draw draw draw draw draw draw draw discard draw discard discard discard discard draw draw draw discard discard discard draw discard draw discard draw draw discard discard draw ) 215)
+
+(play '((S . 4)(S . 8)(S . 2)(D . 5)(C . 2)(C . 3)(H . 9)(S . 5)(S . Q)(C . 9)(S . A)(H . 7)(D . 6)(S . 6)(D . K)(D . 3)(H . 3)(H . 2)(H . A)(C . 4)(D . 8)(S . 3)(D . 2)(S . J)(S . 9)(D . 9)(H . J)(C . 7)(C . Q)(C . K)(C . 6)(S . K)(H . 5)(D . 7)) '(draw discard discard draw draw draw draw discard draw draw discard discard discard draw discard draw draw ) 175)
+
+(play '((H . 8)(D . 8)(C . J)(S . 8)(S . 5)(D . 6)(C . 5)(S . 6)(S . A)(H . 3)(D . 2)(H . J)(H . 7)(C . 9)(H . 2)(H . K)(D . 9)(C . A)(C . 8)(D . 4)(D . 5)(D . Q)(D . J)(S . 4)(C . 4)(H . 4)(S . 7)(H . A)(S . 3)(H . 9)(S . J)(H . 5)(D . A)) '(draw discard discard draw draw draw draw draw draw discard discard discard ) 85)
+
+(play '((H . Q)(S . 9)(H . 7)(C . 8)(D . 4)(C . Q)) '(draw discard ) 94)
+
+(play '((D . 3)(H . K)(D . A)(D . 4)(S . 5)(H . J)(C . A)(D . 7)(H . 5)(C . 9)(C . 5)(S . 9)(D . Q)(H . 8)(C . K)(D . K)(H . 7)(C . 2)(D . J)(S . 2)(D . 5)(H . 6)) '(draw draw draw discard ) 251)
+
+(play '((S . 3)(S . J)(S . 4)(S . 8)(D . 8)(D . 3)(C . 4)(S . 7)(D . A)(H . 9)(H . 3)(D . J)(H . 7)(S . 5)(S . 9)(S . 6)(D . 7)(S . Q)(H . 6)(S . A)(H . K)(C . 2)(C . 9)(H . 5)(C . 8)(D . 4)(D . 2)(H . A)(H . Q)(C . A)(H . J)(C . 6)(C . J)(C . Q)(D . Q)(D . 9)(C . 7)(C . 5)(D . 6)(D . 5)(D . K)(C . K)(H . 8)(S . K)(H . 4)(S . 2)(C . 3)(H . 2)) '(discard discard draw discard draw draw discard discard discard draw discard draw discard discard discard draw draw draw discard discard ) 119)
+
+(play '((H . 4)(S . 2)(H . J)(D . 7)(S . 8)(H . 3)(C . 8)(C . 6)(S . A)(S . J)(D . 6)(D . 2)(D . A)(D . 4)(C . A)(S . K)(D . J)(S . 9)(D . 5)(H . 2)(S . 3)(C . 7)(C . 2)) '() 180)
+
+(play '((D . 2)(H . 6)(D . K)(C . 7)(C . K)(C . 2)(S . 4)(D . J)(D . 9)) '() 278)
+
+(play '((D . 5)(C . 2)(D . A)(S . 4)(S . K)(H . 9)(D . 3)(C . J)(D . 2)(D . J)(S . 2)(H . 4)(S . J)(H . A)(C . 3)(S . Q)(S . 7)(D . Q)(H . 5)(H . K)(C . 9)(S . 9)(S . A)(D . 7)(C . 6)(H . J)(D . 6)(H . 7)(C . 8)(C . 5)(H . Q)(C . A)(C . K)(S . 5)(D . 9)(S . 8)(H . 3)(D . K)(D . 8)(S . 6)(S . 3)(C . 4)(C . 7)) '(draw draw draw discard discard draw discard discard draw draw draw discard draw discard discard draw ) 124)
+
+(play '((H . 4)(C . 9)(D . 5)(D . 3)(C . 2)(D . A)(H . 9)(D . 7)(D . K)(H . 7)(H . K)(D . 4)(D . J)(H . Q)(C . 4)(H . 5)(S . 3)(D . 6)(C . K)(C . A)(S . 9)(H . J)(D . 8)(C . 3)(H . 6)(D . 9)(D . Q)(S . 6)(C . 6)(H . 8)(D . 2)(S . 2)(C . J)(S . A)(C . Q)(H . 3)(H . 2)(S . Q)(C . 7)(S . 5)(S . 8)(S . J)(H . A)(C . 5)(C . 8)(S . K)(S . 4)(S . 7)) '(draw discard discard discard draw discard draw draw discard discard draw discard discard discard discard discard draw discard discard draw draw draw draw ) 171)
+
+(play '((C . Q)(C . 2)(D . 7)(H . 2)(C . 8)(H . K)(D . 5)(D . J)(C . 3)(S . A)(C . 4)(S . K)(S . 8)(C . 5)(D . 6)(D . K)(H . Q)(D . 8)(H . 6)(D . 4)(S . 9)(H . 4)(H . 7)(S . J)(D . Q)(D . 9)(H . 3)(C . A)(C . 7)) '(discard draw discard discard draw draw draw draw ) 45)
+
+(play '((S . A)(D . 7)(H . 3)(D . 4)(C . 6)(C . 3)(S . 3)(S . 2)(S . K)(H . 5)(D . A)(H . 6)(S . 5)(S . 6)(C . 9)(H . K)(C . 8)(C . 4)(C . Q)(C . J)(D . 6)(C . 5)(D . 3)(H . 8)(H . Q)(H . A)(S . 4)(H . 4)(C . 2)(D . 9)(H . 2)(C . 7)) '(discard draw draw discard discard draw draw draw draw discard discard discard discard discard draw ) 28)
+
+(play '((C . 5)(C . 2)(H . 3)(C . Q)(D . 7)(C . 8)(S . 2)(D . 8)(D . 6)(C . A)(C . 9)(C . 4)(D . J)) '(draw discard ) 96)
+
+(play '((C . 9)(S . 4)(C . 2)(H . K)(C . A)(C . Q)(D . A)(H . 9)(S . J)(C . K)(H . Q)(S . 5)(C . 7)(S . 3)(D . K)(D . 4)(C . J)(S . 2)(S . 6)(H . 5)(C . 5)(H . 2)(H . 3)(H . J)(S . 9)(S . A)(D . 2)(H . 6)(D . 8)(D . 9)(H . A)(D . 6)(C . 6)(C . 3)(D . 5)(D . 3)(S . 8)(H . 4)(D . Q)(H . 7)(S . Q)(D . 7)(D . J)(H . 8)(S . 7)(C . 4)(C . 8)(S . K)) '(discard draw draw draw draw discard discard draw draw draw draw draw discard draw draw discard draw discard discard discard discard discard discard discard draw discard discard draw draw draw discard draw discard draw discard draw draw ) 211)
+
+(play '((H . 2)(D . 9)(D . 8)(D . 6)(H . 8)(H . Q)(S . 9)(H . 3)(C . Q)(C . 5)(S . Q)(S . 3)(D . 7)(H . J)(C . J)(D . A)(S . A)(S . 6)(C . 9)(S . J)(H . 6)(D . 3)(H . A)(C . 8)(D . 2)(S . 5)(C . A)(H . 4)(C . 3)(H . 7)(C . 4)(S . 2)(C . K)(S . K)(D . J)(H . 9)(C . 6)(D . K)(D . Q)) '(draw draw discard discard draw draw draw discard discard draw ) 7)
+
+(play '((S . J)(S . Q)(H . Q)(C . 6)(D . 3)(D . 8)(C . 3)(S . K)(D . 6)(H . K)(H . 5)(D . K)(C . 5)(S . 7)) '(discard discard draw ) 294)
+
+(play '((H . Q)(S . 9)(D . Q)(D . 7)(H . 9)(C . Q)) '(draw ) 48)
+
+(play '() '() 115)
+
+(play '((S . 3)(H . J)(H . 5)(H . 8)(C . 7)(D . 4)(C . 2)(S . 8)(C . 3)(H . 9)(D . 7)(C . K)(S . K)(D . Q)(D . A)(H . 3)(D . 2)(S . 5)(C . 9)(H . 7)(D . 8)(S . Q)(H . 4)(C . Q)(S . J)(D . 9)(H . K)(D . 5)(D . J)(D . 6)(S . 7)(H . 6)(C . 8)(S . A)(H . A)(C . J)(C . A)(D . 3)(S . 2)(C . 4)(S . 9)(S . 4)(C . 5)(C . 6)(S . 6)(H . Q)) '(discard discard draw draw draw draw draw discard draw discard discard draw discard discard draw discard discard draw discard draw discard discard discard draw draw ) 2)
+
+(play '((H . 2)(S . 6)(D . 8)(S . 9)(D . 6)(S . A)(D . K)(H . 4)(C . 7)(D . 3)(H . 7)(H . 3)(D . A)(C . 6)(S . 5)(H . 5)(C . J)(S . 2)) '(draw draw draw draw draw draw draw discard draw discard ) 214)
+
+(play '((D . 7)(S . 6)(D . Q)(C . 4)(C . 8)(D . 5)(H . 4)(S . 7)(C . J)) '(draw discard draw discard draw draw discard discard ) 345)
+
+(play '((C . 7)(S . 6)(D . 6)(D . 3)(D . 2)(C . 9)(C . Q)(H . 9)(D . A)(H . 8)(S . 8)(S . Q)(H . 2)(S . 9)(D . K)(H . A)(H . Q)(H . J)(C . 2)(C . 8)(C . 5)(H . 5)(D . 8)(D . Q)(H . 6)(S . 7)) '(discard discard draw discard draw discard draw discard discard discard discard draw discard discard discard draw draw draw draw discard draw discard discard discard draw ) 220)
+
+(play '() '() 205)
+
+(play '((S . 6)(H . 6)(D . K)(H . 4)(H . 5)(D . 2)(S . 4)(C . 5)(D . A)(S . Q)(D . 4)(H . 9)(S . K)(H . J)(D . Q)(C . A)(H . 3)(D . 5)(C . 2)(S . 5)(S . 7)(H . A)(C . 6)(C . Q)(H . 2)(C . J)(C . 8)(D . 8)(D . 9)(S . 9)(C . 3)(H . 8)(S . A)(D . 6)(C . 7)(S . 3)(D . J)(C . K)) '(draw draw draw draw draw draw discard draw discard discard draw discard draw draw discard draw draw draw draw discard discard draw draw draw discard draw discard discard discard draw draw discard discard draw discard discard discard draw ) 9)
+
+(play '((D . 7)(S . Q)(D . K)(D . 6)(C . 6)(H . 9)(C . 5)(C . 2)(C . 7)(C . 9)(S . A)(D . 9)(H . K)(D . 4)(S . 9)(C . A)(S . 5)(C . 8)) '(draw discard draw ) 179)
+
+(play '((H . 3)(C . K)(C . 3)(H . 4)(H . Q)(C . 2)(D . Q)(D . A)(C . 6)(D . 6)(H . 2)(D . 9)(D . J)(D . K)(S . K)(C . 5)(H . 5)(C . 7)(S . 4)(C . 8)(S . 3)(D . 2)(H . K)(C . A)(C . 4)(D . 8)(S . A)(C . 9)(C . Q)(H . 6)(S . J)(D . 7)(S . 2)(H . 9)(S . Q)(S . 8)(D . 5)(S . 6)(S . 5)(D . 3)(C . J)(H . 7)(H . A)(H . J)(S . 7)(S . 9)(H . 8)(D . 4)) '(discard discard draw discard discard draw discard draw discard discard discard discard draw discard discard discard draw discard ) 126)
+
+(play '((S . A)(H . 5)(C . J)(S . 2)(C . K)(C . 2)(D . 8)(S . 6)(S . 4)(H . 6)(S . 3)(C . 3)(H . 8)(C . 8)(D . 6)(H . 2)(D . 5)(C . A)(H . Q)(H . 3)(C . 4)(C . 5)(C . 7)(H . 9)(H . A)(S . 5)(C . 9)(C . Q)(D . A)(H . 4)(H . 7)(D . Q)(D . 2)(S . 7)(H . K)(S . 9)(D . K)(S . J)(S . K)) '(discard discard draw draw discard discard discard draw discard draw discard draw discard draw draw discard draw draw draw draw draw discard discard draw ) 281)
+
+(play '((D . 6)(S . 7)(S . 3)(S . 2)(C . 6)(S . 9)(D . K)(S . 4)(S . A)(H . J)(D . 8)(D . 2)(S . Q)(H . A)(S . 5)(C . Q)(C . 8)(C . 2)(H . 8)(D . A)(S . 8)(H . Q)(C . A)(H . 5)(S . J)(C . 5)(H . 2)(D . 7)(S . 6)(C . 7)) '(discard discard discard discard draw draw draw discard discard discard discard draw discard draw draw discard draw draw discard discard discard ) 105)
+
+(play '((S . J)(D . 4)(H . 9)(H . 5)(C . 9)(C . K)(D . K)(S . 2)(C . J)(C . 6)(H . J)(D . 8)(D . Q)(D . 5)(D . 9)(S . 8)(H . A)(H . 7)(H . 3)(S . 7)(S . 4)) '(draw draw discard draw draw draw discard discard draw discard draw draw draw discard discard draw discard draw discard discard ) 348)
+
+(play '((D . 5)(C . 2)(S . 8)(S . 3)(C . 5)(D . 3)(C . Q)(D . J)(D . 8)(H . 8)(H . 3)(S . J)(S . 2)(H . 9)(D . 6)(C . K)(D . 2)(C . 7)(S . 7)(H . Q)(H . 4)(C . 3)(C . J)(S . 5)(H . 6)) '(draw discard discard draw discard draw discard discard draw draw draw draw discard draw discard draw discard draw discard draw ) 189)
+
+(play '((C . 7)(C . 3)(S . 2)(H . 8)(D . 5)(H . K)(D . 8)(S . 5)(C . 4)(S . J)(S . 7)(C . 9)(C . 6)(D . J)(D . 7)(D . Q)(H . J)(D . 9)(C . 8)(S . 3)(C . K)(S . 4)(C . 2)(H . 4)(D . A)(H . 2)(H . 9)(D . K)) '(discard draw discard discard discard draw discard draw draw discard draw discard draw discard discard discard draw draw discard draw ) 60)
+
+(play '((D . Q)(C . 4)(H . 2)(S . 7)(S . 4)(D . 2)(C . A)(C . Q)(D . 3)(S . 2)(S . A)(C . 7)(H . K)(D . A)(D . 8)) '(discard discard draw discard draw ) 328)
+
+(play '((H . 7)(S . Q)(C . 4)(D . K)(C . 8)(C . 3)(C . 7)(S . A)(H . 8)(D . 3)(D . 2)(C . Q)(D . 5)(S . 5)(C . 9)(D . 6)(D . J)(C . 5)(S . K)(S . 6)(H . K)(S . 3)(S . 8)(S . 7)(H . A)(D . A)(D . 9)(H . 3)(S . J)(D . 8)(H . J)(H . 2)(D . Q)(S . 2)(S . 9)(H . 4)(C . K)(D . 7)(H . Q)(S . 4)(C . A)(H . 6)(H . 9)(C . J)(C . 2)(H . 5)(C . 6)(D . 4)) '(discard draw draw discard discard draw draw draw discard discard draw draw discard draw discard discard draw draw discard draw draw discard discard draw discard discard discard ) 349)
+
+(play '((S . 4)(S . 2)(H . 8)) '(discard discard ) 225)
+
+(play '((H . 3)(D . 6)(H . 9)(C . 7)(C . 6)(S . 6)(S . A)(C . 3)) '(discard draw discard draw discard draw discard ) 359)
+
+(play '((H . 6)(S . 4)(S . 7)(S . J)(D . 8)(C . 5)(S . A)(D . 5)(C . A)(S . 9)(D . 3)(D . K)(C . 4)(S . Q)(S . 2)(H . 9)(H . 8)(H . 7)(C . J)(D . Q)(C . 9)(D . 9)(D . J)(D . 7)(C . 3)(D . 6)(S . 8)(H . 3)(D . 4)(C . K)(H . Q)(H . 2)(C . 8)(C . Q)(H . K)(H . J)(D . 2)) '(discard draw draw discard draw draw discard draw discard discard discard discard draw draw draw draw discard discard discard discard discard draw ) 168)
+
+(play '((C . A)(D . 6)(S . 9)(S . A)(C . 2)(D . 2)(C . 7)(S . 8)(S . 2)(C . Q)(D . 7)(C . 3)(D . Q)(H . A)(C . K)(C . 6)(H . Q)) '(draw draw discard draw draw discard draw discard discard discard ) 181)
+
+(play '((D . 7)(H . 3)(H . 8)(S . 7)(C . K)(S . A)(S . K)(H . K)(S . 8)(S . 2)(D . 8)(D . 6)(D . 3)(D . A)(C . Q)(S . Q)(D . Q)(S . 4)(H . A)(S . 5)(S . 3)(S . 9)) '(draw draw discard ) 298)
+
+(play '((D . 2)(C . 5)(C . 6)(H . 8)(C . 3)(S . Q)(D . K)(C . K)(C . 9)(S . 4)(C . 2)(H . 7)(D . 9)(S . K)(S . A)(S . 7)(H . Q)(C . Q)(D . 8)(D . Q)(S . 6)(H . J)(S . 9)(H . 2)(S . 5)(D . J)(H . 3)(C . A)(H . 5)(C . 8)(D . 4)(C . J)(H . 9)(D . 7)(H . K)(D . 6)(C . 7)(S . 3)) '() 336)
+
+(play '((C . Q)(S . 9)(H . 9)(D . 8)(S . J)(D . J)(C . A)(D . Q)(D . 6)(C . J)(H . 4)(H . 8)(H . Q)(S . 6)(H . A)(C . 4)(D . 7)(D . K)(S . 7)(C . 8)(S . Q)(D . 9)(C . 3)(D . 5)(H . K)(C . 7)(C . 5)(C . 9)(C . 6)(S . 4)(H . 3)(S . 5)(H . 6)) '(discard discard draw discard draw draw draw discard draw discard draw discard draw discard draw draw discard draw discard draw draw ) 95)
+
+(play '((C . A)) '(discard ) 6)
+
+(play '() '() 283)
+
+(play '((H . Q)(D . 9)(H . J)(S . 4)(C . 7)(H . 4)(S . Q)(H . 9)(H . 3)(H . 8)(C . 6)(D . 7)(C . A)(S . A)(S . 2)(H . A)(C . 2)(H . K)(D . J)(C . 5)(C . J)(S . 3)(C . 8)(D . 6)(S . J)(D . 5)(D . Q)(D . 2)(D . 3)(H . 6)(S . 9)(C . 3)(D . 8)(C . K)(D . K)(S . K)(H . 5)(C . 4)(S . 6)(S . 5)(D . A)(S . 7)(H . 2)(C . 9)(H . 7)(C . Q)(S . 8)(D . 4)) '(discard draw draw draw draw draw draw draw draw discard draw discard discard discard draw discard draw draw draw draw discard discard discard discard discard draw draw draw draw draw draw discard draw draw draw draw draw discard draw draw ) 255)
+
+(play '((S . 3)(D . J)(C . J)(H . 8)(S . 5)(C . 9)(S . 2)(H . 6)(C . 7)(H . 3)(D . K)(H . 7)(C . K)(H . 2)(D . A)(D . 6)(S . J)(D . 8)(D . 9)(S . 8)(D . Q)(H . 5)(C . A)(S . Q)(S . 7)(H . J)(D . 2)(S . 9)(H . 9)(C . 6)(H . 4)(D . 7)(C . 5)(S . K)(H . A)(C . Q)(C . 2)(H . Q)(S . 6)(D . 3)(C . 8)(D . 4)(S . A)(C . 3)(C . 4)(S . 4)(D . 5)(H . K)) '(discard draw discard draw discard discard draw discard discard discard draw ) 121)
+
+(play '((H . Q)(H . 2)(S . 2)(D . K)(D . 8)(D . Q)(C . 3)(H . 4)(S . 8)(C . 4)(C . 6)(H . J)(S . 9)(S . 3)(C . 2)(C . J)(H . A)(D . 7)(S . 5)(C . 9)(C . 7)(D . 3)(D . 2)(S . K)(D . 6)(S . 7)(C . A)(S . 4)(S . 6)(D . J)(H . 5)(S . Q)(S . J)(H . 3)(C . K)(D . 4)(C . 8)(H . 9)(C . 5)(C . Q)(H . 6)(H . K)(D . 5)(D . 9)(H . 7)(D . A)) '(discard discard draw draw draw draw draw discard draw discard discard draw discard discard draw discard draw discard discard discard discard draw discard discard discard ) 133)
+
+(play '((S . A)(C . 4)(S . K)) '(discard draw draw ) 292)
+
+(play '((S . 3)(D . 4)(C . J)(D . 6)(S . Q)(C . 5)(D . 8)(C . 4)(C . K)(D . J)(H . 6)(S . 8)(D . 2)(S . 7)(H . 5)(S . A)(S . 4)(H . 4)(S . K)(H . 9)(H . 2)(S . 9)(S . 6)(S . 5)(D . 7)(C . Q)(H . Q)(S . 2)(D . K)(H . A)(C . 8)(C . 2)(D . 3)(H . 8)(D . 9)(C . 6)(H . 7)(C . 9)) '(discard discard discard discard discard discard draw discard discard draw discard draw discard discard ) 14)
+
+(play '((H . 9)(H . 3)(C . J)(D . A)(S . 7)(D . 2)(H . 8)(C . 9)(H . 7)(H . 4)(D . 5)(C . K)(D . 3)(D . K)(D . 7)(D . 9)(D . 4)(C . 3)(S . 5)(H . J)(C . 5)(S . K)(S . 2)(C . 8)(D . 8)(S . 3)(S . A)(C . 4)(S . 8)(S . J)) '(draw draw draw discard discard discard draw draw draw discard discard draw draw draw draw discard draw draw draw discard discard draw draw draw draw ) 343)
+
+(play '() '() 288)
+
+(play '((H . A)(C . 6)(H . 3)(D . Q)(C . 9)(S . J)(H . 8)(H . 5)(S . 6)(C . 3)(H . K)(S . 8)(H . J)(C . 5)(H . 2)(C . K)(D . 4)(D . 3)(H . 9)(D . 8)(H . 4)(H . 7)(D . J)(C . A)(D . A)(C . 2)(D . 7)(S . 2)(S . 9)(C . 7)) '(discard draw ) 115)
+
+(play '((D . K)(C . Q)(H . 6)(C . K)(C . A)(C . J)(S . 7)) '(draw discard draw ) 13)
+
+(play '((C . 2)(H . 4)(H . 5)(S . 7)(D . 7)(C . 4)(S . 5)(S . 8)(D . 8)(C . 3)(S . K)(D . 3)) '(draw draw draw ) 189)
+
+(play '((S . K)(S . A)(D . Q)(S . 7)) '() 229)
+
+(play '((D . A)(H . 8)(S . 8)(D . 2)(S . A)(S . 5)(D . Q)(S . 7)(C . Q)(S . 9)(H . 5)(D . 7)(H . J)(D . 5)(C . 8)(C . 4)(H . 9)(D . 8)(S . 6)(S . 2)(D . K)(S . J)(C . 6)(C . 3)(C . 5)(D . J)(C . 2)(S . K)(H . Q)) '(discard discard discard draw discard draw discard draw discard draw draw discard discard draw draw discard draw draw discard draw draw discard draw draw draw draw ) 122)
+
+(play '((H . 2)(H . 9)(H . 3)(S . A)(D . 6)(S . 8)(D . 4)(D . 3)(H . 5)(C . 5)(H . A)(D . 7)(C . J)(D . 8)(H . 4)(H . Q)(C . Q)(C . 9)(S . 3)(H . 7)(D . Q)(S . 7)(D . A)(S . J)(C . 8)(C . A)) '(draw draw draw discard discard discard discard draw draw draw discard draw discard draw draw discard ) 342)
+
+(play '((S . 3)(C . 5)(S . 4)(H . 5)(C . 9)(C . 3)(D . 7)(S . 5)(H . 4)(C . 8)(H . 6)(S . Q)(H . 8)(D . 2)(H . 3)(S . 6)(D . 8)(S . 2)(D . 3)(H . J)(H . A)(H . Q)(H . 2)(D . 4)(C . 7)(D . 9)(C . A)(D . J)(C . J)(C . 4)(S . 9)(C . 2)(S . 7)(S . A)(C . Q)(H . K)(S . K)(C . 6)(S . J)(D . 5)) '(draw discard draw discard draw discard discard draw discard draw ) 43)
+
+(play '((S . 8)(H . J)(S . 5)(H . 5)(C . 3)(C . 5)(H . 8)(S . K)(C . 4)(D . 9)(C . 8)(C . 7)(S . Q)(C . 9)(H . 4)) '(draw discard draw discard discard draw discard draw draw ) 2)
+
+(play '((C . 8)(C . 6)(S . A)(S . 3)(S . J)(D . 8)(H . 8)(H . J)(S . 4)(S . 7)(C . 5)(S . Q)(D . 4)(C . J)(S . 6)(D . 5)(H . 3)(D . 6)(S . 2)(S . 9)(C . 4)(D . J)(D . K)(C . 2)(H . 5)(H . K)(S . 5)(D . 9)(S . K)(D . 2)) '(draw draw draw discard discard draw draw draw discard draw discard discard draw discard discard discard discard discard draw discard discard ) 258)
+
+(play '((S . A)(C . A)(S . 6)(H . 2)) '() 25)
+
+(play '((H . 9)(C . 5)(C . 2)(S . 7)(D . 7)(S . 2)(D . 4)(C . 9)(C . 7)(D . 6)(C . Q)(H . 5)(S . 5)(S . 6)(D . 9)(S . 4)(H . 4)(S . 9)(C . 6)(C . 3)(D . 5)(S . Q)(C . 4)(H . 3)(S . 8)(H . 6)(S . 3)(S . K)(H . 2)(D . 2)(H . Q)(D . Q)(S . J)(H . 7)(D . J)(H . 8)(C . A)(C . 8)) '(draw discard draw draw discard ) 207)
+
+(play '((S . A)(H . K)(C . 8)(S . 3)(H . Q)(H . 3)(D . A)(D . 2)(H . 7)(D . 6)(S . J)(C . Q)(C . 4)(C . K)(H . 5)(S . K)(C . 5)(S . 9)(S . Q)(S . 4)(C . 6)(C . J)(D . 8)(D . 9)(C . 3)(D . Q)(D . 3)(H . 9)(C . 9)(D . 4)(D . J)) '(discard draw discard draw draw discard draw draw draw draw draw discard draw draw draw discard discard draw draw discard discard draw discard ) 141)
+
+(play '((D . 3)(D . 2)(S . 4)(C . J)(C . 6)(H . 4)(C . 8)(D . 8)(H . 9)(C . 4)(D . K)(C . Q)) '(discard discard discard discard draw draw discard draw discard draw discard draw ) 199)
+
+(play '((S . J)(H . Q)(S . 3)(S . 9)(D . J)(C . 6)(D . 3)(D . 9)) '() 284)
+
+(play '((H . 9)(H . J)(C . 9)(D . A)(H . A)(D . J)(S . 5)(H . 7)(C . K)(H . 8)(D . 7)(D . 9)(C . 8)(H . 2)(C . Q)(H . 4)(S . K)(D . 3)(H . K)(S . A)(D . K)(H . 6)(C . 3)(C . A)(C . 2)(D . Q)(D . 2)(D . 4)(S . 9)(S . 2)(S . 7)(D . 6)(D . 8)(C . 6)(C . 4)(S . Q)(D . 5)(H . 3)(C . J)) '(draw discard discard discard draw draw discard discard discard discard discard discard discard draw ) 113)
+
+(play '((H . Q)(C . 6)(C . A)(S . 3)(H . 2)(S . 6)(S . A)(D . J)(D . 4)(C . 3)(S . 8)(S . 7)(D . 3)(S . J)(C . 9)(H . 4)(C . 2)(D . 5)(D . K)(C . 8)(H . 3)(D . Q)(H . 7)(S . K)(H . 9)(S . 4)(H . J)(C . 7)(H . 8)(S . 9)(D . 9)(H . 6)(C . 5)(C . Q)(H . K)(S . Q)(C . K)(D . 2)(H . 5)(D . 6)(C . J)(S . 5)(D . A)(H . A)(S . 2)(D . 8)(C . 4)(D . 7)) '(discard draw draw discard draw discard draw draw discard discard draw discard discard discard draw discard discard discard draw discard discard discard draw discard draw draw discard discard draw discard discard discard discard draw draw draw ) 9)
+
+(play '((D . 5)(H . 6)(H . A)(D . 7)) '(draw ) 56)
+
+(play '((H . A)(H . K)(C . 9)(H . 7)(D . 9)(S . A)(D . A)(D . K)(C . 7)(S . 7)(S . 4)(S . 5)(D . 5)(H . 9)(S . K)(C . K)(D . 3)(D . 4)(H . 2)(H . Q)(H . J)(S . 2)(C . 3)(C . 6)(D . 7)(H . 6)(H . 4)(D . 2)(S . 9)(C . 4)(C . Q)(S . 8)(C . A)(C . 5)(H . 8)(D . Q)(D . 6)(S . J)) '(discard draw discard draw draw draw draw draw draw draw draw draw discard draw draw draw draw discard discard discard discard discard discard discard discard discard discard discard draw discard draw ) 317)
+
+(play '((H . Q)(C . 4)(D . K)(H . 2)(H . 5)(H . 3)(C . K)(S . 2)(D . 5)(C . 9)(D . 7)(C . 5)(S . 8)(S . K)(D . 4)(S . A)(D . A)(C . 3)(C . 7)(H . 7)(C . 2)(D . J)(H . A)(H . 4)(S . 6)(S . Q)(C . J)(C . 6)(H . K)(D . 6)(S . 5)(S . J)(C . Q)(S . 4)(D . Q)(H . J)(H . 8)(D . 8)(S . 3)(D . 9)(S . 7)(C . A)(D . 3)(H . 9)(D . 2)(C . 8)(S . 9)(H . 6)) '(draw draw discard draw draw discard discard discard draw draw discard draw draw draw draw draw draw draw draw discard draw discard draw draw discard discard draw discard discard discard discard draw draw discard draw draw draw draw discard draw draw ) 295)
+
+(play '((D . 8)(S . K)(H . 8)(H . 5)(S . Q)(C . 5)(C . 6)(H . A)(S . 3)(S . 8)(S . J)(C . J)(S . 4)(D . J)(H . 7)(C . 8)(D . 9)(H . 2)(C . 9)(H . Q)(D . 6)(D . 3)(D . K)(H . 6)(D . 2)(H . 3)(H . 4)(S . 6)(H . K)(C . 7)(C . 3)(S . 2)(D . 4)) '(draw discard draw draw discard draw draw discard draw discard discard draw discard discard discard draw discard draw draw draw discard discard discard draw draw discard draw discard discard discard ) 273)
+
+(play '((H . 2)(C . 5)(C . 6)(D . J)(S . 6)(C . 4)(C . K)(C . 3)(C . 9)(C . 8)(D . 4)(D . 5)(D . 6)(D . K)(D . 2)(S . 2)(H . 3)(C . 7)(S . 3)(H . J)(H . 7)(D . Q)(C . J)(D . A)(H . A)(C . 2)(S . 7)) '(discard discard draw discard discard draw ) 14)
+
+(play '((C . 6)(S . 9)(S . 5)(C . 5)(S . A)(C . 3)(S . 2)(D . 7)(S . 7)(D . 4)(H . 4)(C . 9)) '() 62)
+
+(play '((C . 6)(S . 4)(C . Q)(C . 5)(D . 6)(D . 8)(H . K)(C . 4)(C . 2)(S . A)(S . 3)) '(discard draw discard discard discard discard discard draw draw discard ) 335)
+
+(play '((D . 5)(S . 9)(C . 8)(C . 2)(H . 5)(D . 8)(C . K)) '(discard draw discard ) 226)
+
+(play '((S . A)(H . A)(S . 7)(C . 7)(C . 5)(C . 4)(D . 9)(D . A)(S . 9)(S . 8)(C . Q)(D . K)(D . J)(S . K)(H . 5)(D . 8)(S . 5)(D . Q)(D . 6)(H . 8)(H . 3)(H . 7)(C . 9)(D . 3)(D . 7)(H . Q)(C . J)(H . K)(S . 4)(C . K)(C . 3)(H . 6)(C . 6)(H . 9)(C . 8)(C . A)(S . 6)(H . 2)(S . 3)(D . 4)(S . J)(S . Q)(H . 4)(H . J)(D . 2)(D . 5)(C . 2)(S . 2)) '(discard discard draw discard draw draw discard draw discard draw draw discard draw draw discard discard discard draw discard discard draw ) 284)
+
+(play '((C . 2)(S . 6)(C . 7)(H . K)(D . Q)(D . 8)(S . 4)(D . 3)(H . 4)(S . K)(D . A)(H . 2)(D . J)(C . J)(D . K)(S . 3)(S . J)(H . 8)) '(discard discard draw draw draw draw draw draw draw discard discard draw discard discard discard draw draw ) 327)
+
+(play '((C . K)(D . 3)(D . 7)(C . 2)(D . A)(D . 5)(C . 8)(H . 5)) '(draw draw draw discard ) 212)
+
+(play '((H . 9)(D . 7)(S . 4)) '() 256)
+
+(play '((H . 2)(S . 2)(C . 4)(C . J)(S . 8)(S . 9)(D . J)(H . Q)(S . J)(C . 5)(S . 6)(S . 5)(C . 8)(D . Q)(S . 3)(D . 3)(D . 8)(S . K)(H . J)(D . 4)(C . 3)) '(draw discard draw discard draw draw draw discard discard ) 219)
+
+(play '((S . J)(S . K)(C . 3)(C . J)(S . Q)(D . 4)(S . A)(D . 8)(D . A)(D . 9)) '(draw discard ) 124)
+
+(play '((C . Q)(D . 2)(S . Q)(C . J)(S . K)(D . Q)(C . A)(C . 3)(H . 3)(H . 9)(D . 6)(D . 9)(S . 4)(H . 4)(S . 8)(C . K)(S . 3)(D . K)(D . 4)(C . 4)(S . A)(C . 5)(D . J)(S . 7)(H . 6)(H . K)(D . A)(H . Q)(S . 5)(C . 8)(C . 2)(D . 8)(H . 5)(H . 8)(S . J)(C . 6)(S . 9)(D . 7)(H . J)(S . 6)(H . 2)(S . 2)(H . 7)(C . 9)(D . 3)(D . 5)(H . A)) '(discard draw discard draw discard draw draw draw discard discard draw discard draw draw discard draw discard discard draw draw draw ) 61)
+
+(play '((H . 2)(S . J)(C . Q)(C . J)(S . 5)(S . Q)(H . A)(H . 7)(S . 2)(D . K)(D . 6)(D . 8)(C . K)(S . 8)(C . 2)(H . 6)(H . Q)(C . 8)(C . 9)(H . 4)(C . 5)(D . 3)(H . 9)(S . A)(S . 7)(D . 9)(H . 3)(C . 7)) '(draw draw discard discard discard draw draw discard discard draw discard discard ) 342)
+
+(play '((H . 6)(S . 3)(C . 7)(H . 5)(H . 8)(S . 7)(S . 8)(C . 8)(H . 4)(S . 6)(H . A)(D . 6)(C . 4)(S . 5)(H . 7)(C . 6)(C . Q)(D . Q)(C . 2)(C . 9)(D . 7)(D . 4)(D . A)(C . J)(D . 5)(H . 9)(D . 9)(H . 3)(S . 9)(C . 5)(H . K)) '(discard discard draw discard discard discard draw discard discard draw draw discard discard discard draw discard discard draw draw draw draw discard draw discard discard draw discard draw ) 35)
+
+(play '((C . 4)(S . Q)(C . Q)(C . 8)(D . 8)(S . 5)(C . 3)(D . 9)(D . 5)(D . 3)(S . 4)(H . K)(H . 3)(C . A)(H . J)(H . 8)(H . 7)(D . 7)(C . K)(D . J)(S . 8)(H . 2)(D . Q)(C . 2)(C . J)(C . 7)(H . 6)(S . A)(S . 3)(H . 4)(H . 9)(S . 6)(S . K)(H . 5)(C . 5)(D . K)(S . 7)(S . 2)(D . 2)(S . J)(C . 6)(D . 4)(H . Q)(C . 9)(H . A)(D . 6)) '(discard discard draw draw draw discard discard discard draw discard draw draw draw discard draw discard discard discard discard discard ) 188)
+
+(play '((H . 3)(H . K)(S . K)(C . 3)(D . 6)(H . A)(C . 6)(H . 6)(S . 4)(D . 4)(C . 7)(H . 2)(C . K)(C . 4)(H . 9)) '(discard draw discard discard discard draw discard discard draw draw discard discard discard ) 152)
+
+(play '((D . 2)(S . A)(H . A)(C . 3)(S . 5)(H . Q)(H . 8)(S . 4)(S . K)(C . 9)(C . J)(D . Q)(S . 3)(H . 7)(D . 9)(S . 9)(C . 8)(C . A)(S . 6)(S . 2)(C . 6)(C . K)(D . A)(D . 7)(C . 4)(D . J)(S . J)(C . 5)(S . 8)(C . Q)(S . Q)(H . 3)(D . 5)(D . 3)(H . 9)(C . 2)(D . 8)(H . 2)(D . 6)(H . 5)(H . K)) '(discard draw discard discard discard discard draw draw draw draw discard draw discard draw draw draw draw draw draw draw draw draw draw discard discard draw draw draw discard discard draw draw draw draw draw discard ) 66)
+
+(play '((C . 4)) '(draw ) 0)
+
+(play '((D . A)(S . 9)(H . Q)(S . 7)(H . 2)(D . 7)(S . 8)(H . 7)(D . 3)(H . 6)(H . J)(H . 4)) '(draw draw discard discard draw discard draw draw discard discard ) 153)
+
+(play '((H . 4)(S . 8)(H . 9)(H . 2)(D . 5)(H . 7)(S . 9)(C . 8)(S . 2)(D . 3)(S . 5)(C . 7)(D . 7)(S . A)(D . 4)(H . K)(H . 5)(C . 4)(D . 6)(H . Q)(S . 7)(C . 3)(H . J)(S . 6)(C . 9)(C . Q)(D . 2)(H . 6)(C . 6)(S . J)(C . 2)(D . A)(D . 9)(H . 3)(C . J)(S . Q)(C . A)) '(discard discard draw draw draw draw draw draw draw draw discard draw discard draw draw discard discard ) 32)
+
+(play '((S . 3)(D . 5)(D . 3)(C . 6)(S . A)(S . 7)(S . 8)(H . 5)(S . 5)(H . 6)(D . 2)(C . 7)(D . 4)(H . 4)(D . A)(S . 4)(S . 9)(H . J)(D . K)(D . 8)(C . K)(S . J)(H . K)(S . K)(H . 2)(S . 2)(C . J)) '(draw draw discard discard draw discard ) 155)
+
+(play '((H . 8)(C . 4)(C . 3)(S . Q)(C . Q)(C . 9)(H . A)(C . 5)(H . 5)(D . Q)(C . 8)(H . J)(D . 8)(H . Q)(S . 8)(C . A)(S . 4)(D . 9)(D . 6)(H . 4)(H . 3)(D . 7)(D . 3)(D . K)(S . 2)(S . J)(H . 2)(S . 7)(H . K)(D . A)(S . 5)(S . 9)(C . 7)(D . J)(S . 3)(C . 6)(H . 6)(C . J)(H . 7)(D . 5)(H . 9)(D . 4)(C . 2)(S . A)(D . 2)(S . K)(S . 6)(C . K)) '(draw discard discard discard draw discard draw draw discard discard draw discard draw discard draw draw draw draw discard discard ) 245)
+
+(play '((C . 9)(S . 7)(D . 2)(C . 8)(D . A)(C . 4)(S . 6)(C . 5)(D . 4)(S . A)(C . 7)(C . Q)(H . 2)(D . 5)(D . Q)(H . Q)(S . K)(C . J)(H . 4)(S . 3)(H . 5)(H . 8)(D . 8)(D . J)(C . 3)(C . A)(D . 7)(C . 2)(S . 9)(C . K)(S . 4)(H . J)(H . 9)(C . 6)(S . Q)(S . 5)(S . J)) '(discard draw discard draw discard discard discard discard discard discard discard discard discard draw discard discard draw draw discard discard draw draw draw discard ) 0)
+
+(play '((C . K)(H . K)(D . J)(S . J)(C . Q)(C . 9)(H . J)(D . 5)(S . A)(D . 6)(D . 7)(D . 9)(H . 6)(H . 8)(C . 4)(D . 4)(S . K)(C . 2)(C . 6)(H . 3)(S . 2)(H . 5)(D . 3)(D . 8)(H . Q)(S . 5)(C . A)(H . 9)(H . 7)(S . 9)(C . 5)(D . Q)) '(draw draw draw discard discard discard draw discard discard draw draw discard draw draw ) 258)
+
+(play '((C . A)(H . 3)(S . J)(D . 6)(H . 6)(C . 8)(C . 4)(C . 6)(C . 9)(S . A)(H . 7)(C . J)(D . K)(D . 4)(C . K)(D . Q)) '(draw discard draw draw discard discard discard draw discard discard draw discard discard discard discard draw ) 285)
+
+(play '((D . A)(H . K)(H . 9)(H . 2)(H . Q)(H . J)(D . Q)(C . Q)(D . 3)(D . 2)(D . K)(C . 7)(C . 2)(C . 6)(D . 6)(H . 7)(S . 2)(S . 6)(D . 9)(D . 7)(H . 4)(C . 4)(S . 4)(C . A)(D . J)(C . K)(H . 3)(S . 5)(C . 5)(S . J)(C . 9)(S . K)(S . Q)(H . 6)(S . 9)(D . 8)(S . 3)(C . 8)) '(draw discard discard draw discard draw discard draw ) 328)
+
+(play '((C . 8)(S . 5)(S . 3)(H . J)(C . K)(S . A)(H . 7)(S . 4)(C . 5)(D . 4)(S . K)(D . K)(H . 8)(C . 9)(C . Q)(C . 4)(D . 6)(D . 3)(S . 8)(C . 7)(C . 2)(H . 6)(H . A)(C . A)(D . J)(H . 4)(S . 9)(D . 9)(D . 2)(D . Q)(S . 2)(H . 9)(H . Q)(D . 7)(C . 6)(C . 3)(S . 6)(S . J)(D . A)(D . 8)(H . 3)) '(discard discard discard draw draw draw discard draw draw draw discard discard draw draw draw draw discard discard draw draw ) 25)
+
+(play '((C . Q)(S . J)(H . 5)(H . 8)(C . 3)(D . A)(S . 2)(S . 7)(D . 5)(S . A)(D . J)(C . 2)(C . 4)(H . 9)(S . 8)(H . 4)(C . A)(S . 5)(C . J)(S . 6)(H . 7)(D . 2)(C . 8)(S . K)(C . 6)(H . 6)(H . A)(D . 4)(H . 2)(C . 5)(D . K)(D . Q)(S . Q)(H . K)(D . 7)(S . 3)(C . 9)(D . 3)(H . J)(S . 9)(S . 4)) '(draw draw discard draw draw discard discard draw discard draw ) 348)
+
+(play '((S . 5)(C . 7)(C . 3)(D . 5)(S . 2)(H . 4)(C . J)(D . 6)(H . 5)(H . 2)(C . 8)(H . 9)(C . Q)(S . 6)(D . 2)(C . 6)(D . 7)(D . Q)(D . 8)) '(discard discard draw discard draw discard draw draw discard discard discard discard draw draw ) 172)
+
+(play '((S . J)(C . 9)(S . Q)(H . 5)(S . 5)(S . 9)(C . 7)(D . K)(S . 6)(H . K)(D . 2)(H . 8)(C . 5)(C . 8)) '(discard ) 230)
+
+(play '((C . 3)(S . J)(S . K)(H . 7)(S . A)(C . 4)(D . 2)(C . 6)(S . 9)(D . 3)(C . 5)(D . K)(H . K)(C . A)(D . 6)(H . 5)(C . Q)(H . J)(H . 4)(S . 8)(S . 3)(D . 4)(D . 7)(C . 9)(D . J)(C . K)(S . 2)(D . A)(H . Q)(H . A)(H . 3)(C . 2)(S . 5)(D . Q)(H . 8)) '(draw draw discard discard draw discard discard discard discard ) 309)
+
+(play '((D . K)(H . 3)(H . 5)(D . 6)(C . 9)(D . 3)(D . J)(C . J)(C . 6)(S . 9)(H . A)(S . 2)(S . K)(H . Q)(C . 3)(S . Q)) '() 149)
+
+(play '((H . A)(S . K)(C . 9)(D . 7)(H . 8)(D . 9)(S . 4)(H . 6)(C . 2)(H . 3)(H . 5)(C . 3)(S . 2)(S . 9)(C . 7)(S . 7)(C . A)(D . J)(S . 3)(S . 8)(H . K)(D . 2)(H . J)(C . 8)(C . J)(C . 5)(D . 6)(D . 5)(S . 6)(D . 8)(S . Q)(H . 2)(D . 3)(S . 5)(H . 9)) '() 184)
+
+(play '((D . 3)(S . 6)(C . 7)(C . 5)(S . 4)(C . J)(C . Q)(H . 9)(D . K)(S . 5)(C . 6)(D . 8)(C . 9)(S . 9)(S . 2)(C . K)(H . 5)(D . 5)(D . 7)(S . K)(H . J)(C . A)(S . J)(D . 2)(D . 6)(H . 6)(H . 8)(H . A)(H . 7)(D . 9)(C . 2)(S . A)(S . 8)(D . J)(H . Q)(S . 3)(C . 8)(C . 4)(H . 4)(H . K)(C . 3)(S . 7)(S . Q)(D . A)(D . Q)(H . 2)(H . 3)(D . 4)) '(discard discard discard discard draw draw draw draw draw draw discard draw discard draw discard draw draw discard draw discard draw discard draw draw draw ) 264)
+
+(play '((D . K)(H . K)(S . 9)(C . 5)(H . Q)(H . 8)(D . Q)(S . 7)(H . 4)(D . 4)) '(discard draw draw draw discard ) 193)
+
+(play '((H . A)(H . K)(H . 5)(S . 3)(H . 8)(D . 5)(C . 9)(D . 4)(C . J)(S . Q)(D . 6)(C . Q)(H . 4)(S . 9)(D . 9)(C . 6)(D . A)(H . 7)(D . 8)(H . Q)(C . A)(D . Q)(C . K)(D . K)(S . 5)(C . 4)(S . K)(D . 2)(C . 5)(C . 2)(S . 8)(S . A)) '(draw draw discard discard draw draw discard discard draw draw discard discard draw discard draw discard discard draw draw discard draw discard draw discard discard discard discard draw discard discard discard discard ) 236)
+
+(play '((C . J)(D . 6)(C . K)(C . 4)(H . 3)(C . 5)(D . 4)(S . K)(S . 8)(H . K)(S . 6)(S . Q)) '(draw discard discard draw discard discard draw discard discard ) 213)
+
+(play '() '() 8)
+
+(play '((D . 8)(S . 7)(C . 5)(D . 9)(D . 2)(C . 4)(D . 7)(H . Q)(D . K)(H . 7)(S . 2)(C . 2)(C . K)(H . 3)(C . 7)(C . A)) '(discard discard draw discard discard discard discard draw draw discard discard discard draw discard draw ) 355)
+
+(play '((C . 4)(C . 8)(C . Q)(C . A)(S . 7)(S . 9)(C . 2)(D . 9)(D . A)(H . 3)(H . 8)(D . 5)(H . 2)(S . 6)(H . K)(D . Q)(C . K)(D . 2)(D . 3)(C . 3)(S . A)(C . 5)(S . 3)(S . 8)(S . 5)(H . 5)(S . 2)(D . 8)) '(discard discard draw discard discard discard draw draw draw discard discard discard draw discard discard ) 245)
+
+(play '((C . 7)(H . 5)) '(discard ) 239)
+
+(play '((S . 6)(C . 8)(D . 7)(C . J)(D . Q)(C . 4)(H . 8)(C . Q)(S . K)(C . 5)(D . 4)(S . 4)(D . A)(S . 9)(H . 5)(H . A)(D . 2)(C . 6)(S . J)(S . A)(D . 5)(H . 6)(S . 5)(D . 6)(H . 9)(H . 2)(S . Q)(C . 7)(C . 9)(S . 8)(C . 3)(S . 3)(H . 7)(D . 3)(D . K)(H . 4)(D . J)(S . 7)(H . J)(H . Q)(D . 8)(C . A)(C . K)(D . 9)(H . K)(H . 3)) '(discard discard draw draw discard discard discard draw draw discard draw draw discard draw discard draw discard draw discard draw discard discard discard discard discard discard discard draw draw discard discard ) 300)
+
+(play '((C . Q)(S . 5)(D . 7)(S . 3)(H . 5)(C . 3)(D . 8)) '(draw draw draw draw draw discard ) 174)
+
+(play '((C . 6)(D . 4)(H . 7)(S . 7)(C . J)(D . A)(S . 4)(C . 2)(D . 6)(D . 2)) '(draw discard ) 49)
+
+(play '((D . A)(S . 4)(H . J)(S . K)(C . 9)(H . A)(H . 9)(S . A)(C . 2)(H . 7)(H . 2)(D . 3)(S . 5)(C . 7)(D . 8)(D . 6)(S . J)(C . 8)(C . 4)(H . 3)) '(discard discard discard draw discard draw ) 60)
+
+(play '((S . K)(D . Q)(C . Q)(D . K)(C . 2)(C . 3)(C . 6)(S . 2)(H . 2)(D . 5)(C . 4)(D . A)(D . 4)(H . 9)(S . 8)(H . 5)(C . A)(H . 8)(S . 4)(H . J)(S . 5)(C . J)(D . J)(D . 8)(H . K)(C . K)(S . 3)(H . Q)(D . 3)(D . 7)(S . 9)(D . 2)(C . 8)(D . 6)(S . A)(D . 9)) '(draw draw discard draw draw draw draw draw draw discard draw draw discard discard draw draw discard draw discard draw draw ) 200)
+
+(play '((D . 4)(D . 3)(C . 7)(S . 2)(S . 9)(C . 9)(C . 6)(D . 8)(D . 2)(S . 5)(D . 6)(C . 4)(H . 2)(S . 8)(H . 3)(D . Q)(D . A)(C . J)(D . 9)(C . A)(S . 6)(C . Q)) '(discard discard discard draw discard discard draw discard draw discard draw discard discard draw draw draw draw discard discard ) 353)
+
+(play '((H . 7)(C . K)(S . Q)(D . 5)(S . A)(H . 4)(S . 4)(D . Q)(D . A)(S . 9)(H . 3)(S . 2)(C . 2)(C . 9)(S . 3)(C . 7)(D . 6)(H . K)(C . 4)(H . 6)(D . K)(H . A)(D . 2)(D . 3)(C . 6)(D . 7)(S . J)(H . J)(H . 2)(C . 3)(D . 4)(C . J)(S . 6)(C . A)(S . 8)(C . 5)(D . J)(S . 5)(D . 8)(H . Q)(C . Q)(D . 9)(H . 5)(H . 9)(S . 7)(S . K)(H . 8)(C . 8)) '(draw draw draw draw draw discard discard draw discard discard draw draw draw discard draw ) 315)
+
+(play '((C . 6)(C . 9)(C . J)(H . 2)(C . K)(H . K)(S . 2)(S . 8)(C . 4)(H . 6)(D . 9)(D . A)) '(discard draw draw discard discard draw draw discard discard draw ) 229)
+
+(play '((D . Q)(S . 3)(H . A)(H . 5)(D . 3)(D . 5)(H . 3)(H . 2)(H . 8)(D . 4)(S . K)(D . 2)(S . 7)(S . 5)(C . 2)) '(discard draw ) 93)
+
+(play '((C . J)) '() 174)
+
+(play '((C . 9)(H . A)(C . 8)(C . J)) '(draw draw ) 188)
+
+(play '((S . Q)(C . 7)(S . K)(C . 9)(D . Q)(H . 8)(H . K)(D . K)(D . 4)(H . 7)(H . A)(D . 8)(C . Q)(H . J)) '(discard draw ) 316)
+
+(play '((S . 9)(D . 2)(C . A)(C . 5)(H . 2)(H . 9)(D . 6)(C . 6)(S . 3)(H . 7)(C . Q)(C . 4)(S . 2)(H . Q)(D . 9)(D . 4)(C . J)(D . 7)(D . 8)(D . A)(C . 9)(S . 6)(D . J)(H . 4)(H . 8)(H . 3)(S . A)(S . J)(H . J)(H . K)(H . 6)(S . 8)(H . 5)(D . 3)(D . 5)(C . 3)(S . 4)(S . 5)(S . K)(C . K)(C . 2)) '(draw draw discard draw discard draw discard draw draw draw discard draw draw discard draw draw draw discard discard draw draw ) 46)
+
+(play '((D . J)(D . 5)(D . 3)(H . K)(S . 5)(H . 9)(H . 4)(S . J)(H . 3)(H . 2)(S . 6)) '(draw draw discard draw discard ) 195)
+
+(play '((C . Q)(C . K)(D . 3)(C . 7)(S . K)(H . 9)(C . J)(H . 2)(S . Q)(C . 6)(S . 3)(H . 5)(C . 5)(H . A)(S . 9)(C . 3)(S . 8)(C . A)(H . 3)(H . K)) '(draw discard discard discard discard draw draw draw discard discard draw draw discard discard discard discard discard discard ) 38)
+
+(play '((H . 4)(C . J)(C . 5)(H . 3)(D . 5)(S . K)(C . K)(H . A)(S . 4)(D . 3)(C . 4)(D . 8)(D . 4)(D . A)(C . 6)(S . Q)(C . 9)(H . 5)(D . 7)(D . J)(H . 7)(H . K)(S . 2)(D . K)(C . A)(H . 8)(S . 9)(H . 6)(C . 8)(S . 8)(C . 2)(D . Q)(S . 3)(S . 6)(H . J)(C . 7)(S . 7)(H . 2)(D . 9)(D . 2)(C . Q)(S . J)(H . 9)(C . 3)(H . Q)(S . 5)(D . 6)(S . A)) '(discard draw draw discard draw draw discard draw discard draw discard discard discard draw draw draw discard discard ) 225)
+
+(play '((S . Q)(H . Q)(H . 4)(C . 2)(S . 3)(H . 5)(D . J)(C . 8)(C . 4)(S . 8)(S . 5)(D . 3)(D . 9)(C . J)(D . 6)(D . 7)(H . 3)(H . A)(D . Q)(C . Q)(D . 2)(C . 9)(H . 6)(S . 7)(H . J)(H . 9)(C . 5)(D . 5)(S . 4)(H . 8)(C . 6)(H . 2)(S . A)(C . 7)(S . K)(S . J)(C . A)(S . 6)(S . 2)(C . K)(H . 7)(D . A)(H . K)(S . 9)(D . 8)(C . 3)(D . K)(D . 4)) '(discard draw draw draw draw draw draw draw discard discard draw discard discard discard draw draw draw draw discard draw draw draw draw draw draw draw draw discard discard discard draw draw ) 129)
+
+(play '((D . 4)(C . K)(D . A)(D . J)(H . 6)(S . 2)(D . 9)(C . 4)(C . A)(C . 6)(H . 8)(C . Q)(D . K)(S . A)(D . 3)(S . J)(S . 3)(H . 5)(D . 5)(D . 2)(D . 7)(S . 5)(S . K)(H . 3)(D . 6)(C . 9)(C . 8)(S . 7)(H . 2)(C . 5)(C . 3)(C . 7)(C . 2)(D . 8)(S . 9)(H . K)(H . J)(S . 6)) '(draw draw discard draw discard draw discard discard draw discard draw discard draw draw draw discard draw discard discard draw draw discard discard discard discard draw draw discard draw discard discard draw draw draw draw draw ) 334)
+
+(play '((H . 6)(S . A)(H . 8)(C . 6)(D . K)(C . K)(C . 2)(D . J)(D . 6)(H . J)(C . 3)(S . 4)(D . 3)(D . 4)(H . 9)(S . 2)(D . Q)(S . 6)(D . 9)(D . 7)(C . 9)(S . J)) '(draw discard discard discard ) 170)
+
+(play '((D . 8)(S . J)(S . 2)(H . J)(D . 7)(C . 6)) '(draw discard draw ) 278)
+
+(play '((H . 5)(S . A)(S . 7)(C . 2)(C . K)(C . 6)(C . A)(D . 7)(D . 3)(D . 6)(D . Q)(H . 8)(D . 2)(H . J)(H . 2)(S . 4)(S . 9)(H . A)(H . 3)(D . 8)(H . Q)(C . Q)(D . 5)(H . 9)(H . K)(S . Q)(C . 3)(H . 6)(D . A)) '(draw discard discard draw draw discard draw draw discard discard discard discard draw discard discard discard draw draw draw draw draw discard ) 312)
+
+(play '((C . 8)(S . 9)(S . 2)(H . Q)(C . 4)(D . 3)) '(discard discard ) 208)
+
+(play '((S . 8)(C . 9)(H . Q)(H . 4)(C . 5)(H . 5)(S . 9)(S . 2)(H . 6)(H . 3)(D . 8)(D . 7)) '(discard draw discard draw draw draw draw discard draw ) 91)
+
+(play '((S . 5)(D . K)(C . J)(D . 4)(H . 4)(H . 3)(H . J)(C . 9)(S . 4)) '(discard discard discard discard discard draw draw ) 229)
+
+(play '((D . J)(C . J)(D . 4)(H . J)(C . 3)(H . Q)(D . K)(S . 2)(S . 3)(D . Q)(C . 2)(C . 4)(D . 6)(S . 7)(S . K)(C . 5)(C . A)(D . 8)(S . 5)(D . A)(S . 6)(D . 7)(S . J)(H . 5)(D . 9)(D . 5)(H . 9)(S . 4)(D . 3)(H . 6)(S . A)(H . A)(C . 7)(S . 8)(H . 4)(C . Q)(C . K)(S . Q)(D . 2)(H . K)(H . 2)(S . 9)(C . 9)(C . 6)(H . 8)(H . 3)(C . 8)(H . 7)) '(draw draw draw draw discard draw discard discard discard discard discard draw draw discard draw draw draw draw draw discard discard discard discard draw draw draw draw discard discard discard draw draw discard draw draw discard draw draw draw discard draw ) 101)
+
+(play '((S . 9)(C . J)(S . 2)(C . K)(D . 4)(H . A)(S . 7)(C . 4)(S . 4)(S . 6)(S . 3)(S . J)(H . 4)(D . K)(D . 5)(C . 2)(C . Q)(C . 7)(H . 5)(D . 7)(S . 5)(S . A)(C . 8)(S . Q)(D . J)(H . K)(D . 9)(D . 8)(H . 6)(H . 3)(D . 6)(C . 6)(C . 9)(S . K)(S . 8)) '(discard draw draw draw ) 93)
+
+(play '((D . 9)(C . 8)(D . K)(C . 5)(D . Q)(H . 8)(D . 5)(D . 6)(C . 3)(S . 5)(C . K)(S . A)(C . 2)(H . 6)(S . 4)(C . 7)(H . K)(S . 3)(H . 3)(S . J)(D . 2)(S . Q)(S . 2)(C . A)) '(draw discard draw draw draw draw discard discard draw discard draw ) 140)
+
+(play '((C . A)(S . 4)(C . 9)(C . 6)(S . 3)(C . Q)(C . K)(D . K)(H . 4)(D . Q)(S . 2)(S . 9)(H . 2)(C . 2)(C . 8)(D . 6)(H . 9)(S . Q)(H . 5)(D . 5)(S . A)(H . K)(D . 2)(D . 7)(D . J)(S . 7)(C . 5)(S . 5)(H . 3)(D . 3)(H . 7)(S . K)(S . 6)(C . 7)(H . A)(D . 8)(H . 8)(H . J)(S . J)(C . 4)(H . Q)) '(discard discard discard discard draw draw discard draw discard draw discard draw discard draw draw draw discard discard discard discard discard ) 317)
+
+(play '((H . J)(D . 3)(D . 8)(S . J)(C . 6)(C . J)(S . 9)(H . 4)(D . Q)(C . A)(H . 8)(S . 3)(H . 2)(S . Q)(H . 5)(C . 8)(C . K)(C . 2)(S . 5)(H . 6)(D . 2)(C . 9)(H . 3)(S . 2)(D . 9)(H . 7)(C . 5)(D . A)(D . 6)(C . 7)(S . 6)(S . 4)(H . Q)(D . J)(H . 9)(C . 3)(D . 5)(C . Q)(D . 7)(S . 7)(D . 4)(D . K)(H . K)) '(discard discard discard discard draw discard draw draw discard draw draw draw ) 80)
+
+(play '((D . 3)(C . 3)(S . 2)(H . 2)(C . 5)(H . 7)(H . 5)(D . 6)(D . 9)(H . K)(C . 2)(D . Q)(S . 3)(S . 7)(C . 7)(S . 8)(H . A)(C . 4)(S . 4)(H . 3)(C . 6)(H . 9)(H . Q)(H . 4)(D . 5)(H . J)(C . 9)(S . 5)(S . 6)(D . 7)(S . 9)(S . K)(D . A)(H . 6)(H . 8)(S . J)(D . 2)(C . 8)(D . 4)(D . 8)(C . A)(S . Q)(D . J)(S . A)(C . Q)(D . K)(C . K)(C . J)) '(draw discard discard discard draw draw draw discard discard draw draw draw draw draw draw draw discard draw discard draw discard discard draw draw discard draw discard draw discard draw discard draw ) 43)
+
+(play '((S . 3)(C . 9)(H . J)(H . 2)(C . J)(D . 7)(H . 4)(S . J)(H . K)(D . Q)(H . 5)(S . 9)(D . 6)(D . 3)(S . 6)(H . 7)(C . 5)(C . K)(S . K)(D . K)(C . 6)(S . 4)(S . 8)(C . Q)(H . 3)(C . A)(S . A)(D . 2)(H . 8)(D . 8)(S . Q)(H . A)(S . 2)(C . 2)(C . 8)(S . 5)(D . 5)(D . J)(C . 3)(H . 6)(C . 4)(D . A)(D . 9)(S . 7)(C . 7)(D . 4)(H . 9)(H . Q)) '(draw draw draw discard discard discard draw discard draw draw draw discard discard discard discard discard discard discard discard draw draw draw discard discard discard draw draw discard draw draw discard discard draw draw draw discard draw discard draw discard draw ) 308)
+
+(play '((H . Q)(D . 9)(S . 4)(D . J)(D . K)(D . 2)(S . 7)(C . 3)(D . 4)(H . 2)(D . 5)(S . Q)(H . 6)(H . 7)(D . 8)(S . 6)(H . J)(C . 7)(S . A)(H . K)(S . K)(C . 5)(C . 6)(H . 3)) '(discard draw discard discard draw draw draw draw discard discard discard discard ) 118)
+
+(play '((H . 8)(S . 3)(S . 4)(D . 3)(D . 6)(D . 5)(D . 9)(C . 2)(H . J)(C . 9)(H . 5)) '(discard draw discard discard discard discard discard discard ) 34)
+
+(play '((S . 4)(H . Q)(C . J)(D . 4)(C . K)(S . 7)(H . A)(C . 6)(S . 9)(C . Q)(C . 8)(C . A)(S . A)(C . 2)(C . 4)(C . 5)(D . 5)(H . J)(S . Q)(H . K)(D . 2)(D . 9)(H . 5)(C . 3)(D . 3)(S . 6)(H . 7)(D . 7)(S . 8)(H . 4)(D . J)(D . Q)(H . 3)(S . J)(D . 8)(S . 2)(C . 7)(D . K)(D . 6)(H . 8)(H . 6)(H . 2)(D . A)(S . 5)(C . 9)(S . 3)(S . K)(H . 9)) '(discard discard discard draw discard draw discard draw draw discard discard ) 305)
+
+(play '((C . J)(H . Q)(C . 2)(D . 4)(D . 3)(C . A)(S . K)(D . 7)(S . 8)(S . 5)(C . Q)(H . 3)(H . A)(S . 9)(D . A)(S . 6)(C . 4)(S . Q)(C . 5)(D . 6)(C . 8)(D . 9)(S . 3)(S . 7)(H . 9)(C . K)(D . J)(C . 6)(H . 2)) '(discard discard discard draw discard draw discard ) 203)
+
+(play '((H . Q)(D . 5)(S . 9)(C . 9)(H . A)(C . 4)(S . 2)(C . 3)(H . 2)(H . 8)(H . 7)(D . 8)(C . 2)(S . K)) '(draw discard draw draw discard ) 283)
+
+(play '((H . K)(S . 6)(H . Q)(S . 7)(H . 7)(S . 3)(D . 4)(H . 6)(S . 8)(D . 3)(D . 2)(S . K)(C . 2)(D . 6)(S . A)(H . 5)(C . K)(D . A)(C . J)(C . 6)(C . 8)(H . 3)(C . 9)(H . 4)(H . J)(D . Q)(D . 8)(C . 3)(C . 7)(C . 4)(S . 4)(S . J)(S . 9)(H . 2)(C . Q)) '(discard draw draw draw draw draw discard discard discard discard draw discard draw draw discard draw discard discard discard discard discard draw draw draw discard discard draw draw draw draw ) 12)
+
+(play '((C . 7)(H . 3)(C . 3)(S . 6)(D . 7)(C . A)(S . 7)) '(discard ) 59)
+
+(play '((H . A)(S . 3)(C . Q)(H . Q)(C . K)(C . 7)(S . 5)(H . 9)(D . K)(S . 9)(D . 8)(C . 8)(S . 6)(C . 5)(S . 7)(S . 8)(D . 6)(D . 7)(D . 2)(H . 7)(D . A)(D . 5)(C . 9)(D . 9)(C . J)(C . A)(C . 3)) '(discard draw ) 288)
+
+(play '((D . 9)(S . K)(C . 9)(C . A)(D . 3)(C . K)(D . 5)(C . 8)(H . 5)(S . 4)(D . 8)(H . 3)(H . K)(C . 4)(S . A)(D . K)) '(discard draw discard discard draw ) 265)
+
+(play '((D . J)(S . A)(S . 2)(D . 2)(C . 3)(S . 7)(S . J)(H . 6)(C . Q)(S . 4)(H . 9)(H . 3)(H . 7)(D . 7)(D . Q)(H . 2)(C . 9)(H . Q)) '(discard discard draw draw discard draw draw ) 196)
+
+(play '((H . Q)(D . J)(H . 6)(D . K)(H . J)(C . 2)(H . 8)(C . 5)(C . 7)(H . K)(D . 3)(D . 9)(H . A)(S . A)(H . 7)(S . 9)(S . Q)(D . 6)(S . 3)(C . 4)(C . Q)(S . 6)(H . 9)(D . Q)(H . 4)(S . 8)(C . J)(D . 2)(C . 6)) '(discard discard draw discard draw discard draw discard discard discard draw discard draw discard draw draw draw discard discard draw draw draw discard ) 113)
+
+(play '((C . 4)(H . A)(C . 3)(S . 9)(D . A)(S . Q)(C . 8)(D . 3)(C . K)(S . A)(C . Q)(S . 8)(H . 7)(H . Q)(D . Q)(D . 8)(S . K)(C . 5)(C . 2)(H . 5)(S . 3)(S . 5)(D . 4)(S . J)(H . 4)(S . 7)(S . 4)(D . 6)(S . 6)(S . 2)(D . J)(C . 6)(C . A)(H . J)(C . J)(D . 9)(C . 9)(D . 7)(H . 8)(H . 9)(D . K)(H . K)(D . 2)(H . 6)(H . 3)(C . 7)(H . 2)(D . 5)) '(draw draw discard discard draw discard draw discard discard discard discard draw discard draw discard draw discard draw discard draw ) 359)
+
+(play '((H . 8)(C . 7)(S . 3)(D . 7)(C . 9)(S . Q)(S . 7)(D . 2)(H . 7)(D . J)(C . 8)(D . 3)(S . A)(S . 5)(C . J)(D . 8)(C . 5)(D . A)(S . 2)(D . 6)(H . 5)(S . 6)(C . 2)(H . 4)(C . 6)(D . 5)(H . J)(H . 9)(S . K)(C . K)(H . 3)(D . K)(H . K)(D . 9)(D . Q)(C . 4)(C . 3)(S . 9)(C . Q)(H . A)) '(discard draw draw discard draw draw discard discard draw ) 228)
+
+(play '((D . 4)(D . 3)(H . J)(D . 7)(H . 9)(C . 9)(D . 5)(C . 2)(D . 2)(D . J)(H . 5)(S . 4)(S . 7)(S . 9)(C . 6)(D . 8)(S . A)(C . Q)(C . K)(S . 8)(S . 3)(C . 4)(S . 2)) '(draw discard draw draw discard discard draw discard discard discard discard discard discard draw discard draw draw ) 219)
+
+(play '((C . J)(C . 3)(D . 4)(C . K)(C . 7)(S . A)(H . 3)(C . Q)(H . 4)(H . 8)(S . 9)(D . 6)(H . J)(S . J)(H . 2)(C . 9)(D . 9)(D . 3)(S . 4)(H . 5)(C . 2)(S . 7)(S . 3)(S . 6)(D . 8)(S . Q)(D . Q)(C . 5)(S . 5)(D . 7)(D . 5)(H . K)(C . 8)) '(discard discard discard discard discard draw draw discard discard ) 234)
+
+(play '((H . Q)(S . 7)(S . 3)(C . 3)(C . 9)(S . A)(C . 2)(D . 5)(H . 6)(S . 6)(S . J)(C . J)(H . 7)(D . K)(H . 2)(D . J)(S . K)(D . 9)(H . 9)(H . 5)(H . K)(C . Q)(S . Q)(C . 4)(D . 3)(H . 4)(H . 3)(D . 2)(S . 9)(C . 8)(H . 8)(C . 5)(C . A)(D . 6)(D . 7)(H . A)(D . 4)(S . 4)(C . K)(C . 6)(S . 8)(S . 2)(D . A)(D . Q)(S . 5)) '(discard draw discard discard draw discard draw discard discard draw discard discard discard draw discard draw draw discard draw draw discard draw discard draw draw draw draw draw discard draw discard discard ) 159)
+
+(play '((S . 9)(H . 6)(S . 6)(C . 9)(H . 3)(H . A)(S . 3)(C . 5)(H . 9)(H . K)(H . 5)(D . 3)(H . Q)(S . A)(S . 7)(D . 4)(D . 5)(D . 2)(H . 8)(S . 4)(C . 7)(C . J)(D . 9)(S . 5)(C . 2)(C . A)(C . 8)(D . Q)(H . 4)(D . 7)(D . 8)(D . 6)(S . Q)(C . K)(C . 3)) '(discard discard discard discard discard draw discard ) 237)
+
+(play '((H . 7)(S . 7)(S . 5)) '(discard ) 253)
+
+(play '((D . 8)(H . K)(D . 7)(S . Q)(H . 7)(C . J)(S . 5)(H . Q)(C . 9)(C . 7)(H . 4)(C . 5)(S . 4)(C . 4)(S . 6)(H . 2)(D . 5)(H . 6)(D . A)(D . 4)(H . A)(S . 9)(D . 2)(D . 6)(D . 9)(S . 8)(S . A)(S . 2)(C . Q)(S . 3)(C . K)(H . 9)(D . K)(S . J)(S . 7)(C . A)(D . J)(D . 3)(S . K)(C . 6)(C . 3)(H . 5)(D . Q)(H . 8)(H . J)(C . 8)(C . 2)(H . 3)) '(discard draw discard discard draw discard draw draw discard discard draw draw discard draw draw discard discard discard draw draw draw draw draw draw ) 171)
+
+(play '((H . 7)(S . K)(C . 4)(D . 4)(H . K)(H . 9)(S . J)(C . 5)(H . J)(D . 2)(H . 8)(D . 9)(S . 5)(C . A)(D . 8)(S . 6)(S . 2)(S . 3)(D . 3)(D . J)(C . 8)(C . Q)(D . A)(H . 2)(C . K)(C . 9)(D . 7)(D . K)(C . J)(S . Q)(H . Q)(S . 7)(H . 5)(C . 7)(D . 5)(H . 3)(S . A)(S . 9)(S . 8)(C . 3)(S . 4)(H . 6)(D . 6)(D . Q)(C . 2)(H . A)(H . 4)(C . 6)) '(draw discard discard draw discard draw draw discard discard draw draw discard discard discard draw draw draw draw draw discard draw discard draw discard discard draw draw draw draw ) 39)
+
+(play '((D . 3)(H . 5)(C . J)(C . 5)(S . 9)(S . 5)(H . 2)(S . 7)(S . 6)(C . 7)(S . 2)(S . A)(H . K)(D . 7)(H . 8)(H . 3)(H . 7)(C . Q)(D . Q)(D . 4)(C . 4)(C . 2)(C . 3)(S . K)(S . Q)(H . 6)(D . A)(S . 4)(H . 4)(S . J)(C . K)(S . 8)) '(draw draw draw discard draw discard draw discard discard draw draw draw draw discard discard discard discard discard discard draw discard draw discard draw discard discard discard discard discard discard discard ) 129)
+
+(play '((S . Q)) '() 70)
+
+(play '((H . 9)(C . 2)(C . 3)(H . J)(D . 3)(D . J)(D . 4)(S . 7)(H . A)(C . 9)(C . 7)(D . 6)(S . J)(D . 7)(H . 2)(S . 3)(C . 8)(S . Q)(C . Q)(C . A)(D . 5)(H . K)(H . Q)(D . K)(S . 9)(H . 3)(C . 6)(S . 8)(D . 2)(S . 6)(C . J)(C . K)(S . 4)(S . 2)(H . 6)(H . 4)(H . 5)(S . 5)(C . 4)(D . 9)(D . Q)) '(discard draw draw draw discard discard discard draw discard discard draw draw draw draw draw discard draw draw discard discard discard discard draw discard draw draw discard discard discard draw discard ) 336)
+
+(play '((H . A)(C . 7)(D . J)(D . K)(D . 6)(S . 6)(S . Q)(S . J)(S . 5)(S . K)(C . A)(D . Q)(D . 5)(C . 6)(S . 3)(C . 3)(H . 4)(H . 9)(S . 2)(D . 3)(H . 2)(C . 9)(C . 8)(C . K)(D . 2)(S . 8)(C . J)(D . A)) '(draw draw draw discard draw discard draw discard draw draw discard draw discard draw discard discard discard discard discard draw discard draw discard discard draw ) 315)
+
+(play '((H . 6)(D . 9)(H . 3)(D . 2)(H . Q)(S . 9)(H . 9)(H . 4)(C . 4)(C . 7)(S . K)(H . 8)(H . K)(C . 2)(S . 8)(H . 7)(S . A)(D . 5)(C . Q)(S . 7)(D . K)(D . 6)(S . 3)) '(discard draw discard discard draw ) 197)
+
+(play '((H . 3)(D . K)(S . 2)(D . J)(D . Q)(S . 8)(D . 9)(H . 2)(S . 9)(C . 3)(H . A)(S . J)(D . 5)(D . 6)(C . J)(H . 4)(H . 5)(H . 9)) '(discard draw discard discard draw draw discard discard discard draw draw ) 345)
+
+(play '((D . 3)(C . 2)(H . Q)(D . A)(C . 5)(S . 8)(H . J)(C . 8)(D . Q)(C . 3)(C . Q)(D . J)(C . J)(S . J)(C . 7)(H . 7)(H . A)(S . Q)(H . 5)(C . 6)(S . 4)(S . 6)(H . 3)(H . 8)(D . 5)(S . K)) '(discard draw draw draw draw discard discard discard discard discard draw discard draw draw draw draw discard discard draw discard discard draw draw draw discard draw ) 126)
+
+(play '((C . 2)(H . 4)(C . 3)(S . J)(H . 6)(S . K)(D . 3)(H . 2)(H . A)(S . 6)(H . 5)(D . A)) '(draw draw draw discard discard draw discard draw draw discard ) 198)
+
+(play '((D . 5)(D . Q)(C . 3)(H . 8)(C . 9)(C . 5)(S . 9)(D . 4)(S . 5)(S . 6)(C . 8)(C . 4)(H . J)(C . 7)(S . K)(H . A)(D . 6)(D . 8)(S . 3)(D . 9)(C . Q)(H . 7)(S . A)(S . 4)(S . Q)(D . 7)(H . 4)(S . 2)(S . 7)(H . 6)(D . K)(H . 3)(D . 2)(H . 5)) '(draw discard draw draw draw discard draw discard draw draw draw draw draw ) 322)
+
+(play '((C . 7)(H . 8)(C . 3)(C . Q)(C . 6)(H . A)(S . J)(H . J)(H . Q)(S . A)(D . 8)(D . 6)(S . 4)(C . J)(D . Q)(D . 3)(S . Q)(H . 5)(S . 2)(D . A)(H . 4)(S . 8)(C . A)(C . 5)(S . K)(S . 5)(D . 9)(C . 8)(D . 5)(H . K)(C . 9)(S . 7)(C . K)(H . 9)(D . J)(D . 4)(D . 7)(C . 2)(H . 7)(H . 6)(H . 3)(D . K)(H . 2)(S . 6)(S . 3)(S . 9)(C . 4)(D . 2)) '(draw draw discard discard discard draw discard discard draw draw draw discard draw draw draw draw draw discard discard draw draw draw discard discard draw draw discard discard draw draw draw draw draw ) 54)
+
+(play '((S . K)(C . A)(S . 5)(H . J)(H . 2)(D . Q)(H . 9)(D . 6)(C . 9)(D . 2)(C . 4)(D . 9)(D . 4)(S . 2)(H . 5)(H . K)(D . A)(C . 8)(C . J)) '(draw discard discard ) 215)
+
+(play '((S . 3)(H . Q)(H . 6)(H . J)(C . 2)(C . K)(S . J)(C . 4)(D . A)(C . 6)(D . 9)(H . 9)(S . K)(C . 9)(D . 8)(H . 7)(S . A)(C . A)(H . A)(D . J)(C . 3)(S . 7)(H . 4)(H . 3)(D . 5)(S . 6)(C . J)(D . 2)(S . Q)(D . 6)(S . 8)(H . 5)(C . Q)(C . 8)(C . 7)(S . 4)(S . 5)(D . Q)(D . 7)(H . 8)(S . 9)(C . 5)(D . K)(S . 2)(D . 4)(H . K)) '(discard draw draw discard draw discard discard draw discard discard draw discard draw draw discard discard draw draw discard draw draw draw discard draw ) 23)
+
+(play '((H . 3)(D . 5)(H . J)(C . Q)(S . 2)(D . 2)(C . K)(S . 8)(S . 7)(H . 4)(H . 2)(S . Q)(C . 6)(S . 3)(C . 3)(S . A)(C . 9)(S . K)(D . J)(S . 5)(C . 8)(H . K)(H . 8)(S . J)(H . A)(D . 8)(D . 9)(D . K)(S . 4)(D . 3)(C . J)(C . 7)(D . 6)(C . 5)(D . 7)(H . 6)(H . 9)(H . Q)(D . A)(D . 4)(C . 2)(C . 4)(C . A)(S . 6)(S . 9)(H . 7)(H . 5)(D . Q)) '(discard discard draw draw draw discard discard draw draw discard draw discard discard draw draw draw discard draw draw draw draw draw discard discard discard draw draw discard discard discard discard draw draw draw draw draw discard draw draw discard discard discard discard discard discard draw discard ) 74)
+
+(play '((S . 5)(D . Q)(C . 5)(C . 8)(S . J)(S . 3)(D . K)(H . 7)(H . 8)(C . 9)(D . 7)(C . Q)(S . 8)(D . 5)(H . 3)(C . A)(D . 8)(S . A)(S . 6)) '(draw draw draw draw discard discard discard discard draw ) 273)
+
+(play '((S . 5)(D . 4)(H . J)(H . 8)(H . 2)(C . 2)(H . A)(D . 8)(S . 8)(S . 9)(S . 3)(S . 2)(D . K)) '(discard draw draw draw draw discard ) 175)
+
+(play '((C . 5)(C . 9)(D . 7)(S . Q)(C . 8)(D . 6)(D . 2)) '(draw discard draw draw discard draw ) 1)
+
+(play '((C . 4)(C . 8)(C . 6)(S . 8)(D . K)(H . A)(S . K)(H . 3)(D . Q)(H . 2)(H . 7)(D . J)(C . Q)(C . 3)(D . A)(H . K)(C . 5)(S . 5)(S . 3)(S . J)(S . A)(C . 2)(H . 6)(D . 7)(S . Q)(S . 6)(H . 8)(D . 6)(S . 2)(H . Q)(S . 4)(S . 7)(C . K)(H . J)(C . 7)(C . J)(D . 8)(D . 4)(D . 9)(D . 5)(D . 2)(H . 5)(H . 9)(C . A)(C . 9)(S . 9)(D . 3)(H . 4)) '(discard draw draw draw draw draw discard draw draw draw discard draw draw draw draw discard discard draw draw draw discard discard draw draw discard draw draw discard draw discard draw ) 35)
+
+(play '((C . 6)(C . 4)(C . 7)(D . 9)(C . 5)(H . 5)(S . 7)(S . J)(C . 8)(S . 4)(H . 8)(C . K)(S . 5)(H . 4)(S . K)(C . A)(H . 9)(D . 2)(S . A)(S . 2)(D . 8)(H . 6)(C . 3)(H . K)(C . 9)(C . 2)(C . J)(C . Q)(D . 6)(S . 9)(S . 8)(H . 3)(H . 2)(H . 7)(D . 4)(D . 3)(S . 6)(D . K)(H . A)(S . 3)(D . 7)(H . Q)(S . Q)(H . J)(D . 5)(D . J)(D . Q)(D . A)) '(discard draw draw discard draw draw discard discard discard discard draw ) 146)
+
+(play '((D . 5)(D . Q)(S . 5)(C . 9)(S . 2)(S . K)(H . 6)(H . 5)(H . Q)(D . J)(S . 6)(H . J)(H . 8)(C . K)(S . A)(D . 7)(S . 8)(D . 3)(H . 2)(C . Q)(C . 2)(H . 4)(D . 2)(C . 5)(H . 9)(S . J)(H . 7)(C . 8)(C . 7)(S . Q)(C . A)(D . K)(S . 4)(S . 7)) '(draw discard draw discard draw discard discard draw draw discard discard discard discard discard draw discard draw draw discard discard draw draw discard draw draw discard ) 335)
+
+(play '((C . Q)(H . 2)) '(draw draw ) 325)
+
+(play '((C . 9)(S . 9)(C . 6)(D . 4)(H . 2)(C . 7)(C . A)(S . 4)(C . 4)(D . 7)(D . J)(S . 8)(H . 7)(S . K)(D . 9)(S . 7)(H . J)(H . K)(H . 4)(S . 5)(C . Q)(H . 6)(S . J)(H . 8)(C . J)(D . 3)(D . 2)(C . 2)(D . A)(H . A)(D . 6)) '(discard draw ) 241)
+
+(play '((H . 6)(H . Q)(C . 3)(D . 9)(D . 3)(H . 7)(C . 9)(S . 2)(C . 7)(H . J)(S . J)(H . 3)(D . 6)(S . 8)(H . 4)(S . 5)(C . A)(C . 4)(S . 6)(S . K)(H . A)(C . 8)(S . 4)(D . J)(S . 9)(S . 7)(D . A)(D . 4)(H . K)(H . 9)(S . 3)(D . 7)(H . 8)(C . J)(D . K)(C . 5)(D . 8)(C . 6)(S . A)(C . Q)(D . 5)(C . 2)(H . 5)(C . K)(D . Q)) '(discard discard draw discard discard discard ) 122)
+
+(play '((S . 8)(D . 7)(C . J)(C . 7)(C . 8)(H . K)(S . 2)(H . A)(C . 4)(H . 9)(C . A)(S . K)(S . 6)(D . J)(H . 2)(D . K)(D . 2)(C . 2)(C . K)(C . 9)(D . A)(S . 9)(D . 6)(H . 7)(D . 8)(S . 4)(H . 3)(D . 4)(S . Q)(H . Q)(S . 3)(H . J)(C . 5)(H . 4)(D . Q)(S . 7)(S . A)(H . 6)(D . 9)(C . Q)) '(draw draw discard draw draw discard discard draw discard draw discard discard draw discard draw discard draw discard draw draw discard discard discard draw discard draw draw draw draw discard ) 19)
+
+(play '((S . K)(S . A)(C . 5)(H . A)(D . 7)(S . 3)(S . 5)(C . 6)(S . 7)(H . 8)(C . A)(H . K)(D . Q)(D . 9)(H . Q)) '(discard discard ) 66)
+
+(play '((S . 6)(D . 9)(C . 6)(H . Q)(S . J)(C . 2)(H . J)(C . J)(D . Q)(C . Q)(D . J)(C . 3)(H . 6)(D . 6)(D . A)(D . 8)(D . K)(S . 8)(H . 8)(H . 5)(C . 9)(S . 9)(H . 3)(H . 4)(C . 7)(C . 8)(H . 2)(H . 7)(S . 5)(D . 5)) '(discard draw discard discard draw discard discard draw discard draw draw draw draw draw discard draw draw draw draw ) 210)
+
+(play '((H . 9)(S . Q)(C . J)(D . 5)(S . 9)(C . Q)(C . 3)(S . J)(C . A)(C . 2)(C . 8)(D . 2)(C . 6)(H . 7)(D . J)(S . 7)(D . K)(D . 4)(H . 6)(C . 5)(C . 7)(S . 2)(H . 2)(S . 8)(S . 6)(C . K)) '(draw draw draw ) 344)
+
+(play '((S . 9)(D . 3)(H . 6)(H . K)(S . 8)(S . 4)(C . 3)(H . 8)(H . A)(S . A)(C . 8)(C . 7)(C . K)(S . 3)(H . 5)(H . 3)(C . 9)(C . 6)(D . 5)(D . 6)(D . K)(C . 5)) '(discard discard draw draw draw draw discard draw discard draw draw discard draw discard draw draw discard discard draw discard ) 259)
+
+(play '((S . 9)(S . 3)(S . A)(C . 2)(S . J)) '(draw draw draw discard discard ) 223)
+
+(play '((S . J)(S . 3)(C . 5)(H . Q)(H . 4)(C . 4)(H . A)(D . 6)(C . 9)(D . A)(D . 9)(D . 8)(D . 3)(D . Q)(S . 9)(H . 3)(H . 9)(S . 6)(D . 4)(S . Q)(C . Q)(D . 5)(S . 8)(C . J)(S . 2)(D . 2)(H . 8)(C . 7)(D . K)(H . J)(C . 3)(C . 2)(S . A)(S . 7)(C . K)(S . K)(H . 6)(D . 7)(C . 6)(C . 8)(S . 5)(H . 2)(H . K)) '(discard discard draw discard draw discard draw discard draw discard draw draw discard draw discard draw draw discard draw discard discard draw discard draw draw draw discard discard discard draw discard ) 26)
+
+(play '((H . 4)(C . A)(H . 8)(S . Q)(S . K)(D . A)(S . 3)(D . J)(D . Q)(H . J)(C . 8)(C . 3)(D . 3)(C . 7)(H . 5)(S . J)(C . K)(D . 2)(D . 9)(H . Q)(S . 9)(H . 7)(S . 2)(S . 7)(S . 4)(H . 2)(H . 6)(H . A)(S . A)(S . 5)(C . 9)(S . 8)(C . Q)(C . 6)(D . 5)) '(discard discard draw discard draw discard discard discard discard draw discard draw discard discard discard draw discard ) 213)
+
+(play '((H . A)(D . J)(C . 6)(C . J)(S . K)(H . 8)(D . 9)(H . 3)(D . 4)(H . 4)(C . 7)(C . 8)(C . 4)(H . 6)(H . 9)(D . 6)(C . A)(S . J)(H . Q)(D . 2)(S . 2)(D . Q)(S . 9)(D . K)(C . 2)(D . 3)(S . 8)(C . K)(D . 8)(S . 7)) '(draw discard discard draw ) 250)
+
+(play '((D . 5)(D . 8)(H . A)(D . 4)(D . K)(C . 6)) '(discard draw discard discard discard ) 253)
+
+(play '((H . 5)(S . K)(D . 7)(C . 9)(D . 3)(C . 3)(S . 3)(H . J)(C . K)(C . 8)(H . 7)(D . 8)(H . Q)(H . 3)(H . 8)(H . 4)(D . 4)(D . K)(S . J)) '(discard draw discard draw discard discard draw draw discard discard draw draw draw ) 226)
+
+(play '((D . 7)(C . 3)(D . 6)(H . J)(S . A)(S . 7)(S . 3)(S . 2)(C . A)(C . Q)(H . 5)(C . 4)(C . 6)(C . 2)(H . 2)(S . Q)) '(draw discard discard draw draw draw draw draw discard draw draw draw draw ) 313)
+
+(play '((D . 9)(D . 7)(S . J)(D . 5)(H . 7)(C . 8)(C . 3)(H . 5)(D . 8)(D . 4)(C . 7)(H . 8)(S . 6)(H . Q)(C . 6)(C . Q)(C . K)(D . 3)(H . 9)(S . K)(D . K)(H . K)(D . J)(S . 4)(H . A)(H . 2)(S . 9)(S . 5)(S . Q)(H . 4)(H . J)(D . A)(D . Q)(D . 2)(S . 2)(S . A)(C . 5)(S . 7)(C . J)(C . 9)(D . 6)(H . 6)(S . 8)(S . 3)(C . 4)(H . 3)(C . 2)(C . A)) '(draw draw discard discard discard discard discard ) 309)
+
+(play '((S . Q)(C . 7)(C . 3)(D . 7)(C . 8)(S . 6)(D . A)(H . 9)(D . 5)(S . J)(S . 4)(H . Q)(C . 4)(D . 9)(S . 9)(S . K)(H . A)(S . A)(C . A)(C . 9)(H . 4)(D . Q)(C . 5)(D . 8)(D . 6)(H . 8)(H . 3)(D . K)(H . 7)(H . J)(S . 3)(C . K)(C . J)(H . K)(H . 6)(D . J)(S . 8)(D . 2)(S . 5)(H . 5)(C . Q)(C . 6)) '(discard draw discard draw draw discard draw draw discard draw discard draw draw discard discard draw discard draw draw discard draw discard discard discard ) 304)
+
+(play '((S . Q)(C . 9)(D . 9)(D . 3)(H . J)(C . J)(C . 2)(S . 5)(H . 4)(D . 5)(C . 5)(H . K)(H . 3)(H . 8)(S . 6)(H . 7)(C . 7)(D . Q)(H . 9)(H . 2)(H . A)(D . K)(H . 5)(C . K)(D . 8)(S . 2)(H . Q)(C . 8)(C . 3)(D . 2)(D . 4)(S . A)(S . J)(D . 6)(S . 4)(S . 9)(S . 3)(D . J)(D . A)(H . 6)(D . 7)(C . A)(C . 4)(C . 6)(S . 7)(S . 8)(C . Q)(S . K)) '(discard draw discard draw draw discard discard draw discard draw draw discard draw discard draw draw draw discard discard discard draw draw draw draw discard draw discard discard discard discard draw discard draw discard draw discard discard discard draw draw draw draw draw draw ) 9)
+
+(play '((C . A)(S . 5)(S . 7)(H . 8)(D . 2)(C . 2)(S . J)(S . K)(H . J)(H . 2)(S . 4)(H . 6)(C . 8)(C . 3)(S . A)(D . J)(D . 6)(D . 9)(S . 8)(C . 5)(H . A)(D . 7)(D . A)(C . K)(C . J)(S . 6)(S . 3)(S . 9)) '(draw discard discard draw discard draw discard draw discard discard discard draw draw discard discard discard discard discard draw draw discard discard discard ) 340)
+
+(play '((S . 5)(S . K)(S . A)(C . K)(S . 9)(C . 6)(D . 3)(S . 6)(H . 2)(H . K)(C . J)(C . Q)(H . 5)(H . 7)(S . 7)(H . 6)(D . 2)(H . 8)) '(draw draw discard discard draw discard draw draw discard discard draw discard draw draw ) 287)
+
+(play '((H . 5)(C . A)(D . 3)(S . 5)(H . 8)(C . Q)(D . 9)(S . K)(C . 4)(H . 4)(C . 9)(C . 6)(S . 4)(C . 5)(S . A)(S . Q)(D . 2)(S . J)(H . 9)(H . K)(H . 6)(H . 3)) '() 93)
+
+(play '((D . 2)(C . 8)(H . 3)(D . 4)(C . 3)) '() 333)
+
+(play '((H . Q)(S . 7)(H . 4)(C . 6)(H . 6)(H . 5)(S . A)(C . 2)(S . 5)(D . 8)(D . A)(S . 4)(H . 2)(H . A)(D . 9)(D . 2)) '(draw draw draw discard draw discard draw discard draw draw discard draw draw discard draw ) 318)
+
+(play '((H . 6)(H . 8)(H . J)(S . 7)(C . 8)(D . 6)(C . 6)(C . 4)(S . A)(H . 5)(S . 4)(S . 9)(S . 5)) '(draw discard draw draw ) 227)
+
+(play '((H . 7)(H . 8)(S . K)(C . 7)(S . 3)(H . 4)(D . 5)(D . 3)(H . 2)(H . A)(S . 4)(C . 4)(S . 5)(S . 9)(S . A)(H . 6)(C . K)(H . 3)(C . 2)(C . 6)(D . 9)(S . 6)(C . 9)(D . A)(D . 2)(H . Q)(C . A)(C . J)(D . 8)(S . J)(S . 8)(D . 4)(H . K)(C . Q)(C . 8)(D . 6)(D . Q)) '(discard draw draw discard discard discard discard draw discard discard draw draw draw discard draw discard discard discard draw discard discard draw draw discard discard draw draw draw ) 5)
+
+(play '((C . Q)(C . K)(S . Q)(H . J)(C . 6)(C . J)(D . 7)(S . 5)) '(draw discard discard discard discard draw draw discard ) 67)
+
+(play '((S . 7)(C . 8)(C . K)(H . A)(H . 5)(S . A)(S . 9)(H . 9)(H . K)(H . 6)(C . 4)(S . 3)(S . 6)(H . 4)(H . Q)(C . 5)(H . 8)(D . 3)(D . J)(D . 2)(D . 9)(C . 9)(S . 4)(S . 5)) '(draw draw discard draw draw draw draw draw discard discard draw discard draw draw draw ) 111)
+
+(play '((D . J)(H . Q)(H . 2)(C . J)(S . 8)(D . 7)(S . 6)(C . 4)(C . 9)(S . 7)(H . J)(C . K)(H . 9)(D . 9)(D . 6)(C . 3)(H . A)) '(draw draw discard draw ) 78)
+
+(play '((D . 4)(S . 5)(H . J)) '(discard ) 153)
+
+(play '((D . 4)(S . 7)(S . 9)(D . 7)(C . A)(H . 2)(C . 3)(S . A)(S . 4)(D . A)(S . K)(C . 5)(C . Q)(D . 8)(D . 5)(D . 2)(C . J)(H . Q)(D . 3)(H . 7)(C . 9)(D . 9)(H . K)(H . 6)(H . 9)(C . 8)(S . 6)(S . Q)(C . 6)(S . 2)(S . 3)(C . 2)(D . J)(S . 8)(H . 4)(D . 6)(H . 3)(H . 5)(C . 4)(H . J)(H . 8)(C . 7)(S . 5)(S . J)(H . A)(C . K)(D . Q)(D . K)) '(discard ) 19)
+
+(play '((D . 2)(C . 6)(H . 8)(C . A)) '(discard draw ) 295)
+
+(play '((H . 7)(H . 3)(D . Q)(S . 4)(C . 5)(H . J)(D . K)(H . A)(D . A)(S . 6)(D . 5)(C . 6)) '(draw discard draw discard discard discard discard discard draw discard ) 133)
+
+(play '((H . Q)(C . A)(S . 8)(C . Q)(H . K)(H . 9)(C . 7)(S . 7)(D . 5)(S . 6)(S . A)(S . 4)(D . 6)(H . 3)(H . 6)(C . 6)(C . K)(D . 2)(D . Q)(S . Q)(H . 5)(C . 3)) '(discard draw discard discard discard draw discard draw discard discard discard draw draw draw draw discard draw discard discard discard discard discard ) 37)
+
+(play '((D . 4)(D . 5)(S . 4)(S . J)(H . 4)(D . 3)(C . K)(H . 6)(C . 9)(C . 7)(S . 5)(C . 3)(D . 2)(D . 7)(C . Q)(D . J)(H . 2)(S . 7)(S . 9)(S . Q)(H . 8)(C . 2)(D . 6)(S . 6)(H . 9)(H . J)(D . 9)(D . K)(H . A)(S . A)(C . 6)(S . K)(C . 4)(D . A)(S . 2)(H . 7)(H . Q)(C . J)(D . Q)(H . 3)(C . A)(D . 8)(C . 8)(H . K)(H . 5)) '(discard draw discard discard draw draw draw discard draw discard draw discard draw draw discard discard draw discard discard draw draw discard draw draw draw discard draw draw discard draw draw draw discard draw draw discard draw draw draw draw discard discard ) 354)
+
+(play '((H . 5)(D . 7)(S . 9)(C . 5)(C . Q)(D . 4)(H . 8)(H . 4)(D . 3)(H . 2)(C . 4)(C . J)(D . A)(D . Q)(C . 8)(D . 6)(H . 7)(S . 5)(S . 4)(C . 3)(H . A)(S . A)(S . 3)(S . 2)(H . 6)(D . 2)(D . J)(S . K)(D . 9)(S . 6)(C . A)(H . 9)(H . 3)(C . 9)(D . 8)(D . 5)(H . Q)(D . K)(C . K)) '(draw discard draw draw draw discard discard draw discard draw draw draw discard discard discard ) 79)
+
+(play '((H . A)(S . 4)(C . 8)(D . 2)(D . 7)(S . 3)(C . A)(H . 3)(S . A)(H . 2)(C . 9)(D . 5)(H . J)(S . 5)(S . 6)(D . K)(H . Q)(C . 3)(D . 3)(C . K)(D . 4)(D . J)(D . 6)(C . 4)(S . J)(S . 9)(D . 9)(H . 4)(C . Q)(S . Q)(C . 5)(D . 8)(C . 6)(H . 8)(H . 5)(S . 2)(H . 9)(S . K)(C . 7)(D . A)(S . 8)(H . 6)(H . 7)(C . J)(D . Q)(C . 2)) '(draw draw draw discard draw discard discard discard draw ) 225)
+
+(play '((S . 2)(C . 3)(H . 5)(C . 4)(H . Q)(S . 8)(D . 5)(H . 4)(S . K)(S . 4)(D . A)(S . 7)(S . 9)(C . Q)(C . 5)(H . 7)(D . 9)(S . 6)(D . K)(H . 3)(D . Q)(C . 2)(C . J)(H . A)(S . 5)(C . A)(S . J)) '(draw ) 45)
+
+(play '((S . A)(S . 8)(H . A)(S . 3)(D . 7)(D . K)(H . 8)(H . 3)(D . 5)(C . K)(S . J)(S . Q)(S . 2)(C . 6)(H . 2)(H . 5)(S . 7)(S . K)(D . 6)(C . Q)(S . 4)(S . 9)(H . 4)(C . 4)(H . 9)(S . 5)(C . A)(H . 7)(H . J)(C . 5)(H . Q)(D . A)(D . 2)(D . J)(H . 6)(C . 2)(C . 7)(S . 6)(C . 9)) '() 190)
+
+(play '((C . 8)(S . 9)(S . A)(S . J)(S . 2)(C . J)(C . 4)(C . 9)(S . 3)(S . Q)(H . 2)(D . 2)(H . 5)(H . A)(D . 7)(H . 6)(D . 5)(H . Q)(H . 8)(S . 4)(H . 7)(H . 4)(H . J)(S . 8)(C . 5)(D . A)(C . Q)(H . 9)(S . 6)(C . 2)(C . A)(D . J)(C . 3)(C . 7)(D . 3)(D . 6)(S . 7)(S . K)(S . 5)(H . 3)(D . 8)(H . K)(D . Q)(C . 6)) '(discard draw discard draw draw draw draw discard ) 323)
+
+(play '((S . 7)(S . 5)(C . 2)(H . 9)(H . 6)(S . 4)(D . 4)(S . J)(H . K)(H . Q)(S . 2)(H . 4)(D . J)(D . 8)(C . 7)(C . 3)(H . 2)(H . J)(H . 7)(C . 4)(D . 5)(D . Q)(D . 9)(D . 7)(D . A)(C . 9)(S . 8)(H . 5)(S . 9)(S . Q)(S . 6)(D . 3)(H . 8)(H . A)(C . 8)(C . K)(C . A)(C . 5)(D . 2)(D . K)) '(discard ) 112)
+
+(play '((C . 2)(D . 7)(H . 7)(C . A)(D . 6)(D . Q)(D . 2)(H . 2)(H . K)(H . 5)(H . 8)(S . K)(C . Q)(D . J)(S . 5)(H . Q)(C . 8)(H . A)(D . 3)(C . J)(S . 8)(H . 3)(H . 4)(C . 3)(C . 7)(S . J)(C . 9)(D . 9)(S . 2)(S . Q)(D . 8)(H . 6)(D . 5)(S . 7)(D . 4)(C . K)(D . K)(C . 5)(S . 6)(S . 3)(H . J)(S . A)(S . 9)(S . 4)) '(draw draw draw discard discard draw discard draw draw discard discard discard draw discard draw draw draw discard draw discard draw draw discard discard draw discard draw draw draw draw discard discard draw draw draw draw discard ) 80)
+
+(play '((S . 6)(H . 5)(H . 6)(H . A)(C . A)(S . K)(D . 8)(C . 5)(D . 9)(D . 3)(S . J)(S . A)(D . 2)(S . 2)(D . 6)(H . 9)(S . 9)(C . 2)(D . K)(S . 4)(D . J)(H . K)(D . Q)(H . Q)(C . Q)(S . 8)(H . J)) '() 355)
+
+(play '((H . 5)(C . 2)(C . Q)(S . 2)(H . 2)(S . 5)(S . 8)(D . A)(H . K)(D . K)(S . A)(S . 3)(C . K)(D . 6)(H . 4)(H . A)(S . 6)) '(draw draw discard discard ) 169)
