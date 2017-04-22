@@ -3,26 +3,46 @@ import pwd
 import sys
 import argparse
 import hashlib
-from pprint import pprint
+import subprocess
+import re
 
 def file_hasher(filepath):
     return hashlib.sha256(open(filepath, 'rb').read()).hexdigest()
 
-#Just (i) sort the hashes of contents of directory,  (ii) concatenate
-#   the sorted hashes and  (iii) take a hash of the
-#resulting string.  Do this in bottom-up fashion in the directory hierarchy.
 def dir_hasher(filepath):
     dir_content = os.listdir(filepath)
-    dir_hash = ""
+    dir_hash = []
     for fdir in dir_content:
         if os.path.isdir(filepath + "/" + fdir):
             for hashval, direct in alldirectories.items():
                 if direct == (filepath + "/" + fdir):
-                    dir_hash = dir_hash + hashval
+                    dir_hash.append(hashval)
         else:
-            dir_hash = dir_hash + file_hasher(filepath + "/" + fdir)
-    return hashlib.sha256(dir_hash.encode('utf-8')).hexdigest()
+            dir_hash.append(file_hasher(filepath + "/" + fdir))
+    dir_hash.sort()
+    direc_hash = ''.join(dir_hash)
+    return hashlib.sha256(direc_hash.encode('utf-8')).hexdigest()
 
+def find_dups(list):
+    rets = []
+    for key,value in list.items():
+        if(len(value)>1):
+            rets = rets + value
+    return rets
+
+def command_execute(command,list,pattern):
+    if(command == 'p'):
+        for item in list:
+            name = item.rsplit("/")[-1]
+            if(re.search(pattern,name)):
+                print(item)
+    else:
+        for item in list:
+            name = item.rsplit("/")[-1]
+            if(re.search(pattern,name)):
+                cmd = command + " " + item
+                output = subprocess.check_output(cmd, shell=True)
+                print (output)
 
 cwd = os.getcwd()
 parser = argparse.ArgumentParser()
@@ -63,5 +83,8 @@ for fullpath in dirlist:
             else:
                 alldirectories[dir_hash] = [dir_path]
 
-pprint (alldirectories)
-pprint (allfiles)
+
+if (args.type == 'f'):
+    command_execute(args.action, find_dups(allfiles), regex)
+else:
+    command_execute(args.action, find_dups(alldirectories), regex)
