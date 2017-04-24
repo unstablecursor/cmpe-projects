@@ -32,19 +32,15 @@ def find_dups(list):
             rets = rets + value
     return rets
 
-def command_execute(command,list,pattern):
+def command_execute(command,list):
     if(command == 'p'):
         for item in list:
-            name = item.rsplit("/")[-1]
-            if(re.search(pattern,name)):
-                print(item)
+            print(item)
     else:
         for item in list:
-            name = item.rsplit("/")[-1]
-            if(re.search(pattern,name)):
-                cmd = command + " " + item
-                output = subprocess.check_output(cmd, shell=True)
-                print (output)
+            cmd = command + " " + item.replace(" ","\ ")
+            output = subprocess.check_output(cmd, shell=True)#????
+            print (str(output))
 
 cwd = os.getcwd()       #Getting current working director
 
@@ -82,22 +78,24 @@ alldirectories = {}
 for fullpath in dirlist:
     for root, dirs, files in os.walk(fullpath, topdown=False):
         for fname in files:
-            file_path = root + "/" + fname
-            file_hash = file_hasher(file_path)
-            if file_hash in allfiles:
-                allfiles[file_hash].append(file_path)
-            else:
-                allfiles[file_hash] = [file_path]
+            if(re.search(regex,fname)):
+                file_path = root + "/" + fname
+                file_hash = file_hasher(file_path)
+                if file_hash in allfiles:
+                    allfiles[file_hash].append(file_path)
+                else:
+                    allfiles[file_hash] = [file_path]
         for dname in dirs:
-            dir_path = root + "/" + dname
-            dir_hash = dir_hasher(dir_path)
-            if dir_hash in alldirectories:
-                alldirectories[dir_hash].append(dir_path)
-            else:
-                alldirectories[dir_hash] = [dir_path]
+            if(re.search(regex,dname)):
+                dir_path = root + "/" + dname
+                dir_hash = dir_hasher(dir_path)
+                if dir_hash in alldirectories:
+                    alldirectories[dir_hash].append(dir_path)
+                else:
+                    alldirectories[dir_hash] = [dir_path]
 
 #Control for file or directory, then executing commands.
 if (args.type == 'f'):
-    command_execute(args.action, find_dups(allfiles), regex)
+    command_execute(args.action, find_dups(allfiles))
 else:
-    command_execute(args.action, find_dups(alldirectories), regex)
+    command_execute(args.action, find_dups(alldirectories))
