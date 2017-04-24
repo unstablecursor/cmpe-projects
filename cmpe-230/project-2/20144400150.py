@@ -26,6 +26,8 @@ def dir_hasher(filepath):
 def find_dups(list):
     rets = []
     for key,value in list.items():
+        #Dictionary format: {<hash_value> : [list_of_files_corresponds_to_hash_value]}
+        #If list length is greater than one, then there are duplicates.
         if(len(value)>1):
             rets = rets + value
     return rets
@@ -44,28 +46,39 @@ def command_execute(command,list,pattern):
                 output = subprocess.check_output(cmd, shell=True)
                 print (output)
 
-cwd = os.getcwd()
+cwd = os.getcwd()       #Getting current working director
+
 parser = argparse.ArgumentParser()
+
 actions = parser.add_mutually_exclusive_group()
 actions.add_argument(
     '-p', '--print', action='store_const', dest='action', const='p', default='p')
 actions.add_argument(
     '-c', '--command', action='store', dest='action', type=str)
+
 types = parser.add_mutually_exclusive_group()
 types.add_argument(
     '-f', '--file', action='store_const', dest='type', const='f', default='f')
 types.add_argument(
     '-d', '--directory', action='store_const', dest='type', const='d')
+
 parser.add_argument("dirs", type=str,  default=[cwd], nargs='*')
+
 args = parser.parse_args()
 dirlist = args.dirs
+
+#Regex pattern is initally empty, if first argument has quotes in it,
+#First element is assigned to regex variable.
 regex = ""
 if dirlist[0][0] == '\"':
     regex = dirlist.pop(0)
 
+#All files,directories and their hash values are stored in the below directories
+#Format: {<hash_value> : [list_of_files_corresponds_to_hash_value]}
 allfiles = {}
 alldirectories = {}
 
+#Walking and hashing all files and directories.
 for fullpath in dirlist:
     for root, dirs, files in os.walk(fullpath, topdown=False):
         for fname in files:
@@ -83,7 +96,7 @@ for fullpath in dirlist:
             else:
                 alldirectories[dir_hash] = [dir_path]
 
-
+#Control for file or directory, then executing commands.
 if (args.type == 'f'):
     command_execute(args.action, find_dups(allfiles), regex)
 else:
