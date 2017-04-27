@@ -23,13 +23,14 @@ def dir_hasher(filepath):
     direc_hash = ''.join(dir_hash)
     return hashlib.sha256(direc_hash.encode('utf-8')).hexdigest()
 
-def find_dups(list):
+def find_dups(d_list):
     rets = []
-    for key,value in list.items():
+    for key,value in d_list.items():
+        x = list(set(value))
         #Dictionary format: {<hash_value> : [list_of_files_corresponds_to_hash_value]}
         #If list length is greater than one, then there are duplicates.
-        if(len(value)>1):
-            rets = rets + value
+        if(len(x)>1):
+            rets = rets + x
     return rets
 
 def command_execute(command,list):
@@ -40,7 +41,8 @@ def command_execute(command,list):
         for item in list:
             cmd = command + " " + item.replace(" ","\ ")
             output = subprocess.check_output(cmd, shell=True)#????
-            print (str(output))
+            #output = subprocess.call(cmd, shell=True)#????
+            print (output)
 
 cwd = os.getcwd()       #Getting current working director
 
