@@ -5,10 +5,13 @@ import argparse
 import hashlib
 import subprocess
 import re
+#RUN WITH PYTHON 3
 
+#For the given path, returns sha256 hash value of the file.
 def file_hasher(filepath):
     return hashlib.sha256(open(filepath, 'rb').read()).hexdigest()
 
+#For the given path, returns sha256 hash value of the directory.
 def dir_hasher(filepath):
     dir_content = os.listdir(filepath)
     dir_hash = []
@@ -22,7 +25,7 @@ def dir_hasher(filepath):
     dir_hash.sort()
     direc_hash = ''.join(dir_hash)
     return hashlib.sha256(direc_hash.encode('utf-8')).hexdigest()
-
+#Given hash value, [path] dictionary, returns the duplicate list.
 def find_dups(d_list):
     rets = []
     for key,value in d_list.items():
@@ -33,6 +36,7 @@ def find_dups(d_list):
             rets = rets + x
     return rets
 
+#Executes the given command on the list of directories using subprocess.
 def command_execute(command,list):
     if(command == 'p'):
         for item in list:
@@ -47,19 +51,19 @@ def command_execute(command,list):
 cwd = os.getcwd()       #Getting current working director
 
 parser = argparse.ArgumentParser()
-
+#The command
 actions = parser.add_mutually_exclusive_group()
 actions.add_argument(
     '-p', '--print', action='store_const', dest='action', const='p', default='p')
 actions.add_argument(
     '-c', '--command', action='store', dest='action', type=str)
-
+#The type
 types = parser.add_mutually_exclusive_group()
 types.add_argument(
     '-f', '--file', action='store_const', dest='type', const='f', default='f')
 types.add_argument(
     '-d', '--directory', action='store_const', dest='type', const='d')
-
+#List of directories
 parser.add_argument("dirs", type=str,  default=[cwd], nargs='*')
 
 args = parser.parse_args()
