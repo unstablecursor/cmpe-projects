@@ -37,20 +37,23 @@ def find_dups(d_list, regexx):
         #Dictionary format: {<hash_value> : [list_of_files_corresponds_to_hash_value]}
         #If list length is greater than one, then there are duplicates.
         if(len(t)>1):
-            rets = rets + t
+            rets.append(t)
     return rets
 
 #Executes the given command on the list of directories using subprocess.
 def command_execute(command,list):
     if(command == 'p'):
-        for item in list:
-            print(item)
+        for i in list:
+            for item in i:
+                print(item)
+            print(" ")
     else:
-        for item in list:
-            cmd = command + " " + item.replace(" ","\ ")
-            output = subprocess.check_output(cmd, shell=True)
-            #output = subprocess.call(cmd, shell=True)
-            print (output)
+        for i in list:
+            for item in i:
+                cmd = command + " " + item.replace(" ","\ ")
+                output = subprocess.check_output(cmd, shell=True)
+                #output = subprocess.call(cmd, shell=True)
+                print (output)
 
 cwd = os.getcwd()       #Getting current working director
 
