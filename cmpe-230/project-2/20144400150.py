@@ -112,3 +112,4 @@ if (args.type == 'f'):
     command_execute(args.action, find_dups(allfiles,regex))
 else:
     command_execute(args.action, find_dups(alldirectories,regex))
+
